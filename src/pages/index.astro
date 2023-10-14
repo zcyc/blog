@@ -1,0 +1,59 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header title={SITE_TITLE} />
+    <main>
+      <h1>🧑‍🚀 你好，朋友!</h1>
+      <p>
+        欢迎来到我的博客。
+        由于语雀禁止了免费帐号的知识库公开权限，飞书知识库和腾讯文档对 Markdown
+        不友好，所以将博客迁移到了 Astro。
+      </p>
+      <p>
+        我是一名后端工程师，业余时间喜欢学习前端技术，偶尔会写点好玩的东西。
+      </p>
+      <p>我参与的项目：</p>
+      <ul>
+        <li>
+          <a href="https://github.com/casbin/casbin">Casbin</a>
+           一个支持如ACL, RBAC, ABAC等访问模型的授权库。
+        </li>
+        <li>
+          <a href="https://github.com/gogf/gf">GoFrame</a>
+           GoFrame是一款模块化、高性能、企业级的Go基础开发框架。
+        </li>
+        <li>
+          <a href="https://github.com/alibaba/x-render">XRender</a>
+           中后台「表单 / 表格 / 图表」开箱即用解决方案。
+        </li>
+        <li>
+          <a href="https://github.com/grpcman/grpcman">grpcman</a>
+           跨平台 grpc 压力测试工具。
+        </li>
+        <li>
+          <a href="https://github.com/jerryshell/my-flomo-server">my-flomo</a>
+           自托管的想法记录及回顾服务，支持 Flomo 插件。
+        </li>
+        <li>
+          <a href="https://github.com/zcyc/protoc-gen-gf">protoc-gen-gf</a>
+           GoFrame 代码生成器，提高 CRUD 效率。
+        </li>
+        <li>
+          <a href="https://github.com/zcyc?tab=repositories">查看更多</a>
+        </li>
+      </ul>
+      <p>可以通过底部的社交媒体获取我的动态。</p>
+    </main>
+    <Footer />
+  </body>
+</html>
