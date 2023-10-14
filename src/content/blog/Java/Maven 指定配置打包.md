@@ -1,9 +1,7 @@
 ---
 title: "Maven 指定配置打包"
-description: "懒人打包最简单的方式，利用配置文件覆盖。在服务器 jar 包同目录放一个 application-dev.yml，里边的内容同 application-test.yml。这样就可以用 dev 打的包加载 test 配置了。jar 配置优先级决定了最后加载的是配置文件。其实 prod 也行，但是..."
 pubDate: "2021-06-26T09:28:59.000Z"
 updatedDate: "2022-06-29T19:15:27.000Z"
-heroImage: "/blog-placeholder-3.jpg"
 ---
 
 

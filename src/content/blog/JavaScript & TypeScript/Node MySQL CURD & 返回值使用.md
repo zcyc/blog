@@ -1,9 +1,7 @@
 ---
 title: "Node MySQL CURD & 返回值使用"
-description: "1. 连接数据库首先保证本地已经安装数据库，并已正常启动，然后开始进行连接：// test.js var mysql = require('mysql'); // 创建连接 var conn = mysql.createConnection({     host : '127.0.0.1', ..."
 pubDate: "2019-07-04T02:12:12.000Z"
 updatedDate: "2022-07-28T03:34:49.000Z"
-heroImage: "/blog-placeholder-3.jpg"
 ---
 
 

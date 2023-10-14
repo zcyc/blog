@@ -1,9 +1,7 @@
 ---
 title: "Spring Cloud Alibaba"
-description: "Spring 官方的初始化器已经初始化不了 Spring Cloud Alibaba 了，Alibaba 官方的初始化器也很久不更新了。抛开 Alibaba 看 Spring Cloud 官方推荐的套件，其中维护最好的注册中心就是 Consul。Java 大数据那一套东西还依赖 Zookeep..."
 pubDate: "2021-11-08T10:06:55.000Z"
 updatedDate: "2022-07-05T15:59:12.000Z"
-heroImage: "/blog-placeholder-3.jpg"
 ---
 
 Spring 官方的初始化器已经初始化不了 Spring Cloud Alibaba 了，Alibaba 官方的初始化器也很久不更新了。

@@ -1,9 +1,7 @@
 ---
 title: "macOS 上使用 keytool 生成和查看 keystore"
-description: "环境macOS 10.15安装和使用keytool 是 Java 自带的工具，所以需要安装 Java，mac下推荐使用 brew 安装。安装 Java安装 Java 的方式有很多，推荐使用 brew，推荐安装 lts 版本使用 keytool命令如下% keytool -h Key and C..."
 pubDate: "2020-10-19T08:48:26.000Z"
 updatedDate: "2022-05-31T07:39:14.000Z"
-heroImage: "/blog-placeholder-3.jpg"
 ---
 
 

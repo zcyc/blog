@@ -1,9 +1,7 @@
 ---
 title: "LocalDateTime 写入 MySQL 自动进位问题"
-description: "首先获取今天的时间LocalDateTime date = LocalDateTime.now();然后获取今天的最后时刻// endOfDay 使用的是 hutool 中的方法 date = LocalDateTimeUtil.endOfDay(date);用最后时刻去查数据库，发现错误记录..."
 pubDate: "2021-09-28T08:15:29.000Z"
 updatedDate: "2023-04-23T05:53:14.000Z"
-heroImage: "/blog-placeholder-3.jpg"
 ---
 
 

@@ -1,9 +1,7 @@
 ---
 title: "postman Pre-request Script 常用操作"
-description: "Query Params 操作需求有些接口要求 GET 请求在 URL 里边传一个 URL encode 之后的 JSON。脚本pm.request.url.query.each((q) => {     q.update(encodeURI(q.toString())) });效果对比pos..."
 pubDate: "2022-05-30T06:12:42.000Z"
 updatedDate: "2022-06-28T10:19:51.000Z"
-heroImage: "/blog-placeholder-3.jpg"
 ---
 
 

@@ -1,9 +1,7 @@
 ---
 title: "MyBatis Plus 相关"
-description: "// 除了日期相关的，实现类这么写，可以这么查 public Student getByCardUid(String cardUid) {         Student student = new Student();         student.setCardUid(cardUid);..."
 pubDate: "2020-11-13T13:55:03.000Z"
 updatedDate: "2021-06-26T10:32:57.000Z"
-heroImage: "/blog-placeholder-3.jpg"
 ---
 
 ```java

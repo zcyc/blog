@@ -1,9 +1,7 @@
 ---
 title: "Spring Boot 遇到的问题"
-description: "忘记 @Mapper 注解 @Autowired  private IImageService imageService; // 如果此处 imageService 提示无法自动装配，可能是因为 IImageService 没有 @Mapper 注解 // 且 @Mapper 来自 org.a..."
 pubDate: "2020-12-05T14:29:53.000Z"
 updatedDate: "2022-07-28T03:31:40.000Z"
-heroImage: "/blog-placeholder-3.jpg"
 ---
 
 

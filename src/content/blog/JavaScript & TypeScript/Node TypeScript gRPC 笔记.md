@@ -1,9 +1,7 @@
 ---
 title: "Node TypeScript gRPC 笔记"
-description: "server 加载 proto下边这些是 server 加载 proto 文件的固定写法，除了 proto 文件的路径 PROTO_PATH，其他基本都不用改。var PROTO_PATH = __dirname + '/../../../protos/route_guide.proto'; ..."
 pubDate: "2019-07-16T01:54:07.000Z"
 updatedDate: "2022-06-30T11:24:53.000Z"
-heroImage: "/blog-placeholder-3.jpg"
 ---
 
 

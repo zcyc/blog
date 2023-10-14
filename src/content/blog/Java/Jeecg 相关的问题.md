@@ -1,9 +1,7 @@
 ---
 title: "Jeecg 相关的问题"
-description: "注意：jeecg-boot 是一个半开源的项目，商业使用要注意风险。评价：jeecg-boot 优势众多，但问题也很多。框架 bug 较多；未做兼容性处理，版本升级困难；pr处理不严谨；部分代码使用废弃方法。前端限制上传图片的大小// 限制图片格式和大小 参考 a-upload 文档。上传文件..."
 pubDate: "2021-03-23T07:45:46.000Z"
 updatedDate: "2023-04-23T05:51:29.000Z"
-heroImage: "/blog-placeholder-3.jpg"
 ---
 
 **注意：**jeecg-boot 是一个半开源的项目，商业使用要注意风险。

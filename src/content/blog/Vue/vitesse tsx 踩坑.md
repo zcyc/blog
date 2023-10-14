@@ -1,9 +1,7 @@
 ---
 title: "vitesse tsx 踩坑"
-description: "vitesse 是 antfu 整合的 Vue 框架，集成的模块都是最新的，赶紧尝试一下。为了保证和 React 开发体验统一，这回就试试能不能用 tsx。目前还不能在 Vitesse 中使用 tsx，项目配置都是针对 template 的。tsx 建议使用 vue-tsx-starter。一..."
 pubDate: "2022-01-15T16:56:59.000Z"
 updatedDate: "2022-11-18T01:22:08.000Z"
-heroImage: "/blog-placeholder-3.jpg"
 ---
 
 [vitesse](https://github.com/antfu/vitesse) 是 antfu 整合的 Vue 框架，集成的模块都是最新的，赶紧尝试一下。

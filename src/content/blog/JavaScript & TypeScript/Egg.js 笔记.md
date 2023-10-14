@@ -1,9 +1,7 @@
 ---
 title: "Egg.js 笔记"
-description: "取消csrf验证（在没法拿到 this.ctx.csrf 的时候）在config.default.js添加如下代码关闭csrf验证config.security = {     csrf: {       enable: false,     }   };也可以不关掉csrf，只放通所有jso..."
 pubDate: "2019-07-20T10:02:38.000Z"
 updatedDate: "2022-06-30T11:24:30.000Z"
-heroImage: "/blog-placeholder-3.jpg"
 ---
 
 

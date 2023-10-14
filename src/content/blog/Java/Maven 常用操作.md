@@ -1,9 +1,7 @@
 ---
 title: "Maven 常用操作"
-description: "mvn 可以使用 mvnd 代替，速度更快# 先把命令行切换到Maven项目的根目录，例如：/data/springcloud/eureka，然后执行命令：mvn clean package cd /data/springcloud/eureka  mvn clean package 执行命令..."
 pubDate: "2021-11-14T13:10:46.000Z"
 updatedDate: "2022-06-27T18:34:50.000Z"
-heroImage: "/blog-placeholder-3.jpg"
 ---
 
 mvn 可以使用 mvnd 代替，速度更快

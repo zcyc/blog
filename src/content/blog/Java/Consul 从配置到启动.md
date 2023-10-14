@@ -1,9 +1,7 @@
 ---
 title: "Consul 从配置到启动"
-description: "Docker 容器间通信不能用 localhost，网络详细用法看 https://www.yuque.com/charlesjohn/blog/tm8p80启动 Consul将以下内容写入 docker-compose.ymlversion: '3' services:   node-exp..."
 pubDate: "2021-11-11T15:57:23.000Z"
 updatedDate: "2022-07-28T02:28:16.000Z"
-heroImage: "/blog-placeholder-3.jpg"
 ---
 
 Docker 容器间通信不能用 localhost，网络详细用法看 [https://www.yuque.com/charlesjohn/blog/tm8p80](<博客/K8S & Docker/Docker 常用操作>) 

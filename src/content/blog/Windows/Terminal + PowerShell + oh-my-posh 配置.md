@@ -1,9 +1,7 @@
 ---
 title: "Terminal + PowerShell + oh-my-posh 配置"
-description: "网上的配置教程过于老旧，oh-my-posh 的 PowerShell 插件早已废弃，所以写一篇最新的配置教程。Terminal直接通过 Microsoft Store 安装，点击查看其他安装方式。PowerShell直接通过 Microsoft Store 安装，点击查看其他安装方式，也可以..."
 pubDate: "2022-11-07T08:19:08.000Z"
 updatedDate: "2022-11-07T09:36:44.000Z"
-heroImage: "/blog-placeholder-3.jpg"
 ---
 
 网上的配置教程过于老旧，oh-my-posh 的 PowerShell 插件早已废弃，所以写一篇最新的配置教程。 

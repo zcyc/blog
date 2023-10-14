@@ -1,9 +1,7 @@
 ---
 title: "Electron 交叉编译"
-description: "任意系统中将 electron 项目同时编译出 mac、win、linux 包注意：虽然可以交叉编译，但是编译后能不能用还是要用目标平台测试一下，博主碰到了编译完成后，mac可以正常使用，但是windows打开报错的情况，但是编译的时候是不会发现的。交叉编译只需要在 package.json ..."
 pubDate: "2020-11-03T03:20:27.000Z"
 updatedDate: "2021-06-26T10:39:59.000Z"
-heroImage: "/blog-placeholder-3.jpg"
 ---
 
 

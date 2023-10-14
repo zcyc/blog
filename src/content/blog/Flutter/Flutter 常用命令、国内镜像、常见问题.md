@@ -1,9 +1,7 @@
 ---
 title: "Flutter 常用命令、国内镜像、常见问题"
-description: "常用命令flutter doctor --android-licenses    avd 虚拟机的协议认证 flutter doctor                       检查 flutter 开发环境 flutter upgrade                      更新 ..."
 pubDate: "2020-10-22T07:58:04.000Z"
 updatedDate: "2021-08-11T17:27:05.000Z"
-heroImage: "/blog-placeholder-3.jpg"
 ---
 
 

@@ -1,9 +1,7 @@
 ---
 title: "TypeScript 遇到的问题"
-description: "导出( export )和导入( import )注意导出的模块是函数还是值，如果导出的模块是一个函数，引用的时候要加()，如果导出的是值就不需要就()第一种// 导出方式 function aesDecrypt(data: string, password: string) {} funct..."
 pubDate: "2019-07-04T08:20:42.000Z"
 updatedDate: "2020-12-02T13:43:22.000Z"
-heroImage: "/blog-placeholder-3.jpg"
 ---
 
 

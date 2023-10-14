@@ -1,9 +1,7 @@
 ---
 title: "Egg.js sequelize.js TypeScript 踩坑"
-description: "默认访问复数表名他默认是访问复数的表，你填单数他也改成复数访问。如图：比如你表名填的user，但是他访问users，你表名填的project，他访问projects当然复数的确是正确的命名方法，但是就是不想让他自动改，自己建表就建成复数。解决方案一就是在定义 model 的时候，禁止转换为复数..."
 pubDate: "2019-07-15T09:09:21.000Z"
 updatedDate: "2020-12-02T13:41:37.000Z"
-heroImage: "/blog-placeholder-3.jpg"
 ---
 
 

@@ -1,9 +1,7 @@
 ---
 title: "ruoyi-vue 遇到的问题"
-description: "ruoyi-vue无法登陆高版本 JAVA 点击登陆按钮提示：Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError;<!-- 以下为 javax DatatypeConverter 的依赖， jd..."
 pubDate: "2021-05-12T01:28:38.000Z"
 updatedDate: "2022-06-27T18:43:18.000Z"
-heroImage: "/blog-placeholder-3.jpg"
 ---
 
 

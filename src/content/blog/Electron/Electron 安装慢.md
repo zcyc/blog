@@ -1,9 +1,7 @@
 ---
 title: "Electron 安装慢"
-description: "# electron export ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/ # phantomjs export PHANTOMJS_CDNURL=https://npm.taobao.org/mirrors/phant..."
 pubDate: "2020-07-09T17:26:57.000Z"
 updatedDate: "2023-03-08T07:42:34.000Z"
-heroImage: "/blog-placeholder-3.jpg"
 ---
 
 ```shell
