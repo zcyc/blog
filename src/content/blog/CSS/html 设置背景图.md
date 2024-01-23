@@ -3,7 +3,7 @@ title: "html 设置背景图"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - CSS
 ogImage: ""
 slug: "html-background-image"
 pubDatetime: 2021-06-01T07:31:56.000Z

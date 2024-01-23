@@ -3,7 +3,7 @@ title: "Go 语言学习笔记"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - Go
 ogImage: ""
 slug: "go-notes"
 pubDatetime: 2021-12-16T09:14:59.000Z

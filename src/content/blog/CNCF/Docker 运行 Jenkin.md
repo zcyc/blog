@@ -3,7 +3,7 @@ title: "Docker 运行 Jenkin"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - Docker
 ogImage: ""
 slug: "docker-jenkins"
 pubDatetime: 2022-08-02T06:04:36.000Z

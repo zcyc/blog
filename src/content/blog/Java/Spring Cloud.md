@@ -3,7 +3,7 @@ title: "Spring Cloud"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - Java
 ogImage: ""
 slug: "spring-cloud"
 pubDatetime: 2022-07-03T14:42:39.000Z

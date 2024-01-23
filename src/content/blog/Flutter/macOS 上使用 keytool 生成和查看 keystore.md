@@ -3,7 +3,7 @@ title: "macOS 上使用 keytool 生成和查看 keystore"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - Flutter
 ogImage: ""
 slug: "macos-keytool-keystore"
 pubDatetime: 2020-10-19T08:48:26.000Z

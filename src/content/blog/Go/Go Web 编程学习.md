@@ -3,7 +3,7 @@ title: "Go Web 编程学习"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - Go
 ogImage: ""
 slug: "go-web"
 pubDatetime: 2021-12-22T06:38:20.000Z

@@ -3,7 +3,7 @@ title: "分布式唯一 ID 特性一览"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - Other
 ogImage: ""
 slug: "unique-id-compare"
 pubDatetime: 2022-11-14T12:32:07.000Z

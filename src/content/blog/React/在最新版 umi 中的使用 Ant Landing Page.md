@@ -3,7 +3,7 @@ title: "在最新版 umi 中的使用 Ant Landing Page"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - React
 ogImage: ""
 slug: "antd-landing-umi"
 pubDatetime: 2020-08-24T03:05:21.000Z

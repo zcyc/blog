@@ -3,7 +3,7 @@ title: "Component & Atom CSS"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - CSS
 ogImage: ""
 slug: "component-atom-css"
 pubDatetime: 2021-01-13T07:37:35.000Z

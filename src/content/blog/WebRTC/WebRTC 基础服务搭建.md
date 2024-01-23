@@ -1,11 +1,11 @@
 ---
-title: "基础服务搭建"
+title: "WebRTC 基础服务搭建"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - WebRTC
 ogImage: ""
-slug: "basic-service-setup"
+slug: "webrtc-basic-service-setup"
 pubDatetime: 2022-09-17T14:52:17.000Z
 modDatetime: 2023-07-26T05:53:04.000Z
 featured: false

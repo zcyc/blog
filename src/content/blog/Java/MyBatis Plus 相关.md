@@ -3,7 +3,7 @@ title: "MyBatis Plus 相关"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - Java
 ogImage: ""
 slug: "mybatis-plus"
 pubDatetime: 2020-11-13T13:55:03.000Z

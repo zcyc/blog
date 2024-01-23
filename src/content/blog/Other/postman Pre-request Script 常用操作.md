@@ -3,7 +3,7 @@ title: "postman-pre-request"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - Other
 ogImage: ""
 slug: "postman Pre-request Script 常用操作"
 pubDatetime: 2022-05-30T06:12:42.000Z

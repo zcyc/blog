@@ -3,7 +3,7 @@ title: "uni-app 离线打包更换包名报错"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - UniApp
 ogImage: ""
 slug: "uni-app-offline-packaging"
 pubDatetime: 2021-06-15T16:57:40.000Z

@@ -3,7 +3,7 @@ title: "Jetbrain IDEA 重置试用"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - IDE
 ogImage: ""
 slug: "jetbrain-idea-reset-trial"
 pubDatetime: 2021-04-27T03:20:28.000Z

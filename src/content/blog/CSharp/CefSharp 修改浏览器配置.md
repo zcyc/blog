@@ -3,7 +3,7 @@ title: "CefSharp 修改浏览器配置"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - CefSharp
 ogImage: ""
 slug: "dotnet-cefsharp-config"
 pubDatetime: 2023-04-12T05:50:37.000Z

@@ -3,7 +3,7 @@ title: "Tauri arco.design 编译报错"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - Rust
 ogImage: ""
 slug: "tauri-arco"
 pubDatetime: 2022-03-03T14:57:20.000Z

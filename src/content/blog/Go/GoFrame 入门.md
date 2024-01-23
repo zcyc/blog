@@ -3,7 +3,7 @@ title: "GoFrame 入门"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - Go
 ogImage: ""
 slug: "goframe"
 pubDatetime: 2022-07-17T10:03:43.000Z

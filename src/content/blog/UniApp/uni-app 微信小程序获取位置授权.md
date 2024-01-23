@@ -3,7 +3,7 @@ title: "uni-app 微信小程序获取位置授权"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - UniApp
 ogImage: ""
 slug: "uni-app-get-location"
 pubDatetime: 2022-06-28T18:12:21.000Z

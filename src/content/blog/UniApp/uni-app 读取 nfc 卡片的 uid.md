@@ -3,7 +3,7 @@ title: "uni-app 读取 nfc 卡片的 uid"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - UniApp
 ogImage: ""
 slug: "uni-app-read-nfc-uid"
 pubDatetime: 2021-05-24T07:50:28.000Z

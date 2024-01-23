@@ -3,7 +3,7 @@ title: "node-mysql"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - JavaScript
 ogImage: ""
 slug: "Node MySQL CURD & 返回值使用"
 pubDatetime: 2019-07-04T02:12:12.000Z

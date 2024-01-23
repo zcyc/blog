@@ -3,7 +3,7 @@ title: "OpenWrt 下配置 DNSPod 动态解析(DDNS)"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - Router
 ogImage: ""
 slug: "openwrt-dnspod-ddns"
 pubDatetime: 2020-12-16T08:21:07.000Z

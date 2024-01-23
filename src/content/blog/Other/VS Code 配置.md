@@ -3,7 +3,7 @@ title: "VS Code 配置"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - IDE
 ogImage: ""
 slug: "vscode-config"
 pubDatetime: 2022-10-21T14:21:59.000Z

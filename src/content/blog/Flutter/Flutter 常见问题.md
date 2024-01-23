@@ -3,7 +3,7 @@ title: "Flutter 常用命令、国内镜像、常见问题"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - Flutter
 ogImage: ""
 slug: "flutter"
 pubDatetime: 2020-10-22T07:58:04.000Z

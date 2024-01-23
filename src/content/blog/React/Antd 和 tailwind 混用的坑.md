@@ -3,7 +3,7 @@ title: "Antd 和 tailwind 混用的坑"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - React
 ogImage: ""
 slug: "antd-tailwind"
 pubDatetime: 2021-05-03T08:59:17.000Z

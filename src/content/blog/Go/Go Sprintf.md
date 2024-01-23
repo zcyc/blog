@@ -3,7 +3,7 @@ title: "Go Sprintf %%s%"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - Go
 ogImage: ""
 slug: "go-sprintf"
 pubDatetime: 2023-02-07T04:29:47.000Z

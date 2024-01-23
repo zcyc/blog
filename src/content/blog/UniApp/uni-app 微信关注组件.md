@@ -3,7 +3,7 @@ title: "uni-app 微信关注组件"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - UniApp
 ogImage: ""
 slug: "uni-app-wechat-follow-component"
 pubDatetime: 2021-06-22T15:12:16.000Z

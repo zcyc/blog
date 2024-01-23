@@ -3,7 +3,7 @@ title: "uni-app 用图标代替 button 触发分享"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - UniApp
 ogImage: ""
 slug: "uni-app-icon-button"
 pubDatetime: 2021-06-18T07:30:58.000Z

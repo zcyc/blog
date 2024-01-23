@@ -3,7 +3,7 @@ title: "Kustomize 多环境切换"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - Kubernetes
 ogImage: ""
 slug: "kustomize"
 pubDatetime: 2022-07-31T11:08:17.000Z

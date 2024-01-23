@@ -3,7 +3,7 @@ title: "eggjs-sequelize"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - JavaScript
 ogImage: ""
 slug: "Egg.js sequelize.js TypeScript 踩坑"
 pubDatetime: 2019-07-15T09:09:21.000Z

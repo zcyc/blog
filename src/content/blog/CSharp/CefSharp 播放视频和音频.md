@@ -1,9 +1,9 @@
 ---
-title: "CefSharp 版权问题"
+title: "CefSharp 播放视频和音频"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - CefSharp
 ogImage: ""
 slug: "dotnet-cefsharp-license"
 pubDatetime: 2023-04-01T12:21:15.000Z

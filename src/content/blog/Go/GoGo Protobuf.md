@@ -3,7 +3,7 @@ title: "GoGo Protobuf"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - Go
 ogImage: ""
 slug: "gogoproto"
 pubDatetime: 2022-06-02T06:25:47.000Z

@@ -3,7 +3,7 @@ title: "ruoyi-vue 遇到的问题"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - Java
 ogImage: ""
 slug: "ruoyi-vue"
 pubDatetime: 2021-05-12T01:28:38.000Z

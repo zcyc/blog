@@ -3,7 +3,7 @@ title: "复制到剪贴板（兼容 HTTP）"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - Vue
 ogImage: ""
 slug: "web-copy-to-clipboard"
 pubDatetime: 2022-04-18T03:46:02.000Z

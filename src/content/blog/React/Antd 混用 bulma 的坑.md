@@ -3,7 +3,7 @@ title: "Antd 混用 bulma 的坑"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - React
 ogImage: ""
 slug: "antd-bulma"
 pubDatetime: 2021-05-03T06:50:58.000Z

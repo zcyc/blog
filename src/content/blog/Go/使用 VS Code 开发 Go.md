@@ -3,7 +3,7 @@ title: "使用 VS Code 开发 Go"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - Go
 ogImage: ""
 slug: "go-vscode"
 pubDatetime: 2022-10-18T10:03:11.000Z

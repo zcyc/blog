@@ -3,7 +3,7 @@ title: "命令行启动 mpv"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - Other
 ogImage: ""
 slug: "mpv"
 pubDatetime: 2023-10-25T14:06:07.000Z

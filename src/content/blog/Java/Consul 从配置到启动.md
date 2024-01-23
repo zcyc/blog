@@ -3,7 +3,7 @@ title: "Consul 从配置到启动"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - Java
 ogImage: ""
 slug: "consul"
 pubDatetime: 2021-11-11T15:57:23.000Z

@@ -3,7 +3,7 @@ title: "skynet 常见问题"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - Lua
 ogImage: ""
 slug: "skynet"
 pubDatetime: 2022-06-28T17:16:31.000Z

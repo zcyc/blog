@@ -3,7 +3,7 @@ title: "Maven 指定配置打包"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - Java
 ogImage: ""
 slug: "maven-build"
 pubDatetime: 2021-06-26T09:28:59.000Z

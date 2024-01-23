@@ -3,7 +3,7 @@ title: "Jeecg 相关的问题"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - Java
 ogImage: ""
 slug: "jeecg"
 pubDatetime: 2021-03-23T07:45:46.000Z

@@ -3,7 +3,7 @@ title: "Docker 运行 MySQL 和抹平系统差异"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - Docker
 ogImage: ""
 slug: "docker-mysql"
 pubDatetime: 2020-09-14T13:28:08.000Z
