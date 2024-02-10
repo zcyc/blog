@@ -5,7 +5,7 @@ description: ""
 tags:
   - JavaScript
 ogImage: ""
-slug: "Egg.js sequelize.js TypeScript 踩坑"
+slug: "egg-sequelize-typescript"
 pubDatetime: 2019-07-15T09:09:21.000Z
 modDatetime: 2020-12-02T13:41:37.000Z
 featured: false
@@ -14,7 +14,8 @@ draft: false
 
 # 默认访问复数表名
 
-他默认是访问复数的表，你填单数他也改成复数访问。如图：![[sqr4yw-1563181896934-8b69c4cb-3dad-430e-8380-73647d60a2c9.webp]]
+他默认是访问复数的表，你填单数他也改成复数访问。如图：!
+![Untitled](../Assets/egg-sequelize-typescript-1.png)
 比如你表名填的user，但是他访问users，你表名填的project，他访问projects
 当然复数的确是正确的命名方法，但是就是不想让他自动改，自己建表就建成复数。
 

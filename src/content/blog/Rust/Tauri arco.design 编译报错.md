@@ -13,4 +13,4 @@ draft: false
 ---
 
 在 tsconfig.json 中添加 "skipLibCheck": true,
-![[faly5u-1646319561595-acd05072-502b-4d9a-b921-a4f6b7353a7d.png]]
+![Untitled](../Assets/tauri-arco-1.png)
