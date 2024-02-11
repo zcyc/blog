@@ -89,7 +89,7 @@ go get -u github.com/gogo/protobuf/jsonpb
 ### 配置 IDE
 
 取消勾选这个自动配置，然后添加一个，这里选择你的 $GOPATH/src/
-![Untitled](../Assets/gogoproto-1.png)
+![Untitled](/assets/gogoproto-1.png)
 ### 编写 proto 文件
 
 - 参考 gogo 官方例子

@@ -15,7 +15,7 @@ draft: false
 # 框架流程
 
 main -> cmd -> api(controller 的定义) -> controller(请求参数的处理) -> service(logic 的接口) -> logic(业务逻辑的实现)
-![Untitled](../Assets/goframe-1.png)
+![Untitled](/assets/goframe-1.png)
 # API 定义
 
 ## 接口

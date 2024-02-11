@@ -165,4 +165,4 @@ tar -zcvf prl_mod.tar.gz . dkms.conf Makefile.kmods
 ```
 
 ### 5.安装 Parallels Tools 后 Kali 登陆后白屏
-![Untitled](../Assets/kali-parallels-tools-1.png)
+![Untitled](/assets/kali-parallels-tools-1.png)

@@ -24,7 +24,7 @@ $ brew search node
 ```
 
 即可看到当前可用的版本
-![Untitled](../Assets/brew-node-version-control-1.png)
+![Untitled](/assets/brew-node-version-control-1.png)
 
 ## 安装需要的 Node 版本
 

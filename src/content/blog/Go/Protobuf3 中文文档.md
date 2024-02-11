@@ -222,7 +222,7 @@ enum EnumAllowingAlias {
 ## 如何引用其他 proto 文件
 
 在proto语法中，有两种引用其他 proto 文件的方法： `import` 和 `import public`，这两者有什么区别呢？下面举个例子说明： 
-![Untitled](../Assets/protobuf3-1.png)
+![Untitled](/assets/protobuf3-1.png)
 - 在情景1中， my.proto 不能使用 second.proto 中定义的内容
 - 在情景2中， my.proto 可以使用 second.proto 中定义的内容
 - 情景1和情景2中，my.proto 都可以使用 first.proto

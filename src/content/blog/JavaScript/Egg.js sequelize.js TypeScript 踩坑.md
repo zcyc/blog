@@ -15,7 +15,7 @@ draft: false
 # 默认访问复数表名
 
 他默认是访问复数的表，你填单数他也改成复数访问。如图：!
-![Untitled](../Assets/egg-sequelize-typescript-1.png)
+![Untitled](/assets/egg-sequelize-typescript-1.png)
 比如你表名填的user，但是他访问users，你表名填的project，他访问projects
 当然复数的确是正确的命名方法，但是就是不想让他自动改，自己建表就建成复数。
 
