@@ -141,32 +141,35 @@ authz-casbin 的鉴权逻辑是，例如我有一个配置是：
 
 ![Untitled](/assets/apisix-jwt-casbin-2.png)
 
-在 jwt-auth 的 _M.rewrite 函数的最后加上一行：
+在 jwt-auth 的 _M.rewrite 函数结尾添加如下内容：
 
-![Untitled](/assets/apisix-jwt-casbin-3.png)
+```lua
+---负值新 header
+ctx.headers["Token-Customer"] = consumer.consumer_name
+```
 
-将修改完的 jwt-auth 插件通过 configmap 挂载进 apisix 的路径里，这里是修改了 apisix 的 depolyment：
-
+将修改完的 jwt-auth 插件通过 configmap 挂载到 apisix 中，depolyment 如下：
 ![Untitled](/assets/apisix-jwt-casbin-4.png)
-
 ![Untitled](/assets/apisix-jwt-casbin-5.png)
 
 configmap:
 ![Untitled](/assets/apisix-jwt-casbin-6.png)
 
-然后在 apisix 的配置文件里增加：
-![Untitled](/assets/apisix-jwt-casbin-7.png)
+在 apisix 的配置文件里添加如下内容：
+```yml
+enable_debug: true
+enable_dev_mode: true
+extra_lua_path: "/usr/local/apisix/my/?.lua"
+```
 
 这样自定义的 jwt-auth 就覆盖了原 jwt-auth。
 
 ## 构建token
 
-构建一个最低限度满足 jwt-auth 需求的 token，也就是只有 key 和 exp
+创建一个满足 jwt-auth 要求的 token，至少要有 key 和 exp
 
 ![Untitled](/assets/apisix-jwt-casbin-8.png)
 
-这样就通了。
-
-jwt-auth 在解析 token 的时候，拿到了这个 key 对应的 customer，然后将 customer 放入上下文的 header 中，接下来的 authz-casbin 从 header 拿出用户，经过 Casbin 鉴权，最后放行。
+jwt-auth 在解析 token 的时候，拿到了这个 key 对应的 customer，然后将 customer 放入上下文的 header 中，接下来的 authz-casbin 从 header 拿出用户，通过 Casbin 鉴权，然后放行。
 
 ![Untitled](/assets/apisix-jwt-casbin-9.png)
