@@ -76,43 +76,52 @@ func main() {
 }
 
 func snowflakeTest() {
-	node, _ := snowflake.NewNode(1)
-	id := node.Generate().String()
+	n, _ := snowflake.NewNode(1)
+	id := n.Generate().String()
 	fmt.Println("snowflake:", id, "length:", len(id))
 }
 
 func sonyflakeTest() {
-	sony := sonyflake.NewSonyflake(sonyflake.Settings{})
-	id, _ := sony.NextID()
+	t := time.Now()
+	s := sonyflake.NewSonyflake(sonyflake.Settings{
+		StartTime: t,
+		MachineID: func() (uint16, error) {
+			return 1, nil
+		},
+		CheckMachineID: func(u uint16) bool {
+			return true
+		},
+	})
+	id, _ := s.NextID()
 	fmt.Println("sonyflake:", id, "length:", len(strconv.FormatUint(id, 10)))
 }
 
 func uuidTest() {
-	id2, _ := uuid.NewV4()
-	fmt.Println("uuid:", id2.String(), "length:", len(id2.String()))
+	id, _ := uuid.NewV4()
+	fmt.Println("uuid:", id.String(), "length:", len(id.String()))
 }
 
 func shortuuidTest() {
 	id := shortuuid.New()
-	fmt.Println("shortUuid:", id, "length:", len(id))
-	str := "12345#$%^&*67890qwerty/;'~!@uiopasdfghjklzxcvbnm,.()_+·><"
-	id = shortuuid.NewWithAlphabet(str)
-	fmt.Println("shortUuid:", id, "length:", len(id))
+	fmt.Println("shortUUID:", id, "length:", len(id))
+	a := "12345#$%^&*67890qwerty/;'~!@uiopasdfghjklzxcvbnm,.()_+·><"
+	id = shortuuid.NewWithAlphabet(a)
+	fmt.Println("shortUuid2:", id, "length:", len(id))
 }
 
 func nanoidTest() {
-	canonicID, _ := nanoid.Standard(21)
-	id1 := canonicID()
-	fmt.Println("nanoid:", id1, "length:", len(id1))
-	decenaryID, _ := nanoid.CustomASCII("0123456789", 12)
-	id2 := decenaryID()
-	fmt.Println("nanoid:", id2, "length:", len(id2))
+	s, _ := nanoid.Standard(21)
+	id := s()
+	fmt.Println("nanoid:", id, "length:", len(id))
+	c, _ := nanoid.CustomASCII("0123456789", 12)
+	id = c()
+	fmt.Println("nanoid2:", id, "length:", len(id))
 }
 
 func ulidTest() {
 	t := time.Now().UTC()
-	entropy := rand.New(rand.NewSource(t.UnixNano()))
-	id := ulid.MustNew(ulid.Timestamp(t), entropy)
+	e := rand.New(rand.NewSource(t.UnixNano()))
+	id := ulid.MustNew(ulid.Timestamp(t), e)
 	fmt.Println("ulid:", id.String(), "length:", len(id.String()))
 }
 
