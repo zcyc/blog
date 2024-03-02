@@ -15,7 +15,7 @@ draft: false
 # 配置
 
 网上推荐的很多配置是默认值。本列表仅包含和默认值不同的配置。
-包含 Rust、Go、Python、Java、Lua、TypeScript、JavaScript、React、Vue 等常用配置。
+包含 Rust、Go、Python、Lua、TypeScript、JavaScript、React、Vue 等常用配置。
 
 ```json
 {
@@ -114,7 +114,7 @@ draft: false
 # 扩展
 
 网上推荐的很多扩展功能已经内置了。本列表仅包含和官方功能不重复的扩展。
-包含 Rust、Go、Python、Java、Lua、TypeScript、JavaScript、React、Vue 等常用扩展。
+包含 Rust、Go、Python、Lua、TypeScript、JavaScript、React、Vue 等常用扩展。
 
 ```json
 aminer.codegeex
