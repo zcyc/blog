@@ -41,21 +41,18 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         <span class="sr-only">RSS Feed</span>
       </a>
 
+      <p>欢迎来到我的博客。</p>
       <p>
-        欢迎来到我的博客。
+        由于语雀禁止了免费帐号公开知识库，飞书知识库和腾讯文档对 Markdown
+        不友好，所以将博客迁移到了 Github。
       </p>
-      <p>
-        由于语雀禁止了免费帐号公开知识库，飞书知识库和腾讯文档对 Markdown 不友好，所以将博客迁移到了 Github。
-      </p>
-      <p>
-        博客使用 Astro 制作，迁移博客的同时体验一下这个前端框架。
-      </p>
+      <p>博客使用 Astro 制作，迁移博客的同时体验一下这个前端框架。</p>
 
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
           <div class="social-wrapper">
-            <div class="social-links">社交媒体:</div>
+            <div class="social-links">Social Links:</div>
             <Socials />
           </div>
         )
@@ -72,7 +69,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
             <ul>
               {featuredPosts.map(({ data, slug }) => (
                 <Card
-                  href={`/posts/${slug}`}
+                  href={`/posts/${slug}/`}
                   frontmatter={data}
                   secHeading={false}
                 />
@@ -87,13 +84,13 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     {
       recentPosts.length > 0 && (
         <section id="recent-posts">
-          <h2>近期文章</h2>
+          <h2>Recent Posts</h2>
           <ul>
             {recentPosts.map(
               ({ data, slug }, index) =>
                 index < 4 && (
                   <Card
-                    href={`/posts/${slug}`}
+                    href={`/posts/${slug}/`}
                     frontmatter={data}
                     secHeading={false}
                   />
@@ -105,8 +102,8 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     }
 
     <div class="all-posts-btn-wrapper">
-      <LinkButton href="/posts">
-        所有文章
+      <LinkButton href="/posts/">
+        All Posts
         <svg xmlns="http://www.w3.org/2000/svg"
           ><path
             d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"

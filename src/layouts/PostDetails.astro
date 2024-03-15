@@ -7,6 +7,7 @@ import Datetime from "@components/Datetime";
 import type { CollectionEntry } from "astro:content";
 import { slugifyStr } from "@utils/slugify";
 import ShareLinks from "@components/ShareLinks.astro";
+import { SITE } from "@config";
 
 export interface Props {
   post: CollectionEntry<"blog">;
@@ -34,7 +35,7 @@ const ogUrl = new URL(
 ).href;
 
 const layoutProps = {
-  title,
+  title: `${title} | ${SITE.title}`,
   author,
   description,
   pubDatetime,
@@ -47,6 +48,11 @@ const layoutProps = {
 
 <Layout {...layoutProps}>
   <Header />
+
+  <!-- <div class="progress-container fixed top-0 z-10 h-1 w-full bg-skin-fill">
+    <div class="progress-bar h-1 w-0 bg-skin-accent" id="myBar"></div>
+  </div> -->
+
   <div class="mx-auto flex w-full max-w-3xl justify-start px-2">
     <button
       class="focus-outline mb-2 mt-8 flex hover:opacity-75"
@@ -56,7 +62,7 @@ const layoutProps = {
         ><path
           d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"
         ></path>
-      </svg><span>返回</span>
+      </svg><span>Go back</span>
     </button>
   </div>
   <main id="main-content">
@@ -87,7 +93,7 @@ const layoutProps = {
             d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"
           ></path>
         </svg>
-        <span>回到顶部</span>
+        <span>Back to Top</span>
       </button>
 
       <ShareLinks />
@@ -106,6 +112,45 @@ const layoutProps = {
 </style>
 
 <script is:inline>
+  /** Create a progress indicator
+   *  at the top */
+  function createProgressBar() {
+    // Create the main container div
+    const progressContainer = document.createElement("div");
+    progressContainer.className =
+      "progress-container fixed top-0 z-10 h-1 w-full bg-skin-fill";
+
+    // Create the progress bar div
+    const progressBar = document.createElement("div");
+    progressBar.className = "progress-bar h-1 w-0 bg-skin-accent";
+    progressBar.id = "myBar";
+
+    // Append the progress bar to the progress container
+    progressContainer.appendChild(progressBar);
+
+    // Append the progress container to the document body or any other desired parent element
+    document.body.appendChild(progressContainer);
+  }
+  createProgressBar();
+
+  /** Update the progress bar
+   *  when user scrolls */
+  function updateScrollProgress() {
+    const winScroll =
+      document.body.scrollTop || document.documentElement.scrollTop;
+    const height =
+      document.documentElement.scrollHeight -
+      document.documentElement.clientHeight;
+    const scrolled = (winScroll / height) * 100;
+    if (document) {
+      const myBar = document.getElementById("myBar");
+      if (myBar) {
+        myBar.style.width = scrolled + "%";
+      }
+    }
+  }
+  document.addEventListener("scroll", updateScrollProgress);
+
   /** Attaches links to headings in the document,
    *  allowing sharing of sections easily */
   function addHeadingLinks() {
@@ -116,7 +161,7 @@ const layoutProps = {
       link.innerText = "#";
       link.className = "heading-link hidden group-hover:inline-block ml-2";
       link.href = "#" + heading.id;
-      link.ariaHidden = true;
+      link.ariaHidden = "true";
       heading.appendChild(link);
     }
   }
@@ -140,7 +185,7 @@ const layoutProps = {
       codeBlock.appendChild(copyButton);
 
       // wrap codebock with relative parent element
-      codeBlock.parentNode.insertBefore(wrapper, codeBlock);
+      codeBlock?.parentNode?.insertBefore(wrapper, codeBlock);
       wrapper.appendChild(codeBlock);
 
       copyButton.addEventListener("click", async () => {
@@ -150,9 +195,9 @@ const layoutProps = {
 
     async function copyCode(block, button) {
       let code = block.querySelector("code");
-      let text = code.innerText;
+      let text = code?.innerText;
 
-      await navigator.clipboard.writeText(text);
+      await navigator.clipboard.writeText(text ?? "");
 
       // visual feedback that task is completed
       button.innerText = "Copied";
@@ -163,7 +208,6 @@ const layoutProps = {
     }
   }
   attachCopyButtons();
-  document.addEventListener("astro:after-swap", attachCopyButtons);
 
   /** Scrolls the document to the top when
    * the "Back to Top" button is clicked. */
@@ -174,5 +218,4 @@ const layoutProps = {
     });
   }
   backToTop();
-  document.addEventListener("astro:after-swap", backToTop);
 </script>
