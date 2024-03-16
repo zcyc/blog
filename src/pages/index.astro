@@ -23,7 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>你好，朋友!</h1>
+      <h1>Hello friend!</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -41,12 +41,12 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         <span class="sr-only">RSS Feed</span>
       </a>
 
-      <p>欢迎来到我的博客。</p>
+      <p>Welcome to my blog.</p>
       <p>
-        由于语雀禁止了免费帐号公开知识库，飞书知识库和腾讯文档对 Markdown
-        不友好，所以将博客迁移到了 Github。
+        Since Yuque prohibits public knowledge bases with free accounts, Feishu
+        Knowledge Base and Tencent Documentation are not friendly to Markdown,
+        so the blog was migrated to Github.
       </p>
-      <p>博客使用 Astro 制作，迁移博客的同时体验一下这个前端框架。</p>
 
       {
         // only display if at least one social link is enabled
