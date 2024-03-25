@@ -7,7 +7,7 @@ tags:
 ogImage: ""
 slug: "ruby"
 pubDatetime: 2024-03-25T19:25:21.000Z
-pubDatetime: 2024-03-25T19:33:21.000Z
+modDatetime: 2024-03-25T19:33:21.000Z
 featured: false
 draft: false
 ---
