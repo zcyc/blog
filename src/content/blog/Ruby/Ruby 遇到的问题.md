@@ -7,6 +7,7 @@ tags:
 ogImage: ""
 slug: "ruby"
 pubDatetime: 2024-03-25T19:25:21.000Z
+pubDatetime: 2024-03-25T19:33:21.000Z
 featured: false
 draft: false
 ---
@@ -27,3 +28,6 @@ sidekiq 在另一个进程，可以使用 gem 调试，如：debug、byebug、pr
 
 ## 哈希取不到值
 a = { name: "foo" } 取值要用 a[:foo]
+
+## 修改 ruby 版本后项目中某些 gem 报错
+rm -rf vendor/* 然后 bundle install
