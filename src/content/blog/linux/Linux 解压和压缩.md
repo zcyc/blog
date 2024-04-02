@@ -3,7 +3,7 @@ title: "Linux 解压和压缩"
 author: "Charles"
 description: ""
 tags:
-  - Linux
+  - linux
 ogImage: ""
 slug: "linux-tar-gz"
 pubDatetime: 2021-06-25T11:07:50.000Z

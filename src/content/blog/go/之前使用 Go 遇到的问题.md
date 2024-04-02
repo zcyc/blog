@@ -3,7 +3,7 @@ title: "之前使用 Go 遇到的问题"
 author: "Charles"
 description: ""
 tags:
-  - Go
+  - go
 ogImage: ""
 slug: "go-problems"
 pubDatetime: 2021-12-23T12:12:45.000Z

@@ -3,7 +3,7 @@ title: "Protobuf3 中文文档"
 author: "Charles"
 description: ""
 tags:
-  - Go
+  - go
 ogImage: ""
 slug: "protobuf3"
 pubDatetime: 2019-07-05T02:28:47.000Z

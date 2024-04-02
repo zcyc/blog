@@ -3,7 +3,7 @@ title: "获取当前ip"
 author: "Charles"
 description: ""
 tags:
-  - Router
+  - router
 ogImage: ""
 slug: "get-ip"
 pubDatetime: 2023-09-11T03:36:10.000Z

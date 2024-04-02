@@ -3,7 +3,7 @@ title: "Ubuntu 安装 MySQL8 并开启远程访问"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - mysql
 ogImage: ""
 slug: "ubuntu-mysql"
 pubDatetime: 2021-05-10T10:33:53.000Z

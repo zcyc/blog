@@ -3,7 +3,7 @@ title: "Apisix 简单使用"
 author: "Charles"
 description: ""
 tags:
-  - CNCF
+  - kubernetes
 ogImage: ""
 slug: "apisix"
 pubDatetime: 2023-11-15T09:56:00.000Z

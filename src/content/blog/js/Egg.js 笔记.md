@@ -3,7 +3,7 @@ title: "Egg.js 笔记"
 author: "Charles"
 description: ""
 tags:
-  - JavaScript
+  - js
 ogImage: ""
 slug: "eggjs"
 pubDatetime: 2019-07-20T10:02:38.000Z

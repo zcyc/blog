@@ -3,7 +3,7 @@ title: "Java Stream"
 author: "Charles"
 description: ""
 tags:
-  - Java
+  - java
 ogImage: ""
 slug: "java-stream"
 pubDatetime: 2020-11-14T12:36:00.000Z

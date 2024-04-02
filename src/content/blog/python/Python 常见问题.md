@@ -3,9 +3,9 @@ title: "Python 常见问题"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - python
 ogImage: ""
-slug: "python"
+slug: "python-problems"
 pubDatetime: 2023-02-15T13:59:57.000Z
 modDatetime: 2023-02-15T14:24:49.000Z
 featured: false

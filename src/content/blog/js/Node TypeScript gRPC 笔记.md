@@ -3,7 +3,7 @@ title: "node-grpc"
 author: "Charles"
 description: ""
 tags:
-  - JavaScript
+  - ts
 ogImage: ""
 slug: "Node TypeScript gRPC 笔记"
 pubDatetime: 2019-07-16T01:54:07.000Z

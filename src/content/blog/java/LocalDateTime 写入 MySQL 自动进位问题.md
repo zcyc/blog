@@ -3,7 +3,7 @@ title: "LocalDateTime 写入 MySQL 自动进位问题"
 author: "Charles"
 description: ""
 tags:
-  - Java
+  - java
 ogImage: ""
 slug: "localdatetime-mysql"
 pubDatetime: 2021-09-28T08:15:29.000Z

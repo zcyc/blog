@@ -3,7 +3,7 @@ title: "vitesse tsx 踩坑"
 author: "Charles"
 description: ""
 tags:
-  - Vue
+  - vue
 ogImage: ""
 slug: "vitesse-tsx"
 pubDatetime: 2022-01-15T16:56:59.000Z

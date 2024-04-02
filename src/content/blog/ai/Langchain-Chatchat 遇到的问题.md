@@ -3,7 +3,7 @@ title: "Langchain-Chatchat 遇到的问题"
 author: "Charles"
 description: ""
 tags:
-  - AI
+  - ai
 ogImage: ""
 slug: "langchain-chatchat-problems"
 pubDatetime: 2023-12-04T11:33:00.000Z

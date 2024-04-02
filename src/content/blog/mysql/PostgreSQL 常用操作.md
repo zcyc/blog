@@ -3,7 +3,7 @@ title: "PostgreSQL 常用操作"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - mysql
 ogImage: ""
 slug: "postgresql"
 pubDatetime: 2022-06-24T12:39:29.000Z

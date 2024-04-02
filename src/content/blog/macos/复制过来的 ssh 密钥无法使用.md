@@ -3,7 +3,7 @@ title: "复制过来的 ssh 密钥无法使用"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - macos
 ogImage: ""
 slug: "ssh-key-copy-not-work"
 pubDatetime: 2022-06-28T17:11:11.000Z

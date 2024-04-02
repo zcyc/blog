@@ -3,7 +3,7 @@ title: "macOS 开发环境初始化"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - macos
 ogImage: ""
 slug: "macos-dev-env-init"
 pubDatetime: 2021-12-21T02:54:13.000Z

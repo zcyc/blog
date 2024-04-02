@@ -3,7 +3,7 @@ title: "Centos 安装 Nginx"
 author: "Charles"
 description: ""
 tags:
-  - Linux
+  - linux
 ogImage: ""
 slug: "centos-nginx"
 pubDatetime: 2022-04-18T02:18:09.000Z

@@ -3,9 +3,9 @@ title: "Flutter 常用命令、国内镜像、常见问题"
 author: "Charles"
 description: ""
 tags:
-  - Flutter
+  - flutter
 ogImage: ""
-slug: "flutter"
+slug: "flutter-problems"
 pubDatetime: 2020-10-22T07:58:04.000Z
 modDatetime: 2021-08-11T17:27:05.000Z
 featured: false

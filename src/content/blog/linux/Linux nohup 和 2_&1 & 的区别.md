@@ -3,7 +3,7 @@ title: "Linux nohup 和 2>&1 & 的区别"
 author: "Charles"
 description: ""
 tags:
-  - Linux
+  - linux
 ogImage: ""
 slug: "linux-nohup"
 pubDatetime: 2021-11-14T13:09:52.000Z

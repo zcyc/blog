@@ -3,7 +3,7 @@ title: "uni-app sitemap.json 自定义"
 author: "Charles"
 description: ""
 tags:
-  - UniApp
+  - uniapp
 ogImage: ""
 slug: "uni-app-sitemap-custom"
 pubDatetime: 2022-06-28T18:48:16.000Z

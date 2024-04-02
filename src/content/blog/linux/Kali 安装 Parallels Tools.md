@@ -3,7 +3,7 @@ title: "Kali 安装 Parallels Tools"
 author: "Charles"
 description: ""
 tags:
-  - Linux
+  - linux
 ogImage: ""
 slug: "kali-parallels-tools"
 pubDatetime: 2020-10-19T06:54:11.000Z

@@ -3,7 +3,7 @@ title: "Apisix 使用 JWT 和 Casbin"
 author: "Charles"
 description: ""
 tags:
-  - CNCF
+  - kubernetes
 ogImage: ""
 slug: "apisix-jwt-casbin"
 pubDatetime: 2023-11-15T09:57:00.000Z

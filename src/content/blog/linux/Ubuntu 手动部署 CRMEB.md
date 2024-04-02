@@ -3,7 +3,7 @@ title: "Ubuntu 手动部署 CRMEB"
 author: "Charles"
 description: ""
 tags:
-  - Linux
+  - linux
 ogImage: ""
 slug: "ubuntu-crmeb"
 pubDatetime: 2022-03-10T11:14:53.000Z

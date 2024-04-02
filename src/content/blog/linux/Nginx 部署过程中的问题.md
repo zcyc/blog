@@ -3,7 +3,7 @@ title: "Nginx 部署过程中的问题"
 author: "Charles"
 description: ""
 tags:
-  - Linux
+  - linux
 ogImage: ""
 slug: "nginx"
 pubDatetime: 2021-05-24T05:12:47.000Z

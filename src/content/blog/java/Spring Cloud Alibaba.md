@@ -3,7 +3,7 @@ title: "Spring Cloud Alibaba"
 author: "Charles"
 description: ""
 tags:
-  - Java
+  - java
 ogImage: ""
 slug: "spring-cloud-alibaba"
 pubDatetime: 2021-11-08T10:06:55.000Z

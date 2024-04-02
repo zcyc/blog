@@ -3,7 +3,7 @@ title: "Python PyMySQL 特殊字符报错"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - python
 ogImage: ""
 slug: "python-pymysql"
 pubDatetime: 2022-06-28T17:42:37.000Z

@@ -3,7 +3,7 @@ title: "Lua 常见问题"
 author: "Charles"
 description: ""
 tags:
-  - Lua
+  - lua
 ogImage: ""
 slug: "lua"
 pubDatetime: 2022-06-28T17:14:46.000Z

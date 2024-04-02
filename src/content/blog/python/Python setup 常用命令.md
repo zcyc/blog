@@ -3,7 +3,7 @@ title: "Python setup 常用命令"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - python
 ogImage: ""
 slug: "python-setup"
 pubDatetime: 2022-12-02T08:58:41.000Z

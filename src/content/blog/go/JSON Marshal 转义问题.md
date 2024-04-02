@@ -3,7 +3,7 @@ title: "JSON Marshal 转义问题"
 author: "Charles"
 description: ""
 tags:
-  - Go
+  - go
 ogImage: ""
 slug: "json-marshal"
 pubDatetime: 2023-01-09T07:20:43.000Z

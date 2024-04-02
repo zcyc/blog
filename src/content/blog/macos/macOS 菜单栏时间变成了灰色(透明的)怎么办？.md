@@ -3,7 +3,7 @@ title: "macOS 菜单栏时间变成了灰色(透明的)怎么办？"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - macos
 ogImage: ""
 slug: "macos-menu-bar-time-gray"
 pubDatetime: 2022-01-13T07:49:14.000Z

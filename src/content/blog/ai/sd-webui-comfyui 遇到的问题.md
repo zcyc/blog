@@ -3,7 +3,7 @@ title: "sd-webui-comfyui 遇到的问题"
 author: "Charles"
 description: ""
 tags:
-  - AI
+  - ai
 ogImage: ""
 slug: "sd-webui-comfyui-problems"
 pubDatetime: 2023-12-05T14:40:00.000Z

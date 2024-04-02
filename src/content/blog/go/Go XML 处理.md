@@ -3,7 +3,7 @@ title: "Go XML 处理"
 author: "Charles"
 description: ""
 tags:
-  - Go
+  - go
 ogImage: ""
 slug: "go-xml"
 pubDatetime: 2022-09-19T08:37:52.000Z

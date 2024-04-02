@@ -3,7 +3,7 @@ title: "AutomationElement 程序自动化"
 author: "Charles"
 description: ""
 tags:
-  - CSharp
+  - csharp
 ogImage: ""
 slug: "dotnet-automationelement"
 pubDatetime: 2023-09-12T06:27:23.000Z

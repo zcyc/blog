@@ -3,7 +3,7 @@ title: "Go 反向代理"
 author: "Charles"
 description: ""
 tags:
-  - Go
+  - go
 ogImage: ""
 slug: "go-reverse-proxy"
 pubDatetime: 2022-08-18T03:09:38.000Z

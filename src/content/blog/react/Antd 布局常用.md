@@ -3,7 +3,7 @@ title: "Antd 布局常用"
 author: "Charles"
 description: ""
 tags:
-  - React
+  - react
 ogImage: ""
 slug: "antd-layout"
 pubDatetime: 2021-05-03T06:52:32.000Z

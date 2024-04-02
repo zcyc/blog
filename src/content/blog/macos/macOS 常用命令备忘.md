@@ -3,9 +3,9 @@ title: "macOS 常用命令备忘"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - macos
 ogImage: ""
-slug: "macos"
+slug: "macos-command"
 pubDatetime: 2021-11-12T07:15:05.000Z
 modDatetime: 2022-06-29T15:45:18.000Z
 featured: false

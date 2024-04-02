@@ -3,7 +3,7 @@ title: "TypeScript 遇到的问题"
 author: "Charles"
 description: ""
 tags:
-  - JavaScript
+  - ts
 ogImage: ""
 slug: "typeScript"
 pubDatetime: 2019-07-04T08:20:42.000Z

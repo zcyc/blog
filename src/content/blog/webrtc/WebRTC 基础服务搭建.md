@@ -3,7 +3,7 @@ title: "WebRTC 基础服务搭建"
 author: "Charles"
 description: ""
 tags:
-  - WebRTC
+  - webrtc
 ogImage: ""
 slug: "webrtc-basic-service-setup"
 pubDatetime: 2022-09-17T14:52:17.000Z

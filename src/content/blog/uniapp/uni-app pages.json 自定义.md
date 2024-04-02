@@ -3,7 +3,7 @@ title: "uni-app pages.json 自定义"
 author: "Charles"
 description: ""
 tags:
-  - UniApp
+  - uniapp
 ogImage: ""
 slug: "uni-app-pages-custom"
 pubDatetime: 2022-06-28T17:54:55.000Z

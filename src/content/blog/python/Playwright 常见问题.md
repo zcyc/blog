@@ -3,9 +3,9 @@ title: "Playwright 体验"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - python
 ogImage: ""
-slug: "playwright"
+slug: "playwright-problems"
 pubDatetime: 2023-02-15T15:28:46.000Z
 modDatetime: 2023-02-15T15:33:19.000Z
 featured: false

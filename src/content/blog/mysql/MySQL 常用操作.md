@@ -3,7 +3,7 @@ title: "MySQL 常用操作"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - mysql
 ogImage: ""
 slug: "mysql"
 pubDatetime: 2022-04-04T10:41:56.000Z

@@ -3,7 +3,7 @@ title: "JSON 转 Go struct"
 author: "Charles"
 description: ""
 tags:
-  - Go
+  - go
 ogImage: ""
 slug: "json-to-go"
 pubDatetime: 2021-12-15T08:55:41.000Z

@@ -3,7 +3,7 @@ title: "ChatGLM3 遇到的问题"
 author: "Charles"
 description: ""
 tags:
-  - AI
+  - llm
 ogImage: ""
 slug: "chatglm3-problems"
 pubDatetime: 2023-12-05T14:41:00.000Z

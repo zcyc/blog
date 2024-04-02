@@ -3,7 +3,7 @@ title: "EwoMail 如何修改模板"
 author: "Charles"
 description: ""
 tags:
-  - Other
+  - other
 ogImage: ""
 slug: "ewomail-modify-template"
 pubDatetime: 2022-11-07T09:54:34.000Z

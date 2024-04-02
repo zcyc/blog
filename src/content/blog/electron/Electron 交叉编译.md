@@ -3,7 +3,7 @@ title: "Electron 交叉编译"
 author: "Charles"
 description: ""
 tags:
-  - Electron
+  - electron
 ogImage: ""
 slug: "electron-build"
 pubDatetime: 2020-11-03T03:20:27.000Z

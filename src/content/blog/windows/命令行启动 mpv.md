@@ -3,9 +3,9 @@ title: "命令行启动 mpv"
 author: "Charles"
 description: ""
 tags:
-  - Other
+  - windows
 ogImage: ""
-slug: "mpv"
+slug: "command-mpv"
 pubDatetime: 2023-10-25T14:06:07.000Z
 modDatetime: 2023-10-26T09:12:05.000Z
 featured: false

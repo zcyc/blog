@@ -3,7 +3,7 @@ title: "Maven 常用操作"
 author: "Charles"
 description: ""
 tags:
-  - Java
+  - java
 ogImage: ""
 slug: "maven"
 pubDatetime: 2021-11-14T13:10:46.000Z

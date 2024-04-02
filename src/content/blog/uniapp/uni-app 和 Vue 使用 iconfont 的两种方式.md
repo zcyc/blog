@@ -3,7 +3,7 @@ title: "UniApp 和 Vue 使用 iconfont 的两种方式"
 author: "Charles"
 description: ""
 tags:
-  - UniApp
+  - uniapp
 ogImage: ""
 slug: "uniapp-vue-iconfont"
 pubDatetime: 2020-12-22T02:48:56.000Z

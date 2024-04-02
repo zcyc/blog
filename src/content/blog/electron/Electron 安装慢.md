@@ -3,7 +3,7 @@ title: "Electron 安装慢"
 author: "Charles"
 description: ""
 tags:
-  - Electron
+  - electron
 ogImage: ""
 slug: "electron-install"
 pubDatetime: 2020-07-09T17:26:57.000Z

@@ -3,7 +3,7 @@ title: "Python 面向对象"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - python
 ogImage: ""
 slug: "python-oop"
 pubDatetime: 2022-06-27T19:00:28.000Z

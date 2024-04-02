@@ -3,7 +3,7 @@ title: "用 brew 控制 Node 的版本 (用 brew 实现 nvm)"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - macos
 ogImage: ""
 slug: "brew-node-version-control"
 pubDatetime: 2020-09-26T06:28:41.000Z

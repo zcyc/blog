@@ -3,7 +3,7 @@ title: "django rest framework (drf) 初体验"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - python
 ogImage: ""
 slug: "drf"
 pubDatetime: 2022-06-30T10:17:15.000Z

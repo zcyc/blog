@@ -3,7 +3,7 @@ title: "macOS L2TP/IPSec 没有响应"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - macos
 ogImage: ""
 slug: "macos-l2tp-no-response"
 pubDatetime: 2021-01-09T17:03:09.000Z

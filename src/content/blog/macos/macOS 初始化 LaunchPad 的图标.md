@@ -3,7 +3,7 @@ title: "macOS 初始化 LaunchPad 的图标"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - macos
 ogImage: ""
 slug: "macos-launchpad-reset"
 pubDatetime: 2021-08-17T08:23:04.000Z

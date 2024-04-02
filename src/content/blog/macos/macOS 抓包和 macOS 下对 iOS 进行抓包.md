@@ -3,7 +3,7 @@ title: "macOS 抓包和 macOS 下对 iOS 进行抓包"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - macos
 ogImage: ""
 slug: "macos-wireshark-ios"
 pubDatetime: 2021-08-11T16:53:03.000Z

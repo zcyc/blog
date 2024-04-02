@@ -3,7 +3,7 @@ title: "Docker 运行 RabbitMQ 并修改账号密码"
 author: "Charles"
 description: ""
 tags:
-  - Docker
+  - docker
 ogImage: ""
 slug: "docker-rabbitmq"
 pubDatetime: 2021-01-08T13:51:03.000Z

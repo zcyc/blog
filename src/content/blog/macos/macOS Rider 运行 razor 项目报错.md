@@ -3,7 +3,7 @@ title: "macOS Rider 运行 razor 项目报错"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - macos
 ogImage: ""
 slug: "macos-rider-run-razor-project-error"
 pubDatetime: 2020-08-11T02:31:51.000Z

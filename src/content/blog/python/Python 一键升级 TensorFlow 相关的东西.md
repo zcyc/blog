@@ -3,7 +3,7 @@ title: "Python 一键升级 TensorFlow 相关的东西"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - python
 ogImage: ""
 slug: "python-update-tensorflow"
 pubDatetime: 2021-08-03T13:11:16.000Z

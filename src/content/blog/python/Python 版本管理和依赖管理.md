@@ -3,7 +3,7 @@ title: "Python 版本管理和依赖管理"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - python
 ogImage: ""
 slug: "python-version-and-dependency-management"
 pubDatetime: 2022-07-01T15:56:44.000Z

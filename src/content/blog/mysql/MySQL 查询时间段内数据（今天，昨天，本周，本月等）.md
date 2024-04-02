@@ -3,7 +3,7 @@ title: "MySQL 查询时间段内数据（今天，昨天，本周，本月等）
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - mysql
 ogImage: ""
 slug: "mysql-query-time-period-data"
 pubDatetime: 2019-07-08T01:53:59.000Z

@@ -3,7 +3,7 @@ title: "OpenWrt 下配置 Cloudflare 动态解析(DDNS)"
 author: "Charles"
 description: ""
 tags:
-  - Router
+  - router
 ogImage: ""
 slug: "openwrt-cloudflare-ddns"
 pubDatetime: 2020-12-16T08:17:50.000Z

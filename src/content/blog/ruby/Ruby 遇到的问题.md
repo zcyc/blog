@@ -3,9 +3,9 @@ title: "Ruby 遇到的问题"
 author: "Charles"
 description: ""
 tags:
-  - Ruby
+  - ruby
 ogImage: ""
-slug: "ruby"
+slug: "ruby-problems"
 pubDatetime: 2024-03-25T19:25:21.000Z
 modDatetime: 2024-03-25T19:33:21.000Z
 featured: false

@@ -3,7 +3,7 @@ title: "GORM & gormt"
 author: "Charles"
 description: ""
 tags:
-  - Go
+  - go
 ogImage: ""
 slug: "gorm"
 pubDatetime: 2022-06-02T06:24:38.000Z

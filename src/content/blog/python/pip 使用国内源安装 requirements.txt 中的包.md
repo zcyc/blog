@@ -3,7 +3,7 @@ title: "pip 使用国内源安装 requirements.txt 中的包"
 author: "Charles"
 description: ""
 tags:
-  - blog
+  - python
 ogImage: ""
 slug: "pip-install-requirements-txt-packages-from-mirror"
 pubDatetime: 2022-05-05T08:10:34.000Z

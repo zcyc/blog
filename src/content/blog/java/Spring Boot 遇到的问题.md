@@ -3,7 +3,7 @@ title: "Spring Boot 遇到的问题"
 author: "Charles"
 description: ""
 tags:
-  - Java
+  - java
 ogImage: ""
 slug: "spring-boot"
 pubDatetime: 2020-12-05T14:29:53.000Z

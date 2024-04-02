@@ -3,7 +3,7 @@ title: "SSH 相关"
 author: "Charles"
 description: ""
 tags:
-  - Linux
+  - linux
 ogImage: ""
 slug: "ssh"
 pubDatetime: 2021-01-08T06:27:22.000Z

@@ -3,7 +3,7 @@ title: "Terminal + PowerShell + oh-my-posh 配置"
 author: "Charles"
 description: ""
 tags:
-  - Windows
+  - windows
 ogImage: ""
 slug: "terminal-powershell-oh-my-posh"
 pubDatetime: 2022-11-07T08:19:08.000Z
