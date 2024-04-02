@@ -3,7 +3,7 @@ title: "nvim 使用"
 author: "Charles"
 description: ""
 tags:
-  - pnpm
+  - tool
 ogImage: ""
 slug: "pnpm"
 pubDatetime: 2024-04-02T10:09:32.000Z
