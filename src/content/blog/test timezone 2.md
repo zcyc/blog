@@ -5,7 +5,7 @@ description: ""
 tags:
   - ide
 ogImage: ""
-slug: ""
+slug: "test-timezone-2"
 pubDatetime: 2024-04-07T18:59:20.159Z
 featured: false
 draft: false
