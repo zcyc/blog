@@ -14,6 +14,7 @@ List of open source projects I have contributed to
 - [XRender](https://github.com/alibaba/x-render) - 阿里很易用的中后台「表单 / 表格 / 图表」解决方案
 - [SRPC](https://github.com/sogou/srpc) - RPC framework based on C++ Workflow. Supports SRPC, Baidu bRPC, Tencent tRPC, thrift protocols
 - [AppToolkit](https://github.com/apptools-lab/AppToolkit) - The Front-end Env Toolkit
+- [solid-site](https://github.com/solidjs/solid-site) - Code that powers the SolidJS.com platform
 - [grpcman](https://github.com/grpcman/grpcman) - A grpc stress testing tool based on Electron & React & TypeScript
 - [my-flomo](https://github.com/jerryshell/my-flomo-server) - 可以自托管的想法记录及回顾服务，开源、免费、简单、专注于核心功能
 - [protoc-gen-gf](https://github.com/zcyc/protoc-gen-gf) - Extension of protoc, generating CRUD of goframe
