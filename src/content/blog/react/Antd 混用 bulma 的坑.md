@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - react
-ogImage: ""
 slug: "antd-bulma"
 pubDatetime: 2021-05-03T06:50:58.000+08:00
 modDatetime: 2023-01-30T07:21:54.000+08:00

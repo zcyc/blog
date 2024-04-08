@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - java
-ogImage: ""
 slug: "java-parse-address"
 pubDatetime: 2020-12-21T15:23:25.000+08:00
 modDatetime: 2021-08-03T15:35:07.000+08:00

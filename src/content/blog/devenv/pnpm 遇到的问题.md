@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - tool
-ogImage: ""
 slug: "pnpm-problems"
 pubDatetime: 2024-04-02T10:09:32.000+08:00
 featured: false

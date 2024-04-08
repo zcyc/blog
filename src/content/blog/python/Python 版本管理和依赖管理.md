@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - python
-ogImage: ""
 slug: "python-version-and-dependency-management"
 pubDatetime: 2022-07-01T15:56:44.000+08:00
 modDatetime: 2022-07-28T03:39:51.000+08:00

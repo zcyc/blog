@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - router
-ogImage: ""
 slug: "openwrt-cloudflare-ddns"
 pubDatetime: 2020-12-16T08:17:50.000+08:00
 modDatetime: 2022-06-29T18:58:16.000+08:00

@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - python
-ogImage: ""
 slug: "drf"
 pubDatetime: 2022-06-30T10:17:15.000+08:00
 modDatetime: 2022-07-28T03:40:32.000+08:00

@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - article
-ogImage: ""
 slug: "unique-id-compare"
 pubDatetime: 2022-11-14T12:32:07.000+08:00
 modDatetime: 2023-06-19T15:39:05.000+08:00

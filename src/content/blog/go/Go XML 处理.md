@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - go
-ogImage: ""
 slug: "go-xml"
 pubDatetime: 2022-09-19T08:37:52.000+08:00
 modDatetime: 2022-09-24T15:04:25.000+08:00

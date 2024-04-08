@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - llm
-ogImage: ""
 slug: "chatglm3-problems"
 pubDatetime: 2023-12-05T14:41:00.000+08:00
 modDatetime: 2023-12-05T14:50:00.000+08:00

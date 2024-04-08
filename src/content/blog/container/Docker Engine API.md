@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - docker
-ogImage: ""
 slug: "docker-engine-api"
 pubDatetime: 2024-03-29T11:58:17.000+08:00
 featured: false

@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - linux
-ogImage: ""
 slug: "kali-parallels-tools"
 pubDatetime: 2020-10-19T06:54:11.000+08:00
 modDatetime: 2022-07-01T16:11:45.000+08:00

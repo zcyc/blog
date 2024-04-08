@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - ide
-ogImage: ""
 slug: "nvim"
 pubDatetime: 2024-03-04T00:02:32.000+08:00
 featured: false

@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - mysql
-ogImage: ""
 slug: "mysql"
 pubDatetime: 2022-04-04T10:41:56.000+08:00
 modDatetime: 2022-08-30T08:30:04.000+08:00

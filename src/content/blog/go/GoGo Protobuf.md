@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - go
-ogImage: ""
 slug: "gogoproto"
 pubDatetime: 2022-06-02T06:25:47.000+08:00
 modDatetime: 2022-06-13T10:28:46.000+08:00

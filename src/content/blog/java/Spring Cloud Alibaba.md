@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - java
-ogImage: ""
 slug: "spring-cloud-alibaba"
 pubDatetime: 2021-11-08T10:06:55.000+08:00
 modDatetime: 2022-07-05T15:59:12.000+08:00

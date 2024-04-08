@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - flutter
-ogImage: ""
 slug: "flutter"
 pubDatetime: 2020-10-22T07:58:04.000+08:00
 modDatetime: 2021-08-11T17:27:05.000+08:00

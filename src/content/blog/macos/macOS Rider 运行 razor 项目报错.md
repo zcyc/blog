@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - macos
-ogImage: ""
 slug: "macos-rider-run-razor-project-error"
 pubDatetime: 2020-08-11T02:31:51.000+08:00
 modDatetime: 2021-10-16T04:38:54.000+08:00

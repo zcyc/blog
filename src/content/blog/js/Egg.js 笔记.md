@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - js
-ogImage: ""
 slug: "eggjs"
 pubDatetime: 2019-07-20T10:02:38.000+08:00
 modDatetime: 2022-06-30T11:24:30.000+08:00

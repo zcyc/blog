@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - ai
-ogImage: ""
 slug: "langchain-chatchat-problems"
 pubDatetime: 2023-12-04T11:33:00.000+08:00
 modDatetime: 2023-12-05T14:49:00.000+08:00

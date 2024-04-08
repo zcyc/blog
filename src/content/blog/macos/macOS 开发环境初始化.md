@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - macos
-ogImage: ""
 slug: "macos-dev-env-init"
 pubDatetime: 2021-12-21T02:54:13.000+08:00
 modDatetime: 2022-01-17T09:53:47.000+08:00

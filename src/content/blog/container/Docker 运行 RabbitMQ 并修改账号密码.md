@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - docker
-ogImage: ""
 slug: "docker-rabbitmq"
 pubDatetime: 2021-01-08T13:51:03.000+08:00
 modDatetime: 2022-07-01T16:10:09.000+08:00

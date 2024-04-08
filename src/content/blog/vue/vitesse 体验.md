@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - vue
-ogImage: ""
 slug: "vitesse"
 pubDatetime: 2022-01-21T16:18:49.000+08:00
 modDatetime: 2022-07-01T16:12:02.000+08:00

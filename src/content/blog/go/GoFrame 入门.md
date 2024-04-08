@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - go
-ogImage: ""
 slug: "goframe"
 pubDatetime: 2022-07-17T10:03:43.000+08:00
 modDatetime: 2022-11-10T02:27:33.000+08:00

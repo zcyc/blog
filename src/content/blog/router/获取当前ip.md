@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - router
-ogImage: ""
 slug: "get-ip"
 pubDatetime: 2023-09-11T03:36:10.000+08:00
 modDatetime: 2023-09-11T03:46:35.000+08:00

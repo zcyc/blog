@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - css
-ogImage: ""
 slug: "html-background-image"
 pubDatetime: 2021-06-01T07:31:56.000+08:00
 modDatetime: 2022-06-27T18:39:22.000+08:00

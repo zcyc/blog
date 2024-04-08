@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - ruby
-ogImage: ""
 slug: "ruby-problems"
 pubDatetime: 2024-03-25T19:25:21.000+08:00
 modDatetime: 2024-03-25T19:33:21.000+08:00

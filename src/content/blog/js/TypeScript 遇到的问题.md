@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - ts
-ogImage: ""
 slug: "typeScript"
 pubDatetime: 2019-07-04T08:20:42.000+08:00
 modDatetime: 2020-12-02T13:43:22.000+08:00

@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - macos
-ogImage: ""
 slug: "macos-launchpad-reset"
 pubDatetime: 2021-08-17T08:23:04.000+08:00
 modDatetime: 2022-05-20T02:52:23.000+08:00

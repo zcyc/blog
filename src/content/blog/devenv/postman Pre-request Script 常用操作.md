@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - tool
-ogImage: ""
 slug: "postman-script"
 pubDatetime: 2022-05-30T06:12:42.000+08:00
 modDatetime: 2022-06-28T10:19:51.000+08:00

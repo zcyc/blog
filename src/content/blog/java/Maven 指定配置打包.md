@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - java
-ogImage: ""
 slug: "maven-build"
 pubDatetime: 2021-06-26T09:28:59.000+08:00
 modDatetime: 2022-06-29T19:15:27.000+08:00

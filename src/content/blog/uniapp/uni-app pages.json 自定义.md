@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - uniapp
-ogImage: ""
 slug: "uni-app-pages-custom"
 pubDatetime: 2022-06-28T17:54:55.000+08:00
 modDatetime: 2022-11-10T03:00:04.000+08:00

@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - ai
-ogImage: ""
 slug: "sd-webui-comfyui-problems"
 pubDatetime: 2023-12-05T14:40:00.000+08:00
 modDatetime: 2024-01-31T00:41:00.000+08:00

@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - kubernetes
-ogImage: ""
 slug: "apisix"
 pubDatetime: 2023-11-15T09:56:00.000+08:00
 modDatetime:

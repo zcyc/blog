@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - go
-ogImage: ""
 slug: "go-reverse-proxy"
 pubDatetime: 2022-08-18T03:09:38.000+08:00
 modDatetime: 2022-08-30T06:09:21.000+08:00

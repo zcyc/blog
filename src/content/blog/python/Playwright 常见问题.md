@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - python
-ogImage: ""
 slug: "playwright-problems"
 pubDatetime: 2023-02-15T15:28:46.000+08:00
 modDatetime: 2023-02-15T15:33:19.000+08:00

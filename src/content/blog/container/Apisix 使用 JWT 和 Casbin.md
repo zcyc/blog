@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - kubernetes
-ogImage: ""
 slug: "apisix-jwt-casbin"
 pubDatetime: 2023-11-15T09:57:00.000+08:00
 modDatetime:

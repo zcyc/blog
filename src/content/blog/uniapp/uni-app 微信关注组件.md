@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - uniapp
-ogImage: ""
 slug: "uni-app-wechat-follow-component"
 pubDatetime: 2021-06-22T15:12:16.000+08:00
 modDatetime: 2022-07-01T16:23:06.000+08:00

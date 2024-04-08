@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - python
-ogImage: ""
 slug: "python-pymysql"
 pubDatetime: 2022-06-28T17:42:37.000+08:00
 modDatetime: 2022-06-28T17:47:57.000+08:00

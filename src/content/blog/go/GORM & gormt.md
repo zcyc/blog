@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - go
-ogImage: ""
 slug: "gorm"
 pubDatetime: 2022-06-02T06:24:38.000+08:00
 modDatetime: 2023-03-13T06:31:46.000+08:00

@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - python
-ogImage: ""
 slug: "pip-install-requirements-txt-packages-from-mirror"
 pubDatetime: 2022-05-05T08:10:34.000+08:00
 modDatetime: 2022-07-01T16:08:56.000+08:00

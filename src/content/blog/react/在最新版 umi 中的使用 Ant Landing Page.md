@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - react
-ogImage: ""
 slug: "antd-landing-umi"
 pubDatetime: 2020-08-24T03:05:21.000+08:00
 modDatetime: 2021-06-26T10:56:58.000+08:00

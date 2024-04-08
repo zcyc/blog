@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - csharp
-ogImage: ""
 slug: "dotnet-cefsharp-config"
 pubDatetime: 2023-04-12T05:50:37.000+08:00
 modDatetime: 2023-04-12T05:59:36.000+08:00

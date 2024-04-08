@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - uniapp
-ogImage: ""
 slug: "uni-app-offline-packaging"
 pubDatetime: 2021-06-15T16:57:40.000+08:00
 modDatetime: 2022-07-01T16:23:41.000+08:00

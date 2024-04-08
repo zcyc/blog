@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - csharp
-ogImage: ""
 slug: "dotnet-automationelement"
 pubDatetime: 2023-09-12T06:27:23.000+08:00
 modDatetime: 2023-09-15T10:34:03.000+08:00

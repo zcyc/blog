@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - macos
-ogImage: ""
 slug: "macos-wireshark-ios"
 pubDatetime: 2021-08-11T16:53:03.000+08:00
 modDatetime: 2021-12-15T08:55:33.000+08:00

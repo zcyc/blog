@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - lua
-ogImage: ""
 slug: "lua"
 pubDatetime: 2022-06-28T17:14:46.000+08:00
 modDatetime: 2022-06-28T17:16:14.000+08:00

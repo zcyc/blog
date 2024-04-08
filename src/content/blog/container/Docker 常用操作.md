@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - docker
-ogImage: ""
 slug: "docker-common-operation"
 pubDatetime: 2021-11-13T18:21:02.000+08:00
 modDatetime: 2022-07-28T16:52:08.000+08:00

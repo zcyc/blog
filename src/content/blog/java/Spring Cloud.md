@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - java
-ogImage: ""
 slug: "spring-cloud"
 pubDatetime: 2022-07-03T14:42:39.000+08:00
 modDatetime: 2022-07-05T11:50:28.000+08:00

@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - macos
-ogImage: ""
 slug: "ssh-key-copy-not-work"
 pubDatetime: 2022-06-28T17:11:11.000+08:00
 modDatetime: 2022-11-14T14:50:08.000+08:00

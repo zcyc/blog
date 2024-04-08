@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - linux
-ogImage: ""
 slug: "ubuntu-crmeb"
 pubDatetime: 2022-03-10T11:14:53.000+08:00
 modDatetime: 2022-06-10T06:43:56.000+08:00

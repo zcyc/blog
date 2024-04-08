@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - java
-ogImage: ""
 slug: "jeecg"
 pubDatetime: 2021-03-23T07:45:46.000+08:00
 modDatetime: 2023-04-23T05:51:29.000+08:00

@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - js
-ogImage: ""
 slug: "Node MySQL CURD & 返回值使用"
 pubDatetime: 2019-07-04T02:12:12.000+08:00
 modDatetime: 2022-07-28T03:34:49.000+08:00

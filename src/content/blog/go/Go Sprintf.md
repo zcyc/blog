@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - go
-ogImage: ""
 slug: "go-sprintf"
 pubDatetime: 2023-02-07T04:29:47.000+08:00
 modDatetime: 2023-02-07T04:31:34.000+08:00

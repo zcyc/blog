@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - windows
-ogImage: ""
 slug: "terminal-powershell-oh-my-posh"
 pubDatetime: 2022-11-07T08:19:08.000+08:00
 modDatetime: 2022-11-07T09:36:44.000+08:00

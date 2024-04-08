@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - ts
-ogImage: ""
 slug: "Node TypeScript gRPC 笔记"
 pubDatetime: 2019-07-16T01:54:07.000+08:00
 modDatetime: 2022-06-30T11:24:53.000+08:00

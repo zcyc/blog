@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - uniapp
-ogImage: ""
 slug: "uni-app-sitemap-custom"
 pubDatetime: 2022-06-28T18:48:16.000+08:00
 modDatetime: 2022-06-28T18:51:06.000+08:00

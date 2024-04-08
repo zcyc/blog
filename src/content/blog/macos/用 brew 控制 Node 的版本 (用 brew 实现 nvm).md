@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - macos
-ogImage: ""
 slug: "brew-node-version-control"
 pubDatetime: 2020-09-26T06:28:41.000+08:00
 modDatetime: 2021-01-10T16:33:04.000+08:00

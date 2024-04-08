@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - electron
-ogImage: ""
 slug: "electron-problems"
 pubDatetime: 2020-07-09T17:26:57.000+08:00
 modDatetime: 2023-03-08T07:42:34.000+08:00

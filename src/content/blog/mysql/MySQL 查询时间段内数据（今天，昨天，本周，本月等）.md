@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - mysql
-ogImage: ""
 slug: "mysql-query-time-period-data"
 pubDatetime: 2019-07-08T01:53:59.000+08:00
 modDatetime: 2020-12-02T13:42:23.000+08:00

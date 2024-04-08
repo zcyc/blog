@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - uniapp
-ogImage: ""
 slug: "uniapp-vue-iconfont"
 pubDatetime: 2020-12-22T02:48:56.000+08:00
 modDatetime: 2022-01-17T09:59:00.000+08:00

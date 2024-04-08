@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - docker
-ogImage: ""
 slug: "docker-jenkins"
 pubDatetime: 2022-08-02T06:04:36.000+08:00
 modDatetime: 2022-08-02T06:20:14.000+08:00

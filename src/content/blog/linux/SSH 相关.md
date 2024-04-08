@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - linux
-ogImage: ""
 slug: "ssh"
 pubDatetime: 2021-01-08T06:27:22.000+08:00
 modDatetime: 2022-08-02T01:59:05.000+08:00

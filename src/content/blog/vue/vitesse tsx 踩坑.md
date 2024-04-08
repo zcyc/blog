@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - vue
-ogImage: ""
 slug: "vitesse-tsx"
 pubDatetime: 2022-01-15T16:56:59.000+08:00
 modDatetime: 2022-11-18T01:22:08.000+08:00

@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - python
-ogImage: ""
 slug: "python-update-tensorflow"
 pubDatetime: 2021-08-03T13:11:16.000+08:00
 modDatetime: 2022-11-10T02:58:43.000+08:00

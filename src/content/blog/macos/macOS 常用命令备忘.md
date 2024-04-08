@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - macos
-ogImage: ""
 slug: "macos-command"
 pubDatetime: 2021-11-12T07:15:05.000+08:00
 modDatetime: 2022-06-29T15:45:18.000+08:00

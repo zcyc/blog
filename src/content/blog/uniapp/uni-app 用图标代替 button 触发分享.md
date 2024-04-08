@@ -4,7 +4,6 @@ author: "Charles"
 description: ""
 tags:
   - uniapp
-ogImage: ""
 slug: "uni-app-icon-button"
 pubDatetime: 2021-06-18T07:30:58.000+08:00
 modDatetime: 2022-01-17T09:56:45.000+08:00
