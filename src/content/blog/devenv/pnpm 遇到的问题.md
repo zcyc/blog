@@ -1,11 +1,11 @@
 ---
-title: "nvim 使用"
+title: "pnpm 遇到的问题"
 author: "Charles"
 description: ""
 tags:
   - tool
 ogImage: ""
-slug: "pnpm"
+slug: "pnpm-problems"
 pubDatetime: 2024-04-02T10:09:32.000+08:00
 featured: false
 draft: false

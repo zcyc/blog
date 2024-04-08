@@ -1,11 +1,11 @@
 ---
-title: "Electron 交叉编译"
+title: "Electron 使用"
 author: "Charles"
 description: ""
 tags:
   - electron
 ogImage: ""
-slug: "electron-build"
+slug: "electron"
 pubDatetime: 2020-11-03T03:20:27.000+08:00
 modDatetime: 2021-06-26T10:39:59.000+08:00
 featured: false

@@ -1,16 +1,18 @@
 ---
-title: "Electron 安装慢"
+title: "Electron 遇到的问题"
 author: "Charles"
 description: ""
 tags:
   - electron
 ogImage: ""
-slug: "electron-install"
+slug: "electron-problems"
 pubDatetime: 2020-07-09T17:26:57.000+08:00
 modDatetime: 2023-03-08T07:42:34.000+08:00
 featured: false
 draft: false
 ---
+
+# Electron 安装慢
 
 ```shell
 # electron
