@@ -6,7 +6,7 @@ tags:
   - kubernetes
 ogImage: ""
 slug: "apisix"
-pubDatetime: 2023-11-15T09:56:00.000Z
+pubDatetime: 2023-11-15T09:56:00.000+08:00
 modDatetime:
 featured: false
 draft: false
@@ -79,6 +79,7 @@ apisix 会安装在 apisix namespace 下，默认会起一个三节点的 etcd�
 ![Untitled](/assets/apisix-14.png)
 
 ## 创建一个路由
+
 ![Untitled](/assets/apisix-15.png)
 ![Untitled](/assets/apisix-16.png)
 

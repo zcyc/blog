@@ -6,8 +6,8 @@ tags:
   - react
 ogImage: ""
 slug: "antd-tailwind"
-pubDatetime: 2021-05-03T08:59:17.000Z
-modDatetime: 2021-05-06T15:08:13.000Z
+pubDatetime: 2021-05-03T08:59:17.000+08:00
+modDatetime: 2021-05-06T15:08:13.000+08:00
 featured: false
 draft: false
 ---

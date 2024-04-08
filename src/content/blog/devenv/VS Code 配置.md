@@ -6,8 +6,8 @@ tags:
   - ide
 ogImage: ""
 slug: "vscode-config"
-pubDatetime: 2022-10-21T14:21:59.000Z
-modDatetime: 2023-10-13T18:27:08.000Z
+pubDatetime: 2022-10-21T14:21:59.000+08:00
+modDatetime: 2023-10-13T18:27:08.000+08:00
 featured: false
 draft: false
 ---

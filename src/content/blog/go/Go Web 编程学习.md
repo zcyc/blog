@@ -6,8 +6,8 @@ tags:
   - go
 ogImage: ""
 slug: "go-web"
-pubDatetime: 2021-12-22T06:38:20.000Z
-modDatetime: 2021-12-23T04:58:37.000Z
+pubDatetime: 2021-12-22T06:38:20.000+08:00
+modDatetime: 2021-12-23T04:58:37.000+08:00
 featured: false
 draft: false
 ---

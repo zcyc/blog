@@ -6,8 +6,8 @@ tags:
   - router
 ogImage: ""
 slug: "openwrt-cloudflare-ddns"
-pubDatetime: 2020-12-16T08:17:50.000Z
-modDatetime: 2022-06-29T18:58:16.000Z
+pubDatetime: 2020-12-16T08:17:50.000+08:00
+modDatetime: 2022-06-29T18:58:16.000+08:00
 featured: false
 draft: false
 ---

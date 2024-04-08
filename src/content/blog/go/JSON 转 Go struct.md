@@ -6,8 +6,8 @@ tags:
   - go
 ogImage: ""
 slug: "json-to-go"
-pubDatetime: 2021-12-15T08:55:41.000Z
-modDatetime: 2022-08-30T06:18:16.000Z
+pubDatetime: 2021-12-15T08:55:41.000+08:00
+modDatetime: 2022-08-30T06:18:16.000+08:00
 featured: false
 draft: false
 ---

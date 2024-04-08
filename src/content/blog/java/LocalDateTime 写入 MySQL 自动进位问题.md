@@ -6,8 +6,8 @@ tags:
   - java
 ogImage: ""
 slug: "localdatetime-mysql"
-pubDatetime: 2021-09-28T08:15:29.000Z
-modDatetime: 2023-04-23T05:53:14.000Z
+pubDatetime: 2021-09-28T08:15:29.000+08:00
+modDatetime: 2023-04-23T05:53:14.000+08:00
 featured: false
 draft: false
 ---

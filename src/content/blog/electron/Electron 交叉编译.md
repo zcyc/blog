@@ -6,8 +6,8 @@ tags:
   - electron
 ogImage: ""
 slug: "electron-build"
-pubDatetime: 2020-11-03T03:20:27.000Z
-modDatetime: 2021-06-26T10:39:59.000Z
+pubDatetime: 2020-11-03T03:20:27.000+08:00
+modDatetime: 2021-06-26T10:39:59.000+08:00
 featured: false
 draft: false
 ---

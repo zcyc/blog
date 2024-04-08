@@ -6,8 +6,8 @@ tags:
   - go
 ogImage: ""
 slug: "go-problems"
-pubDatetime: 2021-12-23T12:12:45.000Z
-modDatetime: 2022-07-02T10:37:59.000Z
+pubDatetime: 2021-12-23T12:12:45.000+08:00
+modDatetime: 2022-07-02T10:37:59.000+08:00
 featured: false
 draft: false
 ---

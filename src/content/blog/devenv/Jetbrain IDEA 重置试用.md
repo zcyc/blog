@@ -6,8 +6,8 @@ tags:
   - ide
 ogImage: ""
 slug: "jetbrain-idea-reset-trial"
-pubDatetime: 2021-04-27T03:20:28.000Z
-modDatetime: 2021-08-17T08:25:43.000Z
+pubDatetime: 2021-04-27T03:20:28.000+08:00
+modDatetime: 2021-08-17T08:25:43.000+08:00
 featured: false
 draft: false
 ---

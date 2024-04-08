@@ -6,8 +6,8 @@ tags:
   - linux
 ogImage: ""
 slug: "kali-parallels-tools"
-pubDatetime: 2020-10-19T06:54:11.000Z
-modDatetime: 2022-07-01T16:11:45.000Z
+pubDatetime: 2020-10-19T06:54:11.000+08:00
+modDatetime: 2022-07-01T16:11:45.000+08:00
 featured: false
 draft: false
 ---
@@ -165,4 +165,5 @@ tar -zcvf prl_mod.tar.gz . dkms.conf Makefile.kmods
 ```
 
 ### 5.安装 Parallels Tools 后 Kali 登陆后白屏
+
 ![Untitled](/assets/kali-parallels-tools-1.png)

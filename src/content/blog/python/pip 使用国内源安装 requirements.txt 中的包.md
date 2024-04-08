@@ -6,8 +6,8 @@ tags:
   - python
 ogImage: ""
 slug: "pip-install-requirements-txt-packages-from-mirror"
-pubDatetime: 2022-05-05T08:10:34.000Z
-modDatetime: 2022-07-01T16:08:56.000Z
+pubDatetime: 2022-05-05T08:10:34.000+08:00
+modDatetime: 2022-07-01T16:08:56.000+08:00
 featured: false
 draft: false
 ---

@@ -6,8 +6,8 @@ tags:
   - python
 ogImage: ""
 slug: "python-version-and-dependency-management"
-pubDatetime: 2022-07-01T15:56:44.000Z
-modDatetime: 2022-07-28T03:39:51.000Z
+pubDatetime: 2022-07-01T15:56:44.000+08:00
+modDatetime: 2022-07-28T03:39:51.000+08:00
 featured: false
 draft: false
 ---

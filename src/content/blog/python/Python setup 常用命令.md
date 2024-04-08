@@ -6,8 +6,8 @@ tags:
   - python
 ogImage: ""
 slug: "python-setup"
-pubDatetime: 2022-12-02T08:58:41.000Z
-modDatetime: 2022-12-02T08:59:26.000Z
+pubDatetime: 2022-12-02T08:58:41.000+08:00
+modDatetime: 2022-12-02T08:59:26.000+08:00
 featured: false
 draft: false
 ---

@@ -6,8 +6,8 @@ tags:
   - macos
 ogImage: ""
 slug: "macos-menu-bar-time-gray"
-pubDatetime: 2022-01-13T07:49:14.000Z
-modDatetime: 2022-06-10T06:46:54.000Z
+pubDatetime: 2022-01-13T07:49:14.000+08:00
+modDatetime: 2022-06-10T06:46:54.000+08:00
 featured: false
 draft: false
 ---

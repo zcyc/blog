@@ -6,8 +6,8 @@ tags:
   - uniapp
 ogImage: ""
 slug: "uni-app-get-location"
-pubDatetime: 2022-06-28T18:12:21.000Z
-modDatetime: 2022-06-28T18:13:21.000Z
+pubDatetime: 2022-06-28T18:12:21.000+08:00
+modDatetime: 2022-06-28T18:13:21.000+08:00
 featured: false
 draft: false
 ---

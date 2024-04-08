@@ -6,8 +6,8 @@ tags:
   - linux
 ogImage: ""
 slug: "centos-nginx"
-pubDatetime: 2022-04-18T02:18:09.000Z
-modDatetime: 2022-05-20T02:46:44.000Z
+pubDatetime: 2022-04-18T02:18:09.000+08:00
+modDatetime: 2022-05-20T02:46:44.000+08:00
 featured: false
 draft: false
 ---

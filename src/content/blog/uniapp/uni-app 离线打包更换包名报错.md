@@ -6,8 +6,8 @@ tags:
   - uniapp
 ogImage: ""
 slug: "uni-app-offline-packaging"
-pubDatetime: 2021-06-15T16:57:40.000Z
-modDatetime: 2022-07-01T16:23:41.000Z
+pubDatetime: 2021-06-15T16:57:40.000+08:00
+modDatetime: 2022-07-01T16:23:41.000+08:00
 featured: false
 draft: false
 ---

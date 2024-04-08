@@ -6,7 +6,7 @@ tags:
   - kubernetes
 ogImage: ""
 slug: "apisix-jwt-casbin"
-pubDatetime: 2023-11-15T09:57:00.000Z
+pubDatetime: 2023-11-15T09:57:00.000+08:00
 modDatetime:
 featured: false
 draft: false
@@ -14,10 +14,10 @@ draft: false
 
 现在我有两个用户:
 
-| user_name | role name |
-| --- | --- |
-| bob | hcare_normal |
-| tom | hcare_test |
+| user_name | role name    |
+| --------- | ------------ |
+| bob       | hcare_normal |
+| tom       | hcare_test   |
 
 我希望 hcare_normal 这个角色l能访问 `/test/httpbin` 这个路由, hcare_test 不能访问。
 
@@ -26,6 +26,7 @@ draft: false
 ![Untitled](/assets/apisix-jwt-casbin-1.png)
 
 customer配置类似如下:
+
 ```json
 {
   "username": "hcare_normal",
@@ -141,7 +142,7 @@ authz-casbin 的鉴权逻辑是，例如我有一个配置是：
 
 ![Untitled](/assets/apisix-jwt-casbin-2.png)
 
-在 jwt-auth 的 _M.rewrite 函数结尾添加如下内容：
+在 jwt-auth 的 \_M.rewrite 函数结尾添加如下内容：
 
 ```lua
 ---负值新 header
@@ -156,6 +157,7 @@ configmap:
 ![Untitled](/assets/apisix-jwt-casbin-6.png)
 
 在 apisix 的配置文件里添加如下内容：
+
 ```yml
 enable_debug: true
 enable_dev_mode: true

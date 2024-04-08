@@ -6,8 +6,8 @@ tags:
   - java
 ogImage: ""
 slug: "mybatis-plus"
-pubDatetime: 2020-11-13T13:55:03.000Z
-modDatetime: 2021-06-26T10:32:57.000Z
+pubDatetime: 2020-11-13T13:55:03.000+08:00
+modDatetime: 2021-06-26T10:32:57.000+08:00
 featured: false
 draft: false
 ---

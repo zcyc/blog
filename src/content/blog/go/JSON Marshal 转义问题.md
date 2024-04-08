@@ -6,8 +6,8 @@ tags:
   - go
 ogImage: ""
 slug: "json-marshal"
-pubDatetime: 2023-01-09T07:20:43.000Z
-modDatetime: 2023-01-09T07:22:23.000Z
+pubDatetime: 2023-01-09T07:20:43.000+08:00
+modDatetime: 2023-01-09T07:22:23.000+08:00
 featured: false
 draft: false
 ---

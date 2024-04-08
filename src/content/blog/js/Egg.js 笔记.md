@@ -6,8 +6,8 @@ tags:
   - js
 ogImage: ""
 slug: "eggjs"
-pubDatetime: 2019-07-20T10:02:38.000Z
-modDatetime: 2022-06-30T11:24:30.000Z
+pubDatetime: 2019-07-20T10:02:38.000+08:00
+modDatetime: 2022-06-30T11:24:30.000+08:00
 featured: false
 draft: false
 ---
@@ -82,7 +82,7 @@ package.json要写成这样,记得改备注那一条的内容，然后删掉备�
     "tsc": "ets && tsc -p tsconfig.json", //将ts项目编译成js，正式服必须用js部署
     "ci": "npm run lint && npm run cov && npm run tsc"
   },
-  "author": "CharlieZzo <8595764@qq.coom>",
+  "author": "Charles",
   "license": "MIT"
 }
 ```

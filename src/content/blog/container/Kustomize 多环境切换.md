@@ -6,8 +6,8 @@ tags:
   - kubernetes
 ogImage: ""
 slug: "kustomize"
-pubDatetime: 2022-07-31T11:08:17.000Z
-modDatetime: 2022-09-17T15:53:55.000Z
+pubDatetime: 2022-07-31T11:08:17.000+08:00
+modDatetime: 2022-09-17T15:53:55.000+08:00
 featured: false
 draft: false
 ---

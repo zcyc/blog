@@ -6,14 +6,16 @@ tags:
   - ai
 ogImage: ""
 slug: "langchain-chatchat-problems"
-pubDatetime: 2023-12-04T11:33:00.000Z
-modDatetime: 2023-12-05T14:49:00.000Z
+pubDatetime: 2023-12-04T11:33:00.000+08:00
+modDatetime: 2023-12-05T14:49:00.000+08:00
 featured: false
 draft: false
 ---
 
 ## 无法远程访问
+
 将 DEFAULT_BIND_HOST 的值改成 0.0.0.0，将 "10.0.4.99" 改成你的 Langchain-Chatchat 部署机器的内网地址
+
 ```csharp
 import sys
 from configs.model_config import LLM_DEVICE

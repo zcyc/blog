@@ -6,8 +6,8 @@ tags:
   - go
 ogImage: ""
 slug: "go-vscode"
-pubDatetime: 2022-10-18T10:03:11.000Z
-modDatetime: 2022-11-08T03:46:34.000Z
+pubDatetime: 2022-10-18T10:03:11.000+08:00
+modDatetime: 2022-11-08T03:46:34.000+08:00
 featured: false
 draft: false
 ---

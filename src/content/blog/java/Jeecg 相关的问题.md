@@ -6,8 +6,8 @@ tags:
   - java
 ogImage: ""
 slug: "jeecg"
-pubDatetime: 2021-03-23T07:45:46.000Z
-modDatetime: 2023-04-23T05:51:29.000Z
+pubDatetime: 2021-03-23T07:45:46.000+08:00
+modDatetime: 2023-04-23T05:51:29.000+08:00
 featured: false
 draft: false
 ---

@@ -6,8 +6,8 @@ tags:
   - java
 ogImage: ""
 slug: "maven"
-pubDatetime: 2021-11-14T13:10:46.000Z
-modDatetime: 2022-06-27T18:34:50.000Z
+pubDatetime: 2021-11-14T13:10:46.000+08:00
+modDatetime: 2022-06-27T18:34:50.000+08:00
 featured: false
 draft: false
 ---

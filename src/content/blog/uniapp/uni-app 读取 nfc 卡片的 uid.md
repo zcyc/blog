@@ -6,8 +6,8 @@ tags:
   - uniapp
 ogImage: ""
 slug: "uni-app-read-nfc-uid"
-pubDatetime: 2021-05-24T07:50:28.000Z
-modDatetime: 2022-02-07T07:31:40.000Z
+pubDatetime: 2021-05-24T07:50:28.000+08:00
+modDatetime: 2022-02-07T07:31:40.000+08:00
 featured: false
 draft: false
 ---

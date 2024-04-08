@@ -6,8 +6,8 @@ tags:
   - vue
 ogImage: ""
 slug: "web-copy-to-clipboard"
-pubDatetime: 2022-04-18T03:46:02.000Z
-modDatetime: 2022-11-07T08:17:14.000Z
+pubDatetime: 2022-04-18T03:46:02.000+08:00
+modDatetime: 2022-11-07T08:17:14.000+08:00
 featured: false
 draft: false
 ---

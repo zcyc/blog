@@ -6,8 +6,8 @@ tags:
   - mysql
 ogImage: ""
 slug: "ubuntu-mysql"
-pubDatetime: 2021-05-10T10:33:53.000Z
-modDatetime: 2022-06-28T18:24:00.000Z
+pubDatetime: 2021-05-10T10:33:53.000+08:00
+modDatetime: 2022-06-28T18:24:00.000+08:00
 featured: false
 draft: false
 ---

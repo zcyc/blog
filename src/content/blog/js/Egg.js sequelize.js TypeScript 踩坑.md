@@ -6,8 +6,8 @@ tags:
   - js
 ogImage: ""
 slug: "egg-sequelize-typescript"
-pubDatetime: 2019-07-15T09:09:21.000Z
-modDatetime: 2020-12-02T13:41:37.000Z
+pubDatetime: 2019-07-15T09:09:21.000+08:00
+modDatetime: 2020-12-02T13:41:37.000+08:00
 featured: false
 draft: false
 ---

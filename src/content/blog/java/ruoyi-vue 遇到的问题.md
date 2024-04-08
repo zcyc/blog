@@ -6,8 +6,8 @@ tags:
   - java
 ogImage: ""
 slug: "ruoyi-vue"
-pubDatetime: 2021-05-12T01:28:38.000Z
-modDatetime: 2022-06-27T18:43:18.000Z
+pubDatetime: 2021-05-12T01:28:38.000+08:00
+modDatetime: 2022-06-27T18:43:18.000+08:00
 featured: false
 draft: false
 ---

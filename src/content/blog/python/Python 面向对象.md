@@ -6,8 +6,8 @@ tags:
   - python
 ogImage: ""
 slug: "python-oop"
-pubDatetime: 2022-06-27T19:00:28.000Z
-modDatetime: 2022-06-27T19:00:52.000Z
+pubDatetime: 2022-06-27T19:00:28.000+08:00
+modDatetime: 2022-06-27T19:00:52.000+08:00
 featured: false
 draft: false
 ---

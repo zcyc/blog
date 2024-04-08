@@ -6,8 +6,8 @@ tags:
   - linux
 ogImage: ""
 slug: "linux-tar-gz"
-pubDatetime: 2021-06-25T11:07:50.000Z
-modDatetime: 2022-08-04T10:20:00.000Z
+pubDatetime: 2021-06-25T11:07:50.000+08:00
+modDatetime: 2022-08-04T10:20:00.000+08:00
 featured: false
 draft: false
 ---

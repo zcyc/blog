@@ -6,8 +6,8 @@ tags:
   - webrtc
 ogImage: ""
 slug: "webrtc-basic-service-setup"
-pubDatetime: 2022-09-17T14:52:17.000Z
-modDatetime: 2023-07-26T05:53:04.000Z
+pubDatetime: 2022-09-17T14:52:17.000+08:00
+modDatetime: 2023-07-26T05:53:04.000+08:00
 featured: false
 draft: false
 ---

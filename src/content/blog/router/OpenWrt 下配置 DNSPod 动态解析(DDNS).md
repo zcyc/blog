@@ -6,8 +6,8 @@ tags:
   - router
 ogImage: ""
 slug: "openwrt-dnspod-ddns"
-pubDatetime: 2020-12-16T08:21:07.000Z
-modDatetime: 2022-06-27T18:47:02.000Z
+pubDatetime: 2020-12-16T08:21:07.000+08:00
+modDatetime: 2022-06-27T18:47:02.000+08:00
 featured: false
 draft: false
 ---

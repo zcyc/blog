@@ -6,8 +6,8 @@ tags:
   - windows
 ogImage: ""
 slug: "terminal-powershell-oh-my-posh"
-pubDatetime: 2022-11-07T08:19:08.000Z
-modDatetime: 2022-11-07T09:36:44.000Z
+pubDatetime: 2022-11-07T08:19:08.000+08:00
+modDatetime: 2022-11-07T09:36:44.000+08:00
 featured: false
 draft: false
 ---

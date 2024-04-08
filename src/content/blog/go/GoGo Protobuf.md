@@ -6,8 +6,8 @@ tags:
   - go
 ogImage: ""
 slug: "gogoproto"
-pubDatetime: 2022-06-02T06:25:47.000Z
-modDatetime: 2022-06-13T10:28:46.000Z
+pubDatetime: 2022-06-02T06:25:47.000+08:00
+modDatetime: 2022-06-13T10:28:46.000+08:00
 featured: false
 draft: false
 ---
@@ -90,6 +90,7 @@ go get -u github.com/gogo/protobuf/jsonpb
 
 取消勾选这个自动配置，然后添加一个，这里选择你的 $GOPATH/src/
 ![Untitled](/assets/gogoproto-1.png)
+
 ### 编写 proto 文件
 
 - 参考 gogo 官方例子

@@ -6,8 +6,8 @@ tags:
   - go
 ogImage: ""
 slug: "goframe"
-pubDatetime: 2022-07-17T10:03:43.000Z
-modDatetime: 2022-11-10T02:27:33.000Z
+pubDatetime: 2022-07-17T10:03:43.000+08:00
+modDatetime: 2022-11-10T02:27:33.000+08:00
 featured: false
 draft: false
 ---
@@ -16,6 +16,7 @@ draft: false
 
 main -> cmd -> api(controller 的定义) -> controller(请求参数的处理) -> service(logic 的接口) -> logic(业务逻辑的实现)
 ![Untitled](/assets/goframe-1.png)
+
 # API 定义
 
 ## 接口

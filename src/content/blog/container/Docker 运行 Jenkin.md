@@ -6,8 +6,8 @@ tags:
   - docker
 ogImage: ""
 slug: "docker-jenkins"
-pubDatetime: 2022-08-02T06:04:36.000Z
-modDatetime: 2022-08-02T06:20:14.000Z
+pubDatetime: 2022-08-02T06:04:36.000+08:00
+modDatetime: 2022-08-02T06:20:14.000+08:00
 featured: false
 draft: false
 ---

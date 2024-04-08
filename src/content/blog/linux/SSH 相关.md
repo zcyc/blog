@@ -6,8 +6,8 @@ tags:
   - linux
 ogImage: ""
 slug: "ssh"
-pubDatetime: 2021-01-08T06:27:22.000Z
-modDatetime: 2022-08-02T01:59:05.000Z
+pubDatetime: 2021-01-08T06:27:22.000+08:00
+modDatetime: 2022-08-02T01:59:05.000+08:00
 featured: false
 draft: false
 ---

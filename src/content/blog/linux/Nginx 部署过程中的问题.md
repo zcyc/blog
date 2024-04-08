@@ -6,8 +6,8 @@ tags:
   - linux
 ogImage: ""
 slug: "nginx"
-pubDatetime: 2021-05-24T05:12:47.000Z
-modDatetime: 2022-11-07T09:52:32.000Z
+pubDatetime: 2021-05-24T05:12:47.000+08:00
+modDatetime: 2022-11-07T09:52:32.000+08:00
 featured: false
 draft: false
 ---

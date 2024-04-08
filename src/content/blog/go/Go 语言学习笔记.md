@@ -6,8 +6,8 @@ tags:
   - go
 ogImage: ""
 slug: "go-notes"
-pubDatetime: 2021-12-16T09:14:59.000Z
-modDatetime: 2022-02-08T11:23:14.000Z
+pubDatetime: 2021-12-16T09:14:59.000+08:00
+modDatetime: 2022-02-08T11:23:14.000+08:00
 featured: false
 draft: false
 ---

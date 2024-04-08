@@ -6,8 +6,8 @@ tags:
   - flutter
 ogImage: ""
 slug: "macos-keytool-keystore"
-pubDatetime: 2020-10-19T08:48:26.000Z
-modDatetime: 2022-05-31T07:39:14.000Z
+pubDatetime: 2020-10-19T08:48:26.000+08:00
+modDatetime: 2022-05-31T07:39:14.000+08:00
 featured: false
 draft: false
 ---

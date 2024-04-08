@@ -6,8 +6,8 @@ tags:
   - rust
 ogImage: ""
 slug: "tauri-arco"
-pubDatetime: 2022-03-03T14:57:20.000Z
-modDatetime: 2022-03-07T02:28:49.000Z
+pubDatetime: 2022-03-03T14:57:20.000+08:00
+modDatetime: 2022-03-07T02:28:49.000+08:00
 featured: false
 draft: false
 ---

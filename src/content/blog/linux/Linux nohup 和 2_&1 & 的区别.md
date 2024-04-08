@@ -6,8 +6,8 @@ tags:
   - linux
 ogImage: ""
 slug: "linux-nohup"
-pubDatetime: 2021-11-14T13:09:52.000Z
-modDatetime: 2022-05-20T02:36:39.000Z
+pubDatetime: 2021-11-14T13:09:52.000+08:00
+modDatetime: 2022-05-20T02:36:39.000+08:00
 featured: false
 draft: false
 ---
