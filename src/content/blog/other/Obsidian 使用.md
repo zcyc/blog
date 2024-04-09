@@ -10,7 +10,7 @@ featured: false
 draft: false
 ---
 
-# 使用 Template
+# 使用 Templater
 
 需要安装 Templater 插件
 
