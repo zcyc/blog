@@ -1,7 +1,7 @@
 ---
-title: "obsidian"
+title: "Obsidian 使用"
 author: "Charles"
-description: "obsidian 模版"
+description: "Obsidian Templater 和 QuickAdd 插件使用"
 tags:
   - other
 slug: "obsidian"
