@@ -1,12 +1,12 @@
 ---
-title: "分布式唯一 ID 特性一览"
+title: "唯一 ID 对比"
 author: "Charles"
 description: ""
 tags:
   - article
 slug: "unique-id-compare"
 pubDatetime: 2022-11-14T12:32:07.000+08:00
-modDatetime: 2023-06-19T15:39:05.000+08:00
+modDatetime: 2024-04-15T12:22:05.000+08:00
 featured: false
 draft: false
 ---
@@ -14,8 +14,8 @@ draft: false
 # 特性对比
 
 本文以 Go 为例子，在默认配置下统计。
-不包含美团Leaf、百度UidGenerator、滴滴TinyId的统计，这三个特性类似 Snowflake。
-Sonyflake 特性类似 Snowflake，但是博主比较喜欢索尼，所以也加到表里了。
+不包含美团 Leaf、百度 UidGenerator、滴滴 TinyId，这三个类似 Snowflake。
+Sonyflake 也类似 Snowflake，但是博主比较喜欢索尼，所以在表里。
 
 | 仓库地址                                            | 长度 | 字母表                              | 包含时间戳 | 包含机器号 | 包含随机数 | 自定义种子 | 自定义码表 | 自定义长度 | 易读性 | 美观性 | URL友好 | 排序友好 | 分表友好 | 输入友好 | 操作友好 | 可以校验 |
 | --------------------------------------------------- | ---- | ----------------------------------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ------ | ------ | ------- | -------- | -------- | -------- | -------- | -------- |
@@ -27,20 +27,21 @@ Sonyflake 特性类似 Snowflake，但是博主比较喜欢索尼，所以也加
 | [ULID](https://github.com/oklog/ulid)               | 26位 | \[0123456789ABCDEFGHJKMNPQRSTVWXYZ] | ✔         | <br />     | ✔         | ✔         | <br />     | <br />     | <br /> | ✔     | ✔      | ✔       | ✔       | <br />   | ✔       | ✔       |
 | [XID](https://github.com/rs/xid)                    | 20位 | \[0-9a-v]                           | ✔         | ✔         | ✔         | <br />     | <br />     | <br />     | <br /> | ✔     | ✔      | ✔       | ✔       | <br />   | ✔       | ✔       |
 | [KSUID](https://github.com/segmentio/ksuid)         | 27位 | \[0-9A-Za-z]                        | ✔         | <br />     | ✔         | ✔         | <br />     | <br />     | <br /> | <br /> | ✔      | ✔       | ✔       | <br />   | ✔       | ✔       |
+| [Sqids](https://github.com/sqids/sqids-go)         | 6位 | \[0-9A-Za-z]                        | <br />    | <br />     | ✔         | ✔         | <br />     | ✔      | <br /> | <br /> | ✔      | <br /> | <br /> | <br />   | ✔       | <br /> |
 
 # 特性解释
 
-唯一性（集群内不重复）
-易读性（不包含易混淆字符）
-美观性（大小写统一）
-URL友好（无符号）
-排序友好（基于字母表顺序）
-分表友好（可提取时间戳）
-输入友好（纯数字）
-操作友好（电脑支持双击选中，手机支持长按选中）
-安全（不暴露 MAC 地址）
-保密（不暴露业务实际流水）
-时间回拨可用（不依赖系统时钟）
+- 唯一性（集群内不重复）
+- 易读性（不包含易混淆字符）
+- 美观性（大小写统一）
+- URL友好（无特殊符号）
+- 排序友好（基于字母表顺序）
+- 分表友好（可提取时间戳）
+- 输入友好（纯数字）
+- 操作友好（电脑支持双击选中，手机支持长按选中）
+- 安全（不暴露 MAC 地址）
+- 保密（不暴露业务实际流水）
+- 时间回拨可用（不依赖系统时钟）
 
 # 测试代码
 
@@ -61,6 +62,8 @@ import (
 	"github.com/rs/xid"
 	"github.com/segmentio/ksuid"
 	"github.com/sony/sonyflake"
+        "github.com/sqids/sqids-go"
+
 )
 
 func main() {
@@ -72,6 +75,7 @@ func main() {
 	ulidTest()
 	xidTest()
 	ksuidTest()
+        sqidsTest()
 }
 
 func snowflakeTest() {
@@ -132,5 +136,18 @@ func xidTest() {
 func ksuidTest() {
 	id := ksuid.New()
 	fmt.Println("ksuid:", id, "length:", len(id))
+}
+
+func sqidsTest() {
+	s, _ := sqids.New()
+	id, _ := s.Encode([]uint64{1, 2, 3})
+        fmt.Println("sqids:", id, "length:", len(id))
+        s, _ := sqids.New(sqids.Options{
+		MinLength: 10,
+	})
+	id, _ := s.Encode([]uint64{1, 2, 3})
+        fmt.Println("sqids2:", id, "length:", len(id))
+	numbers := s.Decode(id)
+        fmt.Println("sqids numbers:", numbers)
 }
 ```
