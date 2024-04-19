@@ -17,7 +17,4 @@ add_header Content-Security-Policy "frame-ancestors 'self' *.test.com *.test.cn"
 ```
 
 # 配置允许跨站 Set-Cookie
-
-```
-add_header Set-Cookie "SameSite=None; Secure" always;
-```
+[点击查看文档](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/Set-Cookie)
