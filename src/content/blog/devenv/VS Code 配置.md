@@ -6,7 +6,7 @@ tags:
   - ide
 slug: "vscode-config"
 pubDatetime: 2022-10-21T14:21:59.000+08:00
-modDatetime: 2023-10-13T18:27:08.000+08:00
+modDatetime: 2024-05-06T17:10:00.000+08:00
 featured: false
 draft: false
 ---
@@ -42,25 +42,14 @@ draft: false
   "workbench.editor.pinnedTabsOnSeparateRow": true,
   // 标签换行
   "workbench.editor.wrapTabs": true,
-  // 保存时格式化
-  "editor.formatOnSave": true,
   // 代码小地图
   "editor.minimap.enabled": false,
+  // 保存时格式化
+  "editor.formatOnSave": false,
   // 保存时执行操作
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true, // 修复 Eslint
-    "source.organizeImports": true // 按照字母表顺序重排 import
-  },
-  // 保存时执行命令
-  "saveAndRun": {
-    "commands": [
-      {
-        "match": "internal/logic/.*.go",
-        "cmd": "gf gen service",
-        "useShortcut": false,
-        "silent": true
-      } // goframe
-    ]
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
   },
   // 彩虹括号
   "editor.bracketPairColorization.enabled": true,
@@ -82,31 +71,66 @@ draft: false
   "go.useLanguageServer": true,
   // Go 工具自动升级工具
   "go.toolsManagement.autoUpdate": true,
-  // 设置默认格式化器
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[yaml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  // Enable the ESlint flat config support
+  "eslint.experimental.useFlatConfig": true,
+  // Silent the stylistic rules in you IDE, but still auto fix them
+  "eslint.rules.customizations": [
+    {
+      "rule": "style/*",
+      "severity": "off"
+    },
+    {
+      "rule": "format/*",
+      "severity": "off"
+    },
+    {
+      "rule": "*-indent",
+      "severity": "off"
+    },
+    {
+      "rule": "*-spacing",
+      "severity": "off"
+    },
+    {
+      "rule": "*-spaces",
+      "severity": "off"
+    },
+    {
+      "rule": "*-order",
+      "severity": "off"
+    },
+    {
+      "rule": "*-dangle",
+      "severity": "off"
+    },
+    {
+      "rule": "*-newline",
+      "severity": "off"
+    },
+    {
+      "rule": "*quotes",
+      "severity": "off"
+    },
+    {
+      "rule": "*semi",
+      "severity": "off"
+    }
+  ],
+  // Enable eslint for all supported languages
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml",
+    "toml"
+  ],
+  "eslint.format.enable": true,
 }
 ```
 
@@ -116,12 +140,9 @@ draft: false
 包含 Rust、Go、Python、Lua、TypeScript、JavaScript、React、Vue 等常用扩展。
 
 ```json
-aminer.codegeex
-antfu.browse-lite
 antfu.goto-alias
 antfu.iconify
 antfu.unocss
-antfu.vite
 astro-build.astro-vscode
 bradlc.vscode-tailwindcss
 csstools.postcss
@@ -130,30 +151,50 @@ dart-code.flutter
 dbaeumer.vscode-eslint
 donjayamanne.githistory
 dsznajder.es7-react-js-snippets
+esbenp.prettier-vscode
+firsttris.vscode-jest-runner
+github.copilot
+github.copilot-chat
 golang.go
 gruntfuggly.todo-tree
 lokalise.i18n-ally
 ms-azuretools.vscode-docker
-ms-ceintl.vscode-language-pack-zh-hans
 ms-python.black-formatter
 ms-python.debugpy
 ms-python.isort
 ms-python.pylint
 ms-python.python
 ms-python.vscode-pylance
+ms-toolsai.jupyter
+ms-toolsai.jupyter-keymap
+ms-toolsai.jupyter-renderers
+ms-toolsai.vscode-jupyter-cell-tags
+ms-toolsai.vscode-jupyter-slideshow
+ms-vscode-remote.remote-containers
+ms-vscode-remote.remote-ssh
+ms-vscode-remote.remote-ssh-edit
+ms-vscode-remote.remote-wsl
+ms-vscode-remote.vscode-remote-extensionpack
+ms-vscode.remote-explorer
+ms-vscode.remote-server
+njqdev.vscode-python-typehint
+nrwl.angular-console
 quicktype.quicktype
+redhat.vscode-xml
 redhat.vscode-yaml
 rust-lang.rust-analyzer
 sdras.vue-vscode-snippets
 sibiraj-s.vscode-scss-formatter
 simonhe.common-intellisense
+streetsidesoftware.code-spell-checker
+sumneko.lua
 tauri-apps.tauri-vscode
 usernamehw.errorlens
 vadimcn.vscode-lldb
+vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
 vue.volar
-wk-j.save-and-run
 wmaurer.change-case
-yinfei.luahelper
 yokoe.vscode-postfix-go
 yzhang.markdown-all-in-one
 zxh404.vscode-proto3
