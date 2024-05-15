@@ -11,9 +11,14 @@ tags:
 description: goframe grpc
 ---
 
+# Demo
+[gf-grpc-template](https://github.com/zcyc/gf-grpc-template)
+
 # 开发流程
 
-1. 配置 hack/config.yaml
+## 0. gf init myapp
+
+## 1. 配置 hack/config.yaml
 
 ```
 # GoFrame CLI tool configuration.
@@ -30,7 +35,7 @@ gfcli:
         tables: "user"
 ```
 
-2. 配置 manifest/config/config.yaml
+## 2. 配置 manifest/config/config.yaml
 
 ```
 # GRPC Server.
@@ -61,21 +66,21 @@ database:
     debug: true
 ```
 
-3. 生成 manifest/protobuf/pbentity/user.proto
+## 3. 生成 manifest/protobuf/pbentity/user.proto
 
 ```
 gf gen pbentity
 ```
 
-4. 生成 api/pbentity/user.pb.go
-   此处执行官方的 gf gen pb 会报错 google/protobuf/timestamp.proto 找不到
+## 4. 生成 api/pbentity/user.pb.go
+此处执行官方的 gf gen pb 会报错 google/protobuf/timestamp.proto 找不到
 
 ```
 protoc -I $GOPATH/src --proto_path=/your-source-folder --go_out=paths=source_relative:/your-source-folder --go-grpc_out=paths=source_relative:/your-source-folder /your-source-folder/manifest/protobuf/pbentity/user.proto
 ```
 
-5. 编写 manifest/protobuf/user/v1/user.proto
-   这个 proto 就是最终提供给调用方的接口
+## 5. 编写 manifest/protobuf/user/v1/user.proto
+这个 proto 就是最终提供给调用方的接口
 
 ```
 syntax = "proto3";
@@ -122,32 +127,33 @@ message DeleteReq {
 message DeleteRes {}
 ```
 
-6. 生成 pb 文件
+## 6. 生成 pb 文件
 
 ```
 protoc -I $GOPATH/src -I /your-source-folder/manifest/protobuf --proto_path=/your-source-folder --go_out=paths=source_relative:/your-source-folder/api --go-grpc_out=paths=source_relative:/your-source-folder/api /your-source-folder/manifest/protobuf/user/v1/user.proto
 ```
 
-7. 生成 model 文件
-   do 用来操作数据库，entity 用来从数据库取值
+## 7. 生成 model 文件
+do 用来操作数据库，entity 用来从数据库取值
 
 ```
 gf gen dao
 ```
 
-8. 编写 logic
-9. 生成 service
+## 8. 编写 logic
+
+## 9. 生成 service
 
 ```
 gf gen service
 ```
 
-10. 编写 controller
+## 10. 编写 controller
 
 # 注意事项
 
-$GOPATH/src 要提前准备好依赖的 proto
+要在 $GOPATH/src 目录下提前准备好依赖的 proto，或者放在 proto 同一目录下
 
 # 遇到的问题
 
-orm scan 到 proto 中时间戳类型时间一直为0
+ORM 直接 Scan 到 pbentity 中时间一直为 0，可以先 Scan 到 Enity，然后再处理，demo 中有演示代码。
