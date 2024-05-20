@@ -2,7 +2,7 @@
 title: GoFrame gRPC 入门
 author: Charles
 pubDatetime: 2024-05-10T18:49:53.000+08:00
-modDatetime:
+modDatetime: 2024-05-20T16:51:00.000+08:00
 featured: false
 slug: go-goframe-grpc-ru-men
 draft: false
