@@ -72,9 +72,10 @@ database:
 gf gen pbentity
 ```
 
-## 4. 生成 api/pbentity/user.pb.go
-此处执行官方的 gf gen pb 会报错 google/protobuf/timestamp.proto 找不到
+<font color=red>如果你的项目在 $GOPATH/src 下，执行 gf gen pb，跳过第 4-6 步</font>
 
+## 4. 生成 api/pbentity/user.pb.go
+由于我的项目不在 $GOPATH/src 下，执行 gf gen pb 会报错找不到 google/protobuf/timestamp.proto，所以手动生成 pbentity
 ```
 protoc -I $GOPATH/src --proto_path=/your-source-folder --go_out=paths=source_relative:/your-source-folder --go-grpc_out=paths=source_relative:/your-source-folder /your-source-folder/manifest/protobuf/pbentity/user.proto
 ```
@@ -128,7 +129,7 @@ message DeleteRes {}
 ```
 
 ## 6. 生成 pb 文件
-
+由于我的项目不在 $GOPATH/src 下，执行 gf gen pb 会在第 4 步报错，所以手动生成 pb
 ```
 protoc -I $GOPATH/src -I /your-source-folder/manifest/protobuf --proto_path=/your-source-folder --go_out=paths=source_relative:/your-source-folder/api --go-grpc_out=paths=source_relative:/your-source-folder/api /your-source-folder/manifest/protobuf/user/v1/user.proto
 ```
