@@ -130,7 +130,7 @@ draft: false
     "yaml",
     "toml"
   ],
-  "eslint.format.enable": true,
+  "eslint.format.enable": true
 }
 ```
 
