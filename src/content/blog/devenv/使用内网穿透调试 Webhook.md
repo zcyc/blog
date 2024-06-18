@@ -10,7 +10,7 @@ featured: false
 draft: false
 ---
 
-最近调试 GitHub Webhook 需要用隧道，所以试用了市面上的各种隧道
+最近调试 GitHub Webhook 需要公网地址，所以试用了各种内网穿透服务，以下是体验比较好的。
 
 # [smee](https://smee.io)
 
@@ -45,7 +45,7 @@ ngrok http http://localhost:8080
 # [dev tunnel](https://learn.microsoft.com/en-us/azure/developer/dev-tunnels/get-started?tabs=macos#install)
 
 ## 安装 cli
-brew 安装启动时提示版本过旧
+使用 brew 安装启动时会提示版本过旧
 ```bash
 curl -sL https://aka.ms/DevTunnelCliInstall | bash
 ```
@@ -60,3 +60,30 @@ devtunnel user login -g
 ```bash
 devtunnel host -p 8080
 ```
+
+# [Zero Trust](https://one.dash.cloudflare.com/)
+
+## 创建 Tunnel
+1. 进入 Networks - Tunnels
+2. 点击 Create a tunnel
+2. 选择 Cloudflared
+3. 随意填写 Tunnel name
+4. 点击 Save tunnel
+
+## 安装并运行 connector
+1. Save tunnel 后会显示命令，复制执行即可。示例命令：
+```bash
+brew install cloudflared && 
+sudo cloudflared service install XXX
+```
+2. 安装完成后点击 `Next`
+
+## 配置路由
+1. 选择 Public Hostnames
+2. 按需填写子域名
+3. 选择域名
+4. 填写路径
+5. 选择服务类型
+6. 填写URL，不要写 http:// 和 https://
+3. 点击 Save tunnel
+4. 测试路由能否正常访问
