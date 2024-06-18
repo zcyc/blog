@@ -6,6 +6,7 @@ tags:
   - env
 slug: "devtunnel"
 pubDatetime: 2024-06-16T16:39:32.000+08:00
+modDatetime: 2024-06-19T01:00:00.000+08:00
 featured: false
 draft: false
 ---
@@ -32,7 +33,7 @@ brew install ngrok/ngrok/ngrok
 ```
 
 ## 写入 token
-登录后查看 token
+登陆后执行页面显示的命令，示例：
 ```bash
 ngrok config add-authtoken XXX
 ```
@@ -64,26 +65,26 @@ devtunnel host -p 8080
 # [Zero Trust](https://one.dash.cloudflare.com/)
 
 ## 创建 Tunnel
-1. 进入 Networks - Tunnels
+1. 进入 `Networks` - `Tunnels`
 2. 点击 Create a tunnel
 2. 选择 Cloudflared
-3. 随意填写 Tunnel name
+3. 填写 Tunnel name
 4. 点击 Save tunnel
 
 ## 安装并运行 connector
-1. Save tunnel 后会显示命令，复制执行即可。示例命令：
+1. 执行页面显示的命令，示例：
 ```bash
 brew install cloudflared && 
 sudo cloudflared service install XXX
 ```
-2. 安装完成后点击 `Next`
+2. 安装完成后点击 Next
 
 ## 配置路由
-1. 选择 Public Hostnames
-2. 按需填写子域名
-3. 选择域名
-4. 填写路径
-5. 选择服务类型
-6. 填写URL，不要写 http:// 和 https://
+1. 选择 `Public Hostnames`
+2. 填写 Subdomain
+3. 选择 Domain
+4. 填写 Path
+5. 选择 Type
+6. 填写 URL，不要写 http:// 和 https://
 3. 点击 Save tunnel
 4. 测试路由能否正常访问
