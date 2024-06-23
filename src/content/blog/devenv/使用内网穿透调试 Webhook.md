@@ -1,11 +1,11 @@
 ---
-title: "通过隧道调试 webhook"
+title: "使用内网穿透调试 Webhook"
 author: "Charles"
 description: ""
 tags:
   - env
 slug: "devtunnel"
-pubDatetime: 2024-06-19T01:00:00.000+08:00
+pubDatetime: 2024-06-16T16:39:32.000+08:00
 modDatetime: 2024-06-19T01:07:00.000+08:00
 featured: false
 draft: false
