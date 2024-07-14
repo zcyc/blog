@@ -27,14 +27,12 @@ Strapi 可以生成 CMS 接口。
 ### [Directus](https://github.com/directus/directus)
 Directus 可以生成 CMS 接口，组件比 Strapi 丰富，数据关联不如 Strapi 好用。
 ## workflow
-### [n8n](https://github.com/n8n-io/n8n)
-使用简单，应用丰富，工作流编辑
-### [Huginn](https://github.com/huginn/huginn)
-官方 docker 镜像不支持 arm 架构，待评测
-### [Automatisch](https://github.com/automatisch/automatisch)
-使用简单，应用很少，流程编辑
 ### [Activepieces](https://github.com/activepieces/activepieces)
+节点多
+### [n8n](https://github.com/n8n-io/n8n)
+节点多，交互不如 Activepieces
 ### [Node-RED](https://github.com/node-red/node-red)
+节点少，无账号系统，适合作为工作流组件嵌入到其他应用中
 
 # 前端
 对于前端来说，快速完成核心交互是重中之重。
