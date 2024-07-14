@@ -94,12 +94,18 @@ Laravel 可以使用 Resource controller 生成 REST 接口，不推荐。
 ### [Loops](https://loops.so/)
 
 ### [Brevo](https://www.brevo.com/)
-
+无需集成
 ### [Klaviyo](https://www.klaviyo.com/)
 
 ### [mailchimp](https://mailchimp.com/)
+无需集成
 
 # 其他
 
-### [component-party](https://component-party.dev/)
-通过你熟悉的前端框架学习另一个前端框架
+## workflow
+
+### [n8n](https://github.com/n8n-io/n8n)
+### [Huginn](https://github.com/huginn/huginn)
+### [Automatisch](https://github.com/automatisch/automatisch)
+### [Activepieces](https://github.com/activepieces/activepieces)
+### [Node-RED](https://github.com/node-red/node-red)
