@@ -23,9 +23,9 @@ Nest 可以使用 CRUD generator 生成 REST 接口。
 ### [Laravel](https://github.com/laravel/laravel)
 Laravel 可以使用 Resource controller 生成 REST 接口。
 ### [Strapi](https://github.com/strapi/strapi)
-Strapi 可以快速生成 CMS 接口，其他业务不适用。
+Strapi 可以生成 CMS 接口。
 ### [Directus](https://github.com/directus/directus)
-Directus 可以快速生成 CMS 接口，组件比 Strapi 多，但是数据关联不如 Strapi 好用。
+Directus 可以生成 CMS 接口，组件比 Strapi 丰富，数据关联不如 Strapi 好用。
 ## workflow
 ### [n8n](https://github.com/n8n-io/n8n)
 ### [Huginn](https://github.com/huginn/huginn)
