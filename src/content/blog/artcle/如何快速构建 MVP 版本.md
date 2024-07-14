@@ -36,7 +36,6 @@ Directus 可以生成 CMS 接口，组件比 Strapi 丰富，数据关联不如 
 # 前端
 对于前端来说，快速完成核心交互是重中之重。
 ## 应用
-### [Vue.js](https://github.com/vuejs/core)
 ### [NocoBase](https://github.com/nocobase/nocobase)
 ### [Budibase](https://github.com/budibase/budibase)
 ## 管理后台
