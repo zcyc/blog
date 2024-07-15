@@ -75,3 +75,11 @@ Directus 可以生成 CMS 接口，组件比 Strapi 多，数据关联不如 Str
 强制绑定域名，提供 Signup 集成，有模版功能，每月免费 2000 封邮件，限制 1000 个邮箱。
 ### [Brevo](https://www.brevo.com/)
 强制绑定手机号，每天 300 封邮件，可以导入邮箱进行营销，可视化编辑页面，无需集成。
+
+## 后端平台
+### [Firebase](https://firebase.google.com)
+有免费额度。
+### [Supabase](https://github.com/supabase/supabase)
+提供开源版本，有免费额度。
+### [Appwrite](https://github.com/appwrite/appwrite)
+提供开源版本，有免费额度。
