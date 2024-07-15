@@ -64,8 +64,9 @@ Directus 可以生成 CMS 接口，组件比 Strapi 多，数据关联不如 Str
 
 ## 统计
 ### [PostHog](https://posthog.com/)
-这个有开源版本
+提供开源版本，有免费额度。
 ### [Baselime](https://baselime.io/)
+暂无收费套餐，有免费额度。
 
 ## 邮件
 此处只列出部分方案，[Klaviyo](https://www.klaviyo.com/) 和 [mailchimp](https://mailchimp.com/) 可以作为备选。
