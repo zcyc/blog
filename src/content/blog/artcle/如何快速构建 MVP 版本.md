@@ -17,11 +17,11 @@ draft: true
 对于后端来说，快速给出 API 是重中之重，此阶段不要过度关注性能。
 
 ## REST & CMS
-此处只列出部分方案，熟悉 PHP 的用户可以用 Laravel 和 ThinkPHP。
-### [Nest.js](https://github.com/nestjs/nest)
-Nest 可以使用 CRUD generator 生成 REST 接口。
+此处只列出部分方案，喜欢 PHP 的用户可以用 Laravel 和 ThinkPHP，也能生成 CRUD。
 ### [Ruby on Rails](https://github.com/rails/rails)
-Rails 可以使用 Resource routing 生成 REST 接口。
+Rails 可以使用 Resource routing 生成 REST 接口，包含 service 逻辑，写法非常灵活，不适合团队协作。
+### [Nest.js](https://github.com/nestjs/nest)
+Nest 可以使用 CRUD generator 生成 REST 接口，service 逻辑要自己写，基于 TypeScript 的类型安全，需要理解依赖注入。
 ### [Strapi](https://github.com/strapi/strapi)
 Strapi 可以生成 CMS 接口。
 ### [Directus](https://github.com/directus/directus)
