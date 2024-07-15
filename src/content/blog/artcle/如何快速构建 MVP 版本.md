@@ -19,7 +19,7 @@ draft: true
 ## REST & CMS
 此处只列出部分方案，喜欢 PHP 的用户可以用 Laravel 和 ThinkPHP，也能生成 CRUD。
 ### [Ruby on Rails](https://github.com/rails/rails)
-Rails 可以使用 Resource routing 生成 REST 接口，包含 service 逻辑，写法非常灵活，不适合团队协作。
+Rails 可以使用 Resource routing 生成 REST 接口，包含 service 逻辑，写法非常灵活，不适合新手团队协作。
 ### [Nest.js](https://github.com/nestjs/nest)
 Nest 可以使用 CRUD generator 生成 REST 接口，service 逻辑要自己写，基于 TypeScript 的类型安全，需要理解依赖注入。
 ### [Strapi](https://github.com/strapi/strapi)
@@ -38,11 +38,14 @@ Directus 可以生成 CMS 接口，组件比 Strapi 多，数据关联不如 Str
 对于前端来说，快速完成核心交互是重中之重。
 
 ## 应用
-### [NocoBase](https://github.com/nocobase/nocobase)
 ### [Budibase](https://github.com/budibase/budibase)
+基于现有数据库搭建管理后台，支持 API 操作。
+### [amis](https://github.com/baidu/amis)
+通过配置快速生成 React CRUD 组件。
 
 ## 管理后台
-### [amis](https://github.com/baidu/amis)
+### [NocoBase](https://github.com/nocobase/nocobase)
+可以搭建简单的管理系统，不支持 API 操作。
 ### [appsmith](https://github.com/appsmithorg/appsmith)
 ### [baserow](https://github.com/bram2w/baserow)
 
