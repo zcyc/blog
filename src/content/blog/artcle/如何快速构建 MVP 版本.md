@@ -70,8 +70,8 @@ Directus 可以生成 CMS 接口，组件比 Strapi 多，数据关联不如 Str
 ### [Loops](https://loops.so/)
 强制绑定域名，提供 Signup 集成，有模版功能，每月 2000 封邮件，限制 1000 个邮箱。
 ### [Brevo](https://www.brevo.com/)
-强制绑定手机号，每天 300 封邮件，可以导入邮箱进行营销，可视化编辑页面，无需集成
+强制绑定手机号，每天 300 封邮件，可以导入邮箱进行营销，可视化编辑页面，无需集成。
 ### [Klaviyo](https://www.klaviyo.com/)
-
+验证邮箱，提供 Signup 页面，提供电商集成，每月 500 封邮件，100 条短信，可视化编辑页面，无需集成。
 ### [mailchimp](https://mailchimp.com/)
 无需集成
