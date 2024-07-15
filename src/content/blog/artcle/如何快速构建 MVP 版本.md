@@ -37,17 +37,15 @@ Directus 可以生成 CMS 接口，组件比 Strapi 多，数据关联不如 Str
 # 前端
 对于前端来说，快速完成核心交互是重中之重。
 
-## 应用
+## 应用 & 管理后台
 ### [Budibase](https://github.com/budibase/budibase)
-基于现有数据库搭建管理后台，支持 API 操作。
-### [amis](https://github.com/baidu/amis)
-通过配置快速生成 React CRUD 组件。
-
-## 管理后台
+基于现有数据库搭建管理系统，配置 CRUD 很复杂，支持 API 操作。
 ### [NocoBase](https://github.com/nocobase/nocobase)
-可以搭建简单的管理系统，不支持 API 操作。
+可以搭建简单的管理系统，配置 CRUD 很简单，不支持 API 操作。
 ### [appsmith](https://github.com/appsmithorg/appsmith)
 ### [baserow](https://github.com/bram2w/baserow)
+### [amis](https://github.com/baidu/amis)
+通过配置快速生成 React CRUD 组件。
 
 ## 落地页
 ### [Webflow](https://webflow.com/)
