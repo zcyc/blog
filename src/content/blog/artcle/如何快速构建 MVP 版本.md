@@ -49,10 +49,12 @@ Airtable 可以免费使用 1000 行，这个是开源替代品，能满足基�
 符合中国宝宝体质，兼容移动端。
 ### [vue-vben-admin](https://github.com/vbenjs/vue-vben-admin)
 还是符合中国宝宝体质。
+### [amis](https://github.com/baidu/amis)
+通过 JSON 配置生成 React CRUD 组件。
+### [fast-crud](https://github.com/fast-crud/fast-crud)
+通过 JS 配置生成 Vue CRUD 组件。
 ### [Refine](https://github.com/refinedev/refine)
 可以连接多种数据源的 React CRUD 组件。
-### [amis](https://github.com/baidu/amis)
-通过 JSON 快速生成 React CRUD 组件。
 
 ## 落地页
 ### [Webflow](https://webflow.com/)
