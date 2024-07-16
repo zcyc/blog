@@ -6,8 +6,9 @@ tags:
   - article
 slug: "mvp"
 pubDatetime: 2024-07-14T01:00:00.000+08:00
+modDatetime: 2024-07-16T12:00:00.000+08:00
 featured: false
-draft: true
+draft: false
 ---
 
 # 前言
@@ -38,12 +39,11 @@ Directus 可以生成 CMS 接口，组件比 Strapi 多，数据关联不如 Str
 对于前端来说，快速完成核心交互是重中之重。
 
 ## 应用 & 管理后台
-### [Budibase](https://github.com/budibase/budibase)
-基于现有数据库搭建管理系统，配置 CRUD 很复杂，支持 API 操作。
-### [NocoBase](https://github.com/nocobase/nocobase)
-可以搭建简单的管理系统，配置 CRUD 很简单，不支持 API 操作。
-### [appsmith](https://github.com/appsmithorg/appsmith)
+此处只列出部分方案，[Budibase](https://github.com/budibase/budibase) 和 [Appsmith](https://github.com/appsmithorg/appsmith) 能基于现有数据库做 CRUD，用起来很复杂，Budibase 支持 API。
 ### [baserow](https://github.com/bram2w/baserow)
+Airtable 可以免费使用 1000 行，这个是开源替代品，能满足基本的表格分享。
+### [NocoBase](https://github.com/nocobase/nocobase)
+可以搭建简单的管理系统，用起来很简单，不支持 API 操作。
 ### [amis](https://github.com/baidu/amis)
 通过配置快速生成 React CRUD 组件。
 
@@ -59,6 +59,7 @@ Directus 可以生成 CMS 接口，组件比 Strapi 多，数据关联不如 Str
 ### [Clerk](https://clerk.com/)
 相较于其他同类平台价格最优惠
 ### [Stripe](https://stripe.com/)
+申请要求比较高。
 
 ## 统计
 ### [PostHog](https://posthog.com/)
