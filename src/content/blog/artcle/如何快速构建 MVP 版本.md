@@ -50,9 +50,9 @@ Airtable 可以免费使用 1000 行，这个是开源替代品，能满足基�
 ### [vue-vben-admin](https://github.com/vbenjs/vue-vben-admin)
 还是符合中国宝宝体质。
 ### [Refine](https://github.com/refinedev/refine)
-### [ILLA](https://github.com/illacloud/illa-builder)
+可以连接多种数据源的 React CRUD 组件。
 ### [amis](https://github.com/baidu/amis)
-通过配置快速生成 React CRUD 组件。
+通过 JSON 快速生成 React CRUD 组件。
 
 ## 落地页
 ### [Webflow](https://webflow.com/)
