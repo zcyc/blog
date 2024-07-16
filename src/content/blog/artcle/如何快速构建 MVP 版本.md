@@ -40,8 +40,10 @@ Directus 可以生成 CMS 接口，组件比 Strapi 多，数据关联不如 Str
 
 ## 应用
 此处只列出部分方案，[Budibase](https://github.com/budibase/budibase) 和 [Appsmith](https://github.com/appsmithorg/appsmith) 能连接外部数据库做 CRUD，使用复杂，前者提供 API。[NocoBase](https://github.com/nocobase/nocobase) 使用简单，但连接外部数据库收费。
+### [NocoDB](https://github.com/nocodb/nocodb)
+Airtable 的开源替代品，能满足基本的表格分享。
 ### [baserow](https://github.com/bram2w/baserow)
-Airtable 可以免费使用 1000 行，这个是开源替代品，能满足基本的表格分享。
+Airtable 的开源替代品，能满足基本的表格分享，界面不如 NocoDB 干净，有些按钮一点就提示付费。
 
 ## 管理后台
 此处只列出部分方案，[vue-next-admin](https://gitee.com/lyt-top/vue-next-admin) 和 [Geeker-Admin](https://github.com/HalseySpicy/Geeker-Admin) 暂时没有试用。
