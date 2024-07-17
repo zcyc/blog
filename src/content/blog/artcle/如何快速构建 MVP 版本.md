@@ -83,6 +83,8 @@ Airtable 的开源替代品，能满足基本的表格分享，界面不如 Noco
 用来规划产品，同步目标和进度，免费版够用。[Plane](https://github.com/makeplane/plane) 是它的开源替代。
 ### [Notion](https://www.notion.so/)
 用来做团队知识库，写策划案，也能规划产品，免费版够用。[AFFiNE](https://github.com/toeverything/AFFiNE) 是它的开源替代。
+### [Figma](https://www.figma.com/)
+用来设计原型/UI/UX，免费版无法使用 Dev Mode。[Penpot](https://github.com/penpot/penpot) 是它的开源替代。
 
 ## 邮件
 此处只列出部分方案，[Klaviyo](https://www.klaviyo.com/) 和 [mailchimp](https://mailchimp.com/) 可以作为备选。
