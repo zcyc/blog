@@ -58,11 +58,12 @@ Airtable 的开源替代品，能满足基本的表格分享，界面不如 Noco
 ### [Refine](https://github.com/refinedev/refine)
 可以连接多种数据源的 React CRUD 组件。
 
-## 落地页
-### [Webflow](https://webflow.com/)
-无需集成和部署。
-### [Builder](https://github.com/BuilderIO/builder)
-需要集成和部署。
+## 可视化
+此处只列出部分方案，[Grafana](https://github.com/grafana/grafana) 偏技术场景，[Redash](https://github.com/getredash/redash) 需要写 SQL。
+### [Metabase](https://github.com/metabase/metabase)
+可视化编辑，产品经理可以搭建基础的看板，减轻开发的工作量。
+### [Superset](https://github.com/apache/superset)
+Airbnb 开源的 BI 工具，功能强大，需要写 SQL。
 
 # SaaS
 
@@ -109,3 +110,9 @@ Airtable 的开源替代品，能满足基本的表格分享，界面不如 Noco
 赛博佛祖，不用多说
 ### [Vercel](https://vercel.com/)
 赛博菩萨，不用多说
+
+## 落地页
+### [Webflow](https://webflow.com/)
+无需集成和部署。
+### [Builder](https://github.com/BuilderIO/builder)
+需要集成和部署。
