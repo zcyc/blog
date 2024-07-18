@@ -96,12 +96,12 @@ Airtable 的开源替代品，能满足基本的表格分享，界面不如 Noco
 强制绑定手机号，每天 300 封邮件，可以导入邮箱进行营销，可视化编辑页面，无需集成。
 
 ## 后端平台
-### [Firebase](https://firebase.google.com)
-有免费额度。
 ### [Supabase](https://github.com/supabase/supabase)
 提供开源版本，有免费额度。
 ### [Appwrite](https://github.com/appwrite/appwrite)
 提供开源版本，有免费额度。
+### [Firebase](https://firebase.google.com)
+有免费额度。
 
 ## 部署
 此处只列出部分方案，[Netlify](https://www.netlify.com/) 和 [Zeabur](https://zeabur.com/) 也有免费额度，[Fly](https://fly.io/) 免费额度需绑卡，[Heroku](https://www.heroku.com/) 和 [Railway](https://railway.app/) 无免费额度。
