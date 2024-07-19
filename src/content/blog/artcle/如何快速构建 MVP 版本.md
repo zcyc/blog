@@ -73,8 +73,9 @@ Airbnb 开源的 BI 工具，功能强大，需要写 SQL。
 ### [Stripe](https://stripe.com/)
 申请要求比较高。
 
-## 统计
-此处只列出部分方案，[Datadog](https://www.datadoghq.com/) 和 [Cronitor](https://cronitor.io/) 也提供免费试用。
+
+## 统计 & 分析
+此处只列出部分方案，[Datadog](https://www.datadoghq.com/) 和 [Cronitor](https://cronitor.io/) 也提供免费试用，[Fluent Bit](https://github.com/fluent/fluent-bit/) 也开源。
 ### [PostHog](https://posthog.com/)
 提供开源版本，有免费额度。
 ### [Baselime](https://baselime.io/)
