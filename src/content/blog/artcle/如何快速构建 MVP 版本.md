@@ -29,7 +29,7 @@ Strapi 可以生成 CMS 接口。
 Directus 可以生成 CMS 接口，组件比 Strapi 多，数据关联不如 Strapi 好用。
 
 ## 工作流 & 定时任务
-此处只列出部分方案，HomeLab 可以用[青龙](https://github.com/whyour/qinglong)，复杂任务可以用 [DolphinScheduler](https://github.com/apache/dolphinscheduler) 或 [Airflow](https://github.com/apache/airflow)。
+此处只列出部分方案，[Zapier](https://zapier.com/) 提供免费额度，HomeLab 可以用[青龙](https://github.com/whyour/qinglong)，复杂任务可以用 [DolphinScheduler](https://github.com/apache/dolphinscheduler) 或 [Airflow](https://github.com/apache/airflow)。
 ### [Activepieces](https://github.com/activepieces/activepieces)
 节点多，使用简单。
 ### [n8n](https://github.com/n8n-io/n8n)
@@ -46,7 +46,7 @@ Airtable 的开源替代品，能满足基本的表格分享。
 Airtable 的开源替代品，能满足基本的表格分享，界面不如 NocoDB 干净，有些按钮一点就提示付费。
 
 ## 管理后台
-此处只列出部分方案，[vue-next-admin](https://gitee.com/lyt-top/vue-next-admin) 和 [Geeker-Admin](https://github.com/HalseySpicy/Geeker-Admin) 暂时没有试用。
+此处只列出部分方案，[vue-next-admin](https://gitee.com/lyt-top/vue-next-admin) 和 [Geeker-Admin](https://github.com/HalseySpicy/Geeker-Admin) 没用过。
 ### [vue-pure-admin](https://github.com/pure-admin/vue-pure-admin)
 符合中国宝宝体质，兼容移动端。
 ### [vue-vben-admin](https://github.com/vbenjs/vue-vben-admin)
@@ -75,11 +75,16 @@ Airbnb 开源的 BI 工具，功能强大，需要写 SQL。
 
 
 ## 统计 & 分析
-此处只列出部分方案，[Datadog](https://www.datadoghq.com/) 和 [Cronitor](https://cronitor.io/) 也提供免费试用，[Fluent Bit](https://github.com/fluent/fluent-bit/) 也开源。
+此处只列出部分方案，[Datadog](https://www.datadoghq.com/) 和 [Cronitor](https://cronitor.io/) 也有免费额度，[Fluent Bit](https://github.com/fluent/fluent-bit/) 也开源。
 ### [PostHog](https://posthog.com/)
 提供开源版本，有免费额度。
 ### [Baselime](https://baselime.io/)
 暂无收费套餐，有免费额度。
+
+## 错误收集
+此处只列出部分方案，[PagerDuty](https://www.pagerduty.com/) 和 [Rollbar](https://rollbar.com/) 也有免费额度。
+### [Sentry](https://sentry.io/)
+有免费额度，提供开源版本。
 
 ## 协作
 ### [Linear](https://linear.app/)
@@ -118,3 +123,8 @@ Airbnb 开源的 BI 工具，功能强大，需要写 SQL。
 无需集成和部署。
 ### [Builder](https://github.com/BuilderIO/builder)
 需要集成和部署。
+
+## 外包
+此处只列出部分方案，需要外语交流。
+### [Upwork](https://www.upwork.com/)
+### [Gusto](https://gusto.com/)
