@@ -18,15 +18,13 @@ draft: false
 对于后端来说，快速给出 API 是重中之重，此阶段不要过度关注性能。
 
 ## REST & CMS
-此处只列出部分方案，喜欢 PHP 的用户可以用 Laravel 和 ThinkPHP，也能生成 CRUD。
+此处只列出部分方案，喜欢 PHP 的用户可以用 Laravel 和 ThinkPHP，也能生成 CRUD。[Directus](https://github.com/directus/directus) 也可以生成 CMS 接口，组件比 Strapi 多，数据关联不如 Strapi 好用。
 ### [Ruby on Rails](https://github.com/rails/rails)
 Rails 可以使用 Resource routing 生成 REST 接口，包含 service 逻辑，写法非常灵活，不适合新手团队协作。
 ### [Nest.js](https://github.com/nestjs/nest)
 Nest 可以使用 CRUD generator 生成 REST 接口，service 逻辑要自己写，基于 TypeScript 的类型安全，需要理解依赖注入。
 ### [Strapi](https://github.com/strapi/strapi)
 Strapi 可以生成 CMS 接口。
-### [Directus](https://github.com/directus/directus)
-Directus 可以生成 CMS 接口，组件比 Strapi 多，数据关联不如 Strapi 好用。
 
 ## 工作流 & 定时任务
 此处只列出部分方案，[Zapier](https://zapier.com/) 提供免费额度，HomeLab 可以用[青龙](https://github.com/whyour/qinglong)，复杂任务可以用 [DolphinScheduler](https://github.com/apache/dolphinscheduler) 或 [Airflow](https://github.com/apache/airflow)。
