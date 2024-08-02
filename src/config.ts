@@ -3,17 +3,19 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://blog.d8s.fun/", // replace this with your deployed domain
   author: "Charles",
+  profile: "https://satnaing.dev/",
   desc: "My posts and notes.",
-  title: "Charles",
+  title: "晨越的博客",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
-  postPerPage: 7,
+  postPerIndex: 4,
+  postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
 };
 
 export const LOCALE = {
-  lang: "zh", // html lang code. Set this empty and default will be "en"
-  langTag: ["zh-CN"], // BCP 47 Language Tags. Set this empty [] to use the environment default
+  lang: "en", // html lang code. Set this empty and default will be "en"
+  langTag: ["en-EN"], // BCP 47 Language Tags. Set this empty [] to use the environment default
 } as const;
 
 export const LOGO_IMAGE = {

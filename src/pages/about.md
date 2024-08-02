@@ -3,11 +3,10 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-Charles here, a software engineer in Shenzhen. Outside of work, I immerse myself in music, movies, and gaming.
+# 个人简介
+我是晨越，一名常住深圳的软件工程师。除了工作我比较喜欢游戏、电影、音乐。
 
-List of open source projects I have contributed to
-:
-
+# 我参与的开源项目
 - [Casbin](https://github.com/casbin/casbin) - An authorization library that supports access control models like ACL, RBAC, ABAC in Golang.
 - [GoFrame](https://github.com/gogf/gf) - GoFrame is a modular, powerful, high-performance and enterprise-class application development framework of Golang.
 - [RuoYi-Vue-Plus](https://gitee.com/dromara/RuoYi-Vue-Plus) - 后台管理系统 重写RuoYi-Vue所有功能 集成 Sa-Token、Mybatis-Plus、Jackson、SpringDoc、Hutool、OSS 定期同步
@@ -20,8 +19,7 @@ List of open source projects I have contributed to
 - [protoc-gen-gf](https://github.com/zcyc/protoc-gen-gf) - Extension of protoc, generating CRUD of goframe
 - [gf-adapter](https://github.com/zcyc/gf-adapter) - GoFrame adapter of casbin
 
-List of games I like:
-
+# 我喜欢的游戏
 - Terraria
 - Factorio
 - Battlefield
@@ -32,19 +30,19 @@ List of games I like:
 - Rainbow Six Siege
 - League of Legends
 - Valorant
-- Naraka
 - Path of Exile
 - GTA
+- 王者荣耀
+- 永劫无间
 
-List of teams I like:
-
+# 我喜欢的乐队/女团
 - Queen
 - T-ara
 - aespa
 - (G)I-DLE
+- IVE
 
-List of stars I like:
-
+# 我喜欢的演员/歌手
 - 成龙
 - 周星驰
 - 林正英
@@ -52,6 +50,4 @@ List of stars I like:
 - 邓紫棋
 - 蔡依林
 - Taylor Swift
-- PSY
 - IU
-- MARiA
