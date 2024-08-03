@@ -1,5 +1,5 @@
 ---
-title: "如何快速构建产品"
+title: "如何快速构建 MVP 版本"
 author: "Charles"
 description: ""
 tags:
