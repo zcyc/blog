@@ -15,14 +15,9 @@ draft: false
 
 # [smee](https://smee.io)
 
-## 安装 cli
-```bash
-npm install --global smee-client
-```
-
 ## 启动隧道
 ```bash
-smee --url https://smee.io/new --path /integration/github/v3/webhook --port 8080
+npx smee-client --url https://smee.io/new --path /integration/github/v3/webhook --port 8080
 ```
 
 # [ngrok](https://dashboard.ngrok.com/)
@@ -64,7 +59,7 @@ devtunnel host -p 8080
 
 # [Zero Trust](https://one.dash.cloudflare.com/)
 
-## 创建 Tunnel
+## 启动隧道
 1. 进入 `Networks` - `Tunnels`
 2. 点击 Create a tunnel
 2. 选择 Cloudflared
@@ -88,3 +83,17 @@ sudo cloudflared service install XXX
 6. 填写 URL，不要写 http:// 和 https://
 3. 点击 Save tunnel
 4. 测试路由能否正常访问
+
+# [Localtunnel](https://theboroer.github.io/localtunnel-www/)
+
+## 启动隧道
+```bash
+npx localtunnel --port 8000
+```
+
+## 获取隧道密码
+以下命令二选一
+```bash
+curl https://loca.lt/mytunnelpassword
+wget -q -O - https://loca.lt/mytunnelpassword
+```
