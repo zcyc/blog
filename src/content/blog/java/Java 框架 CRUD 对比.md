@@ -83,8 +83,7 @@ public interface UserResource extends PanacheEntityResource<User, Integer> {
 http://localhost:8080/users
 
 # Micronaut
-## 生成 Controller
-[Micronaut CLI](https://micronaut-projects.github.io/micronaut-starter/latest/guide/index.html#installHomebrew)
+待补充。
 
-## 生成 Service
-[Micronaut Data](https://micronaut-projects.github.io/micronaut-data/4.8.1/guide/)
+# Helidon
+待补充。
