@@ -18,7 +18,7 @@ draft: false
 对于后端来说，快速给出 API 是重中之重，此阶段不要过度关注性能。
 
 ## REST
-此处只列出部分方案，PHP 开发者可以用 [Laravel](https://github.com/laravel/laravel) 或 [ThinkPHP](https://github.com/top-think/think) 生成 REST 接口；JavaScript 开发者可以用 [Nest.js](https://github.com/nestjs/nest) 生成 REST Controller，自己写 service；Java 开发者可以用 [Spring Data REST](https://github.com/spring-projects/spring-data-rest) 生成 REST 接口，也可以用 [RESTEasy](https://github.com/resteasy/resteasy) 生成 service，自己写 controller；CMS 接口可以用 [Strapi](https://github.com/strapi/strapi) 和 [Directus](https://github.com/directus/directus) 生成，Directus 组件更多，但数据关联不好用。
+此处只列出部分方案，PHP 开发者可以用 [Laravel](https://github.com/laravel/laravel) 或 [ThinkPHP](https://github.com/top-think/think) 生成 REST 接口；JavaScript 开发者可以用 [Nest.js](https://github.com/nestjs/nest) 生成 REST Controller，自己写 service；Java 开发者可以用 [Spring Data REST](https://github.com/spring-projects/spring-data-rest) 生成 REST 接口；CMS 接口可以用 [Strapi](https://github.com/strapi/strapi) 和 [Directus](https://github.com/directus/directus) 生成，Directus 组件更多，但数据关联不好用。
 ### [Ruby on Rails](https://github.com/rails/rails)
 可以生成 REST 接口，功能强大，写法灵活，不适合新手团队协作。
 ### [Django REST framework](https://github.com/encode/django-rest-framework)
