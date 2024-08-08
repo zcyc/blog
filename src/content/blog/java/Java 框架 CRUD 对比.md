@@ -48,11 +48,37 @@ public interface UserRepository extends JpaRepository<User, Integer> {
 http://localhost:8080/users
 
 # Quarkus
-## 生成 Controller
-[Quarkus CLI](https://quarkus.io/guides/cli-tooling)
+可以用 [Panache](https://cn.quarkus.io/guides/rest-data-panache) 生成 REST 接口。IDEA 创建项目时添加依赖 REST Jackson、REST resources for Hibernate Reactive with Panache、Reactive PostgreSQL client。
+### 实现 Entity
+```java
+package com.example.entity;
 
-## 生成 Service
-[RESTEasy](https://github.com/resteasy/resteasy)
+import io.quarkus.hibernate.reactive.panache.PanacheEntityBase;
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "users")
+public class User extends PanacheEntityBase {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Integer id;
+    private String name;
+    private Integer age;
+    private String email;
+}
+```
+### 实现 Resource
+```java
+package com.example.resource;
+
+import com.example.entity.User;
+import io.quarkus.hibernate.reactive.rest.data.panache.PanacheEntityResource;
+
+public interface UserResource extends PanacheEntityResource<User, Integer> {
+}
+```
+### 测试接口
+http://localhost:8080/user
 
 # Micronaut
 ## 生成 Controller
