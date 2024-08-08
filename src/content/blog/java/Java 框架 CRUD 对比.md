@@ -20,7 +20,7 @@ package com.example.demo.entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "users") // 这个注解指定表名，PostgreSQL 不能用 user 做表名
+@Table(name = "users") // 这个是指定表名，PostgreSQL 不能用 user 做表名
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -40,7 +40,7 @@ import com.example.demo.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
-@RepositoryRestResource(path = "users") // 这个注解生成 REST 接口
+@RepositoryRestResource(path = "users") // 这个是配置生成 REST 接口，不写不生成
 public interface UserRepository extends JpaRepository<User, Integer> {
 }
 ```
@@ -57,14 +57,15 @@ import io.quarkus.hibernate.reactive.panache.PanacheEntityBase;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "users")
-public class User extends PanacheEntityBase {
+@Table(name = "users") // 这个是指定表名，PostgreSQL 不能用 user 做表名
+public class User extends PanacheEntityBase { // 这个和上边的区别是继承了 PanacheEntityBase
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
     private String name;
     private Integer age;
     private String email;
+    // getter and setter
 }
 ```
 ### 实现 Resource
@@ -74,11 +75,12 @@ package com.example.resource;
 import com.example.entity.User;
 import io.quarkus.hibernate.reactive.rest.data.panache.PanacheEntityResource;
 
+@ResourceProperties(path = "users") // 这个是配置生成 REST 接口，不写使用默认配置生成
 public interface UserResource extends PanacheEntityResource<User, Integer> {
 }
 ```
 ### 测试接口
-http://localhost:8080/user
+http://localhost:8080/users
 
 # Micronaut
 ## 生成 Controller
