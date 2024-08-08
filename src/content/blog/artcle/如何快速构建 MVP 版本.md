@@ -18,13 +18,11 @@ draft: false
 对于后端来说，快速给出 API 是重中之重，此阶段不要过度关注性能。
 
 ## REST
-此处只列出部分方案，PHP 开发者可以用 [Laravel](https://github.com/laravel/laravel) 或 [ThinkPHP](https://github.com/top-think/think) 生成 REST 接口；JavaScript 开发者可以用 [Nest.js](https://github.com/nestjs/nest) 生成 REST Controller，自己写 service；Java 开发者可以用 [Spring Data REST](https://github.com/spring-projects/spring-data-rest) 生成 REST 接口；CMS 接口可以用 [Strapi](https://github.com/strapi/strapi) 和 [Directus](https://github.com/directus/directus) 生成，Directus 组件更多，但数据关联不好用。
-### [Ruby on Rails](https://github.com/rails/rails)
-可以生成 REST 接口，功能强大，写法灵活，不适合新手团队协作。
-### [Django REST framework](https://github.com/encode/django-rest-framework)
-可以生成 REST 接口，DRF 是运维开发的老朋友了，值得信赖。
-### [Phoenix Framework](https://github.com/phoenixframework/phoenix)
-可以生成 REST 接口，使用 Elixir 语言，集合了 Erlang 和 Ruby 的优点。
+此处只列出部分方案，其他可以生成 REST 接口的框架有：[Django REST framework](https://www.django-rest-framework.org/api-guide/viewsets/)、[Laravel](https://laravel.com/docs/11.x/controllers#resource-controllers)、[Phoenix Framework](https://hexdocs.pm/phoenix/routing.html#resources)；[Nest.js](https://docs.nestjs.com/recipes/crud-generator) 只能生成 Controller；CMS 接口可以用 [Strapi](https://github.com/strapi/strapi) 和 [Directus](https://github.com/directus/directus) 生成，Directus 组件更多，但数据关联不好用。
+### [Spring Boot](https://spring.io/projects/spring-data-rest)
+可以生成 REST 接口，功能强大，生态完善。
+### [Ruby on Rails](https://ai.rails-guide.com/zh-CN/routing.html)
+可以生成 REST 接口，功能强大，写法灵活。
 
 ## 工作流 & 定时任务
 此处只列出部分方案，[Zapier](https://zapier.com/) 提供免费额度，HomeLab 可以用[青龙](https://github.com/whyour/qinglong)，复杂任务可以用 [DolphinScheduler](https://github.com/apache/dolphinscheduler) 或 [Airflow](https://github.com/apache/airflow)。
