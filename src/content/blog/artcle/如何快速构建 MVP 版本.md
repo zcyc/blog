@@ -6,7 +6,7 @@ tags:
   - article
 slug: "build-mvp-quickly"
 pubDatetime: 2024-07-14T01:00:00.000+08:00
-modDatetime: 2024-08-04T00:26:00.000+08:00
+modDatetime: 2024-08-08T17:58:00.000+08:00
 featured: false
 draft: false
 ---
