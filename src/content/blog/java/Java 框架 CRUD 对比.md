@@ -48,7 +48,7 @@ public interface UserRepository extends JpaRepository<User, Integer> {
 http://localhost:8080/users
 
 # Quarkus
-可以用 [Panache](https://cn.quarkus.io/guides/rest-data-panache) 生成 REST 接口。IDEA 创建项目时添加依赖 REST Jackson、REST resources for Hibernate Reactive with Panache、Reactive PostgreSQL client。
+可以用 [Panache](https://cn.quarkus.io/guides/rest-data-panache) 生成 REST 接口。IDEA 创建项目时添加依赖 REST Jackson、REST resources for Hibernate ORM with Panache、JDBC Driver - PostgreSQL。
 ### 实现 Entity
 ```java
 package com.example.entity;
