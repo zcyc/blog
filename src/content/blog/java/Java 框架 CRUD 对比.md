@@ -83,7 +83,69 @@ public interface UserResource extends PanacheEntityResource<User, Integer> {
 http://localhost:8080/users
 
 # Micronaut
-待补充。
+Micronaut 不能生成 REST 接口。IDEA 创建项目时添加依赖 Micronaut Data JPA、PostgreSQL。
+### 实现 Entity
+```java
+@Serdeable // 这个和上边的区别是声明了序列化
+@Entity
+@Table(name = "users")
+public class User {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Integer id;
+    private String name;
+    private Integer age;
+    private String email;
+    // getter and setter
+}
+```
+### 实现 Repository
+```java
+package com.example.repository;
+
+import com.example.entity.User;
+import io.micronaut.data.annotation.Repository;
+import io.micronaut.data.jpa.repository.JpaRepository;
+
+@Repository
+public interface UserRepository extends JpaRepository<User, Integer> {
+}
+```
+### 实现 Controller
+```java
+package com.example.controller;
+
+import com.example.entity.User;
+import com.example.repository.UserRepository;
+import io.micronaut.http.MediaType;
+import io.micronaut.http.annotation.Controller;
+import io.micronaut.http.annotation.Get;
+import io.micronaut.http.annotation.Produces;
+import jakarta.inject.Inject;
+
+import java.util.List;
+
+@Controller("/users")
+public class UserController {
+    @Inject
+    UserRepository userRepository;
+
+    @Get
+    @Produces(MediaType.APPLICATION_JSON)
+    public List<User> getAllUsers() {
+        return userRepository.findAll();
+    }
+
+    @Get("/{id}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public User getUser(Integer id) {
+        return userRepository.findById(id).orElse(null);
+    }
+}
+```
+### 测试接口
+http://localhost:8080/users
+
 
 # Helidon
 待补充。
