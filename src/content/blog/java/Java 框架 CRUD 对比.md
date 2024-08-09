@@ -6,7 +6,7 @@ tags:
   - java
 slug: "java-framework-crud"
 pubDatetime: 2024-08-08T11:32:00.000+08:00
-modDatetime: 2024-08-08T17:23:00.000+08:00
+modDatetime: 2024-08-09T11:34:00.000+08:00
 featured: false
 draft: false
 ---
