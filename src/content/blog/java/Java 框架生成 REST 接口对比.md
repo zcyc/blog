@@ -1,10 +1,10 @@
 ---
-title: "Java 框架 CRUD 对比"
+title: "Java 框架生成 REST 接口对比"
 author: "Charles"
 description: ""
 tags:
   - java
-slug: "java-framework-crud"
+slug: "java-framework-rest"
 pubDatetime: 2024-08-08T11:32:00.000+08:00
 modDatetime: 2024-08-09T11:34:00.000+08:00
 featured: false

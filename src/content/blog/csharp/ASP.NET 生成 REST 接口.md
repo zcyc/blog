@@ -1,0 +1,53 @@
+---
+title: "ASP.NET 生成 REST 接口"
+author: "Charles"
+description: ""
+tags:
+  - dotnet
+slug: "asp-dotnet-rest"
+pubDatetime: 2024-08-10T16:54:00.000+08:00
+pubDatetime: 2024-08-10T16:54:00.000+08:00
+featured: false
+draft: false
+---
+
+# 1、安装 dotnet
+
+https://dotnet.microsoft.com/zh-cn/download
+
+# 2、安装 tools
+记得将 `~/.dotnet/tools` 目录添加到 PATH。
+```bash
+dotnet tool install -g dotnet-ef
+dotnet tool install -g dotnet-aspnet-codegenerator
+```
+
+# 安装依赖
+根据所在目录不同，指定对应命令。
+## 在解决方案目录下执行
+```bash
+dotnet add WebApplication1 package Microsoft.EntityFrameworkCore.Design
+dotnet add WebApplication1 package Npgsql.EntityFrameworkCore.PostgreSQL
+```
+## 在项目目录下执行
+```bash
+dotnet add package Microsoft.EntityFrameworkCore.Design
+dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
+```
+
+# 生成 models
+必须在项目目录下执行。
+```bash
+dotnet ef dbcontext scaffold "Host=localhost;Database=postgres;Username=postgres;Password=postgres" Npgsql.EntityFrameworkCore.PostgreSQL -t account -o Models
+```
+
+# 生成 apis
+必须在项目目录下执行。由于生成的 Controller 没有指定参数来源，启动后 OpenAPI 会报错。参考文档补上类似 [FromServices] 属性即可。
+```bash
+dotnet aspnet-codegenerator minimalapi -dc PostgresContext -e AccountEndpoints -m Account -o -dbProvider postgres -outDir Controllers
+```
+
+# 文档
+[dotnet-ef](https://learn.microsoft.com/zh-cn/ef/core/cli/dotnet)
+[dotnet-aspnet-codegenerator](https://learn.microsoft.com/zh-cn/aspnet/core/fundamentals/tools/dotnet-aspnet-codegenerator?view=aspnetcore-8.0)
+[parameter-binding](https://learn.microsoft.com/zh-cn/aspnet/core/fundamentals/minimal-apis/parameter-binding?view=aspnetcore-8.0)
