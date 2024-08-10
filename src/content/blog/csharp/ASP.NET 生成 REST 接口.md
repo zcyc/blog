@@ -42,12 +42,24 @@ dotnet ef dbcontext scaffold "Host=localhost;Database=postgres;Username=postgres
 ```
 
 # 生成 apis
-必须在项目目录下执行。由于生成的 Controller 没有指定参数来源，启动后 OpenAPI 会报错。参考文档补上类似 [FromServices] 属性即可。
+必须在项目目录下执行。
 ```bash
 dotnet aspnet-codegenerator minimalapi -dc PostgresContext -e AccountEndpoints -m Account -o -dbProvider postgres -outDir Controllers
 ```
 
+# 启动程序
+1. 启动前在 Program.cs 初始化 PostgresContext。
+```csharp
+builder.Services.AddDbContext<PostgresContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+```
+2. 生成的 Controller 没有指定参数来源，Swagger 会报错。按 parameter-binding 文档补上类似 [FromServices] 的属性即可。
+
+
+
 # 文档
 [dotnet-ef](https://learn.microsoft.com/zh-cn/ef/core/cli/dotnet)
+
 [dotnet-aspnet-codegenerator](https://learn.microsoft.com/zh-cn/aspnet/core/fundamentals/tools/dotnet-aspnet-codegenerator?view=aspnetcore-8.0)
+
 [parameter-binding](https://learn.microsoft.com/zh-cn/aspnet/core/fundamentals/minimal-apis/parameter-binding?view=aspnetcore-8.0)
