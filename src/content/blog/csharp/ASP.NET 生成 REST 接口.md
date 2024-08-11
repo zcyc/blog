@@ -43,7 +43,7 @@ dotnet ef dbcontext scaffold "Host=localhost;Database=postgres;Username=postgres
 
 # 生成 apis
 ```bash
-dotnet aspnet-codegenerator minimalapi -o -dbProvider postgres -outDir Controllers -m Account -dc AccountContext -e AccountEndpoints 
+dotnet aspnet-codegenerator minimalapi -o -dbProvider postgres -outDir Controllers -m Account -dc AccountContext -e AccountEndpoints
 ```
 
 # 启动程序
