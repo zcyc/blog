@@ -43,22 +43,32 @@ dotnet ef dbcontext scaffold "Host=localhost;Database=postgres;Username=postgres
 
 # 生成 apis
 ```bash
-dotnet aspnet-codegenerator minimalapi -dc PostgresContext -e AccountEndpoints -m Account -o -dbProvider postgres -outDir Controllers
+dotnet aspnet-codegenerator minimalapi -dc AccountContext -e AccountEndpoints -m Account -o -dbProvider postgres -outDir Controllers
 ```
 
 # 启动程序
-1. 初始化数据库【必须】
+1. 添加配置【必须】
 
-在 Program.cs 初始化 PostgresContext，否则接口报错 No service for type 'WebApplication1.Models.PostgresContext' has been registered
+在 appsettings.Development.json 添加数据库链接。
+```json
+  "ConnectionStrings": {
+    "DefaultConnection": "Host=localhost;Database=postgres;Username=postgres;Password=postgres"
+  }
+```
+
+2. 注入依赖【必须】
+
+在 Program.cs 注入数据库依赖。
 ```csharp
-builder.Services.AddDbContext<PostgresContext>(options =>
+builder.Services.AddDbContext<AccountContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 ```
-2. 指定参数来源【可选】
 
-在 Controller 指定参数来源，如 [FromServices]、[FromBody]，防止依赖注入错误。
+3. 指定参数来源【可选】
+
+在 Controller 指定参数来源，如 [FromServices]、[FromBody]。
 ```csharp
- group.MapPut("/{id}", async Task<Results<Ok, NotFound>> (string id, [FromBody] Account account, [FromServices] PostgresContext db) =>
+ group.MapPut("/{id}", async Task<Results<Ok, NotFound>> (string id, [FromBody] Account account, [FromServices] AccountContext db) =>
         {
             var affected = await db.Accounts
                 .Where(model => model.Id == id)
