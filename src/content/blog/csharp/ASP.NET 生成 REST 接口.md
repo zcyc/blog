@@ -24,17 +24,19 @@ dotnet tool install -g dotnet-aspnet-codegenerator
 # 创建项目
 ```bash
 dotnet new webapi -o WebApplication1
-cd WebApplication1
 ```
 
 # 安装依赖
 ```bash
+cd WebApplication1
 dotnet add package Microsoft.EntityFrameworkCore.Design
-dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
 dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
 ```
 
 # 生成 models
+先在数据库建一张 `account` 表，字段随意。
 ```bash
 dotnet ef dbcontext scaffold "Host=localhost;Database=postgres;Username=postgres;Password=postgres" Npgsql.EntityFrameworkCore.PostgreSQL -t account -o Models
 ```
