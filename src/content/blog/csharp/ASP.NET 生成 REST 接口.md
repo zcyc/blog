@@ -38,12 +38,12 @@ dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
 # 生成 models
 先在数据库建一张 `account` 表，字段随意。
 ```bash
-dotnet ef dbcontext scaffold "Host=localhost;Database=postgres;Username=postgres;Password=postgres" Npgsql.EntityFrameworkCore.PostgreSQL -t account -o Models
+dotnet ef dbcontext scaffold "Host=localhost;Database=postgres;Username=postgres;Password=postgres" Npgsql.EntityFrameworkCore.PostgreSQL --no-onconfiguring --force -o Models -t account --context AccountContext
 ```
 
 # 生成 apis
 ```bash
-dotnet aspnet-codegenerator minimalapi -dc AccountContext -e AccountEndpoints -m Account -o -dbProvider postgres -outDir Controllers
+dotnet aspnet-codegenerator minimalapi -o -dbProvider postgres -outDir Controllers -m Account -dc AccountContext -e AccountEndpoints 
 ```
 
 # 启动程序
