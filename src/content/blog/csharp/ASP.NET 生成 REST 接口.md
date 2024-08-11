@@ -47,14 +47,14 @@ dotnet aspnet-codegenerator minimalapi -dc PostgresContext -e AccountEndpoints -
 ```
 
 # 启动程序
-1. 初始化数据库
+1. 初始化数据库【必须】
 
 在 Program.cs 初始化 PostgresContext，否则接口报错 No service for type 'WebApplication1.Models.PostgresContext' has been registered
 ```csharp
 builder.Services.AddDbContext<PostgresContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 ```
-2. 修复依赖注入错误
+2. 指定参数来源【可选】
 
 在 Controller 指定参数来源，如 [FromServices]、[FromBody]，防止依赖注入错误。
 ```csharp
