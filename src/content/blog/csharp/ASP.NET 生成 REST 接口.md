@@ -6,43 +6,40 @@ tags:
   - dotnet
 slug: "asp-dotnet-rest"
 pubDatetime: 2024-08-10T16:54:00.000+08:00
-pubDatetime: 2024-08-10T16:54:00.000+08:00
+pubDatetime: 2024-08-11T12:27:00.000+08:00
 featured: false
 draft: false
 ---
 
-# 1、安装 dotnet
-
+# 安装 dotnet
 https://dotnet.microsoft.com/zh-cn/download
 
-# 2、安装 tools
+# 安装 tools
 记得将 `~/.dotnet/tools` 目录添加到 PATH。
 ```bash
 dotnet tool install -g dotnet-ef
 dotnet tool install -g dotnet-aspnet-codegenerator
 ```
 
-# 安装依赖
-根据所在目录不同，指定对应命令。
-## 在解决方案目录下执行
+# 创建项目
 ```bash
-dotnet add WebApplication1 package Microsoft.EntityFrameworkCore.Design
-dotnet add WebApplication1 package Npgsql.EntityFrameworkCore.PostgreSQL
+dotnet new webapi -o WebApplication1
+cd WebApplication1
 ```
-## 在项目目录下执行
+
+# 安装依赖
 ```bash
 dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
 ```
 
 # 生成 models
-必须在项目目录下执行。
 ```bash
 dotnet ef dbcontext scaffold "Host=localhost;Database=postgres;Username=postgres;Password=postgres" Npgsql.EntityFrameworkCore.PostgreSQL -t account -o Models
 ```
 
 # 生成 apis
-必须在项目目录下执行。
 ```bash
 dotnet aspnet-codegenerator minimalapi -dc PostgresContext -e AccountEndpoints -m Account -o -dbProvider postgres -outDir Controllers
 ```
@@ -76,9 +73,9 @@ builder.Services.AddDbContext<PostgresContext>(options =>
         .WithOpenApi();
 ```
 
-
-
 # 文档
+[dotnet](https://learn.microsoft.com/zh-cn/dotnet/core/tools/dotnet)
+
 [dotnet-ef](https://learn.microsoft.com/zh-cn/ef/core/cli/dotnet)
 
 [dotnet-aspnet-codegenerator](https://learn.microsoft.com/zh-cn/aspnet/core/fundamentals/tools/dotnet-aspnet-codegenerator?view=aspnetcore-8.0)
