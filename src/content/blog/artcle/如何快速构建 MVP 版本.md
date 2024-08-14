@@ -113,7 +113,7 @@ Airbnb 开源的 BI 工具，功能强大，需要写 SQL。
 提供开源版本，有免费额度。
 
 ## 部署
-此处只列出部分方案，[Netlify](https://www.netlify.com/) 和 [Zeabur](https://zeabur.com/) 有免费额度，[Fly](https://fly.io/) 免费额度需绑卡，[Heroku](https://www.heroku.com/) 和 [Railway](https://railway.app/) 无免费额度。
+此处只列出部分方案，[Netlify](https://www.netlify.com/)、[Zeabur](https://zeabur.com/)、[Render](https://render.com/) 有免费额度，[Fly](https://fly.io/) 免费额度需绑卡，[Heroku](https://www.heroku.com/) 和 [Railway](https://railway.app/) 无免费额度。
 ### [Cloudflare](https://www.cloudflare.com/)
 赛博佛祖，不用多说
 ### [Vercel](https://vercel.com/)
@@ -132,5 +132,7 @@ Airbnb 开源的 BI 工具，功能强大，需要写 SQL。
 
 # 其他
 ## API
+### [Apifox](https://apifox.com/)
+挺好用的，已经超越 Postman，还提供 API Hub。类似的工具还有 Apipost。
 ### [Rapid](https://rapidapi.com/hub)
-Rapid 不好用，但是 Rapid API Hub 不错，国内的 ApiFox 也提供 API Hub。
+Rapid 不好用，但是 Rapid API Hub 不错。
