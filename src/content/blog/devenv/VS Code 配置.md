@@ -71,66 +71,26 @@ draft: false
   "go.useLanguageServer": true,
   // Go 工具自动升级工具
   "go.toolsManagement.autoUpdate": true,
-  // Enable the ESlint flat config support
-  "eslint.experimental.useFlatConfig": true,
-  // Silent the stylistic rules in you IDE, but still auto fix them
-  "eslint.rules.customizations": [
-    {
-      "rule": "style/*",
-      "severity": "off"
-    },
-    {
-      "rule": "format/*",
-      "severity": "off"
-    },
-    {
-      "rule": "*-indent",
-      "severity": "off"
-    },
-    {
-      "rule": "*-spacing",
-      "severity": "off"
-    },
-    {
-      "rule": "*-spaces",
-      "severity": "off"
-    },
-    {
-      "rule": "*-order",
-      "severity": "off"
-    },
-    {
-      "rule": "*-dangle",
-      "severity": "off"
-    },
-    {
-      "rule": "*-newline",
-      "severity": "off"
-    },
-    {
-      "rule": "*quotes",
-      "severity": "off"
-    },
-    {
-      "rule": "*semi",
-      "severity": "off"
-    }
+  "i18n-ally.enabledParsers": [
+    "yaml"
   ],
-  // Enable eslint for all supported languages
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-    "vue",
-    "html",
-    "markdown",
-    "json",
-    "jsonc",
-    "yaml",
-    "toml"
-  ],
-  "eslint.format.enable": true
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.tree.indent": 16,
+  "git.confirmSync": false,
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  }
 }
 ```
 
@@ -144,22 +104,20 @@ antfu.goto-alias
 antfu.iconify
 antfu.unocss
 astro-build.astro-vscode
+biomejs.biome
 bradlc.vscode-tailwindcss
+charliermarsh.ruff
 csstools.postcss
-dbaeumer.vscode-eslint
 donjayamanne.githistory
 dsznajder.es7-react-js-snippets
-esbenp.prettier-vscode
 github.copilot
 github.copilot-chat
 golang.go
 gruntfuggly.todo-tree
 lokalise.i18n-ally
+mechatroner.rainbow-csv
 ms-azuretools.vscode-docker
-ms-python.black-formatter
 ms-python.debugpy
-ms-python.isort
-ms-python.pylint
 ms-python.python
 ms-python.vscode-pylance
 ms-vscode-remote.remote-containers
@@ -169,7 +127,7 @@ ms-vscode-remote.remote-wsl
 ms-vscode-remote.vscode-remote-extensionpack
 ms-vscode.remote-explorer
 ms-vscode.remote-server
-nrwl.angular-console
+ms-vscode.vscode-speech
 quicktype.quicktype
 redhat.vscode-xml
 redhat.vscode-yaml
@@ -194,8 +152,11 @@ zxh404.vscode-proto3
 code --list-extensions > extensions.txt
 
 # macOS/Linux 导入
-cat extensions.txt | xargs code --list-extensions {}
+cat extensions.txt | xargs -L 1 code --install-extension
 
-# Windows 导入
+# Windows CMD 导入
 cat extensions.txt |% { code --install-extension $_}
+
+# Windows Powershell 导入
+Get-Content extensions.txt | ForEach-Object { code --install-extension $_ }
 ```
