@@ -19,9 +19,9 @@ draft: false
 
 ## REST
 此处只列出部分方案，其他可以生成 REST 接口的框架有：[webman](https://www.workerman.net/doc/webman/route.html#%E8%B5%84%E6%BA%90%E5%9E%8B%E8%B7%AF%E7%94%B1)、[Ruby on Rails](https://ai.rails-guide.com/zh-CN/routing.html)、[Laravel](https://laravel.com/docs/11.x/controllers#resource-controllers)；CMS 接口可以用 [Strapi](https://github.com/strapi/strapi) 和 [Directus](https://github.com/directus/directus) 生成，Directus 组件更多，但数据关联不好用。
-### [Spring Boot](https://spring.io/projects/spring-data-rest)
+### [Spring Boot](https://blog.d8s.fun/posts/java-framework-rest)
 可以生成 REST 接口，生态完善。
-### [ASP.NET Core](https://dotnet.microsoft.com/zh-cn/apps/aspnet)
+### [ASP.NET Core](https://blog.d8s.fun/posts/asp-dotnet-rest)
 可以生成 REST 接口，语法强大。
 
 ## 工作流 & 定时任务
