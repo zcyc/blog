@@ -108,7 +108,6 @@ biomejs.biome
 bradlc.vscode-tailwindcss
 charliermarsh.ruff
 csstools.postcss
-donjayamanne.githistory
 dsznajder.es7-react-js-snippets
 github.copilot
 github.copilot-chat
