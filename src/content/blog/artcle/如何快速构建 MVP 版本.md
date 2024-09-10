@@ -45,6 +45,8 @@ Airtable 的开源替代品，可以满足基本的表格分享。
 此处只列出部分方案，[vue-next-admin](https://gitee.com/lyt-top/vue-next-admin) 和 [Geeker-Admin](https://github.com/HalseySpicy/Geeker-Admin) 没用过，[vue-pure-admin](https://github.com/pure-admin/vue-pure-admin) 随意关闭 issue，仅留作参考。
 ### [vue-vben-admin](https://github.com/vbenjs/vue-vben-admin)
 符合中国宝宝体质，Windows 无法编译。
+### [RuoYi-Vue3](https://github.com/yangzongzhuan/RuoYi-Vue3)
+经典 Element 风格 Admin。
 ### [amis](https://github.com/baidu/amis)
 通过 JSON 配置生成 React CRUD 组件。
 ### [fast-crud](https://github.com/fast-crud/fast-crud)
