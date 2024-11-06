@@ -17,4 +17,4 @@ https://www.shodan.io/search?query=Location%3A+account.jetbrains.com%2Ffls-auth
 https://search.censys.io/search?resource=hosts&sort=RELEVANCE&per_page=25&virtual_hosts=EXCLUDE&q=services.http.response.headers.location%3A+account.jetbrains.com%2Ffls-auth
 
 # FOFA
-https://fofa.info/result?qbase64=YWNjb3VudC5qZXRicmFpbnMuY29tL2Zscy1hdXRo
+https://fofa.info/result?qbase64=aGVhZGVyPSJodHRwczovL2FjY291bnQuamV0YnJhaW5zLmNvbS9mbHMtYXV0aCIg
