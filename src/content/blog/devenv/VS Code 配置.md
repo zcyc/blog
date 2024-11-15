@@ -36,8 +36,6 @@ draft: false
   "git.enableSmartCommit": true,
   // 编辑器字体
   "editor.fontFamily": "Intel One Mono",
-  // 编辑器字号
-  "editor.fontSize": 16,
   // 固定的标签放在单独的行
   "workbench.editor.pinnedTabsOnSeparateRow": true,
   // 标签换行
@@ -81,7 +79,6 @@ draft: false
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "workbench.tree.indent": 16,
   "git.confirmSync": false,
   "[python]": {
     "editor.formatOnSave": true,
@@ -90,7 +87,13 @@ draft: false
       "source.organizeImports": "explicit"
     },
     "editor.defaultFormatter": "charliermarsh.ruff"
-  }
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "workbench.activityBar.location": "top",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.fontSize": 16
 }
 ```
 
@@ -100,6 +103,7 @@ draft: false
 包含 Rust、Go、Python、Lua、TypeScript、JavaScript、React、Vue 等常用扩展。
 
 ```json
+aaron-bond.better-comments
 antfu.goto-alias
 antfu.iconify
 antfu.unocss
@@ -107,16 +111,23 @@ astro-build.astro-vscode
 biomejs.biome
 bradlc.vscode-tailwindcss
 charliermarsh.ruff
+codezombiech.gitignore
 csstools.postcss
 dsznajder.es7-react-js-snippets
+editorconfig.editorconfig
 github.copilot
 github.copilot-chat
 golang.go
 gruntfuggly.todo-tree
+jasonnutter.search-node-modules
+jock.svg
 lokalise.i18n-ally
 mechatroner.rainbow-csv
-ms-azuretools.vscode-docker
+mikestead.dotenv
+ms-python.black-formatter
 ms-python.debugpy
+ms-python.isort
+ms-python.pylint
 ms-python.python
 ms-python.vscode-pylance
 ms-vscode-remote.remote-containers
@@ -134,10 +145,13 @@ rust-lang.rust-analyzer
 sdras.vue-vscode-snippets
 sibiraj-s.vscode-scss-formatter
 simonhe.common-intellisense
+streetsidesoftware.code-spell-checker
+styled-components.vscode-styled-components
 sumneko.lua
 tauri-apps.tauri-vscode
 usernamehw.errorlens
 vadimcn.vscode-lldb
+vue.volar
 wmaurer.change-case
 yokoe.vscode-postfix-go
 yzhang.markdown-all-in-one
