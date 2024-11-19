@@ -3,14 +3,20 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://blog.d8s.fun/", // replace this with your deployed domain
   author: "Charles",
-  profile: "https://satnaing.dev/",
+  profile: "https://blog.d8s.fun/about",
   desc: "My posts and notes.",
-  title: "晨越的博客",
+  title: "Charles' Blog",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
+  showArchives: true,
+  editPost: {
+    url: "https://github.com/zcyc/blog/edit/main/src/content/blog",
+    text: "Suggest Changes",
+    appendFilePath: true,
+  },
 };
 
 export const LOCALE = {
@@ -57,9 +63,9 @@ export const SOCIALS: SocialObjects = [
     active: true,
   },
   {
-    name: "Twitter",
+    name: "X",
     href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Twitter`,
+    linkTitle: `${SITE.title} on X`,
     active: false,
   },
   {
@@ -70,9 +76,9 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "YouTube",
-    href: "https://space.bilibili.com/5244943",
+    href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on YouTube`,
-    active: true,
+    active: false,
   },
   {
     name: "WhatsApp",
