@@ -14,7 +14,6 @@ draft: false
 # 配置
 
 网上推荐的很多配置是默认值。本列表仅包含和默认值不同的配置。
-包含 Rust、Go、Python、Lua、TypeScript、JavaScript、React、Vue 等常用配置。
 
 ```json
 {
@@ -93,14 +92,14 @@ draft: false
   },
   "workbench.activityBar.location": "top",
   "editor.gotoLocation.multipleDefinitions": "goto",
-  "editor.fontSize": 16
+  "editor.fontSize": 16,
+  "window.openFoldersInNewWindow": "on"
 }
 ```
 
 # 扩展
 
 网上推荐的很多扩展功能已经内置了。本列表仅包含和官方功能不重复的扩展。
-包含 Rust、Go、Python、Lua、TypeScript、JavaScript、React、Vue 等常用扩展。
 
 ```json
 aaron-bond.better-comments
@@ -113,6 +112,7 @@ bradlc.vscode-tailwindcss
 charliermarsh.ruff
 codezombiech.gitignore
 csstools.postcss
+donjayamanne.githistory
 dsznajder.es7-react-js-snippets
 editorconfig.editorconfig
 github.copilot
@@ -123,7 +123,11 @@ jasonnutter.search-node-modules
 jock.svg
 lokalise.i18n-ally
 mechatroner.rainbow-csv
+mhutchie.git-graph
 mikestead.dotenv
+ms-dotnettools.csdevkit
+ms-dotnettools.csharp
+ms-dotnettools.vscode-dotnet-runtime
 ms-python.black-formatter
 ms-python.debugpy
 ms-python.isort
@@ -139,6 +143,7 @@ ms-vscode.remote-explorer
 ms-vscode.remote-server
 ms-vscode.vscode-speech
 quicktype.quicktype
+redhat.java
 redhat.vscode-xml
 redhat.vscode-yaml
 rust-lang.rust-analyzer
@@ -151,6 +156,14 @@ sumneko.lua
 tauri-apps.tauri-vscode
 usernamehw.errorlens
 vadimcn.vscode-lldb
+visualstudioexptteam.intellicode-api-usage-examples
+visualstudioexptteam.vscodeintellicode
+vscjava.vscode-gradle
+vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
+vscjava.vscode-java-pack
+vscjava.vscode-java-test
+vscjava.vscode-maven
 vue.volar
 wmaurer.change-case
 yokoe.vscode-postfix-go
