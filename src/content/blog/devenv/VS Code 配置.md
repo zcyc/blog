@@ -92,8 +92,7 @@ draft: false
   },
   "workbench.activityBar.location": "top",
   "editor.gotoLocation.multipleDefinitions": "goto",
-  "editor.fontSize": 16,
-  "window.openFoldersInNewWindow": "on"
+  "editor.fontSize": 16
 }
 ```
 
@@ -103,31 +102,23 @@ draft: false
 
 ```json
 aaron-bond.better-comments
-antfu.goto-alias
-antfu.iconify
+antfu.slidev
 antfu.unocss
 astro-build.astro-vscode
 biomejs.biome
 bradlc.vscode-tailwindcss
 charliermarsh.ruff
 codezombiech.gitignore
-csstools.postcss
-donjayamanne.githistory
 dsznajder.es7-react-js-snippets
+eamodio.gitlens
 editorconfig.editorconfig
 github.copilot
 github.copilot-chat
 golang.go
 gruntfuggly.todo-tree
-jasonnutter.search-node-modules
-jock.svg
-lokalise.i18n-ally
 mechatroner.rainbow-csv
-mhutchie.git-graph
 mikestead.dotenv
-ms-dotnettools.csdevkit
-ms-dotnettools.csharp
-ms-dotnettools.vscode-dotnet-runtime
+ms-playwright.playwright
 ms-python.black-formatter
 ms-python.debugpy
 ms-python.isort
@@ -141,34 +132,24 @@ ms-vscode-remote.remote-wsl
 ms-vscode-remote.vscode-remote-extensionpack
 ms-vscode.remote-explorer
 ms-vscode.remote-server
-ms-vscode.vscode-speech
+oouo-diogo-perdigao.docthis
+pucelle.vscode-css-navigation
 quicktype.quicktype
-redhat.java
 redhat.vscode-xml
 redhat.vscode-yaml
 rust-lang.rust-analyzer
 sdras.vue-vscode-snippets
-sibiraj-s.vscode-scss-formatter
 simonhe.common-intellisense
+steoates.autoimport
 streetsidesoftware.code-spell-checker
-styled-components.vscode-styled-components
 sumneko.lua
 tauri-apps.tauri-vscode
+unifiedjs.vscode-mdx
 usernamehw.errorlens
 vadimcn.vscode-lldb
-visualstudioexptteam.intellicode-api-usage-examples
-visualstudioexptteam.vscodeintellicode
-vscjava.vscode-gradle
-vscjava.vscode-java-debug
-vscjava.vscode-java-dependency
-vscjava.vscode-java-pack
-vscjava.vscode-java-test
-vscjava.vscode-maven
 vue.volar
 wmaurer.change-case
-yokoe.vscode-postfix-go
-yzhang.markdown-all-in-one
-zxh404.vscode-proto3
+yzhang.markdown-all-in
 ```
 
 ## 导入导出扩展
