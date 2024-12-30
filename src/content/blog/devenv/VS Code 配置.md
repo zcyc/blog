@@ -107,24 +107,13 @@ antfu.unocss
 astro-build.astro-vscode
 biomejs.biome
 bradlc.vscode-tailwindcss
-charliermarsh.ruff
-codezombiech.gitignore
 dsznajder.es7-react-js-snippets
 eamodio.gitlens
-editorconfig.editorconfig
 github.copilot
 github.copilot-chat
-golang.go
 gruntfuggly.todo-tree
 mechatroner.rainbow-csv
 mikestead.dotenv
-ms-playwright.playwright
-ms-python.black-formatter
-ms-python.debugpy
-ms-python.isort
-ms-python.pylint
-ms-python.python
-ms-python.vscode-pylance
 ms-vscode-remote.remote-containers
 ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit
@@ -142,14 +131,15 @@ sdras.vue-vscode-snippets
 simonhe.common-intellisense
 steoates.autoimport
 streetsidesoftware.code-spell-checker
-sumneko.lua
 tauri-apps.tauri-vscode
 unifiedjs.vscode-mdx
 usernamehw.errorlens
 vadimcn.vscode-lldb
 vue.volar
 wmaurer.change-case
-yzhang.markdown-all-in
+yzhang.markdown-all-in-one
+zainchen.json
+zxh404.vscode-proto3
 ```
 
 ## 导入导出扩展
