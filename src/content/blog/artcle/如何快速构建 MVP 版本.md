@@ -71,7 +71,7 @@ Airbnb 开源的 BI 工具，功能强大，需要写 SQL。
 提供开源版本。
 
 ## 收款
-此处只列出部分方案，[Stripe](https://stripe.com/) 国内不能用。
+此处只列出部分方案，[Stripe](https://stripe.com/) 需要注册海外公司，[Lemon Squeezy](https://www.lemonsqueezy.com/) 可以个人注册，替代品还有 [Paddle](https://www.paddle.com/)。
 ### [PingPong](https://www.pingpongx.com/)
 ### [连连收款](https://global.lianlianpay.com/)
 ### [Payoneer](https://www.payoneer.com/zh-hans/)
