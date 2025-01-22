@@ -83,10 +83,11 @@ Airbnb 开源的 BI 工具，功能强大，需要写 SQL。
 ### [Clarity](https://clarity.microsoft.com/)
 免费，但数据会用于机器学习。
 
-## 错误收集
-此处只列出部分方案，[PagerDuty](https://www.pagerduty.com/) 和 [Rollbar](https://rollbar.com/) 有免费额度。
+## 日志收集
+此处只列出部分方案，[PagerDuty](https://www.pagerduty.com/)、[Rollbar](https://rollbar.com/)、[New Relic](https://newrelic.com/)、[Better Stack](https://betterstack.com/)、[sumo logic](https://www.sumologic.com/) 有免费额度。
 ### [Sentry](https://sentry.io/)
-有免费额度，提供开源版本。
+提供开源版本，有免费额度。
+
 
 ## 协作
 ### [Linear](https://linear.app/)
