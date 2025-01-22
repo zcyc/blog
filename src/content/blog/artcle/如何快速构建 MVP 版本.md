@@ -42,7 +42,8 @@ Airtable 的开源替代品，可以满足基本的表格分享。
 [Typeform](https://www.typeform.com/) 的替代品，提供免费额度。
 
 ## 管理后台
-此处只列出部分方案，[vue-next-admin](https://gitee.com/lyt-top/vue-next-admin) 和 [Geeker-Admin](https://github.com/HalseySpicy/Geeker-Admin) 没用过，[vue-pure-admin](https://github.com/pure-admin/vue-pure-admin) 随意关闭 issue，仅留作参考。
+此处只列出部分方案，[soybean-admin](https://github.com/soybeanjs/soybean-admin)、[vue-next-admin](https://gitee.com/lyt-top/vue-next-admin)、[Geeker-Admin](https://github.com/HalseySpicy/Geeker-Admin)、[v3-admin-vite](https://github.com/un-pany/v3-admin-vite) 开源，[vue-pure-admin](https://github.com/pure-admin/vue-pure-admin) 静态路由报错。
+
 ### [vue-vben-admin](https://github.com/vbenjs/vue-vben-admin)
 符合中国宝宝体质，Windows 无法编译。
 ### [RuoYi-Vue3](https://github.com/yangzongzhuan/RuoYi-Vue3)
