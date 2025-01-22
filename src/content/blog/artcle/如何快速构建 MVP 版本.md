@@ -77,11 +77,11 @@ Airbnb 开源的 BI 工具，功能强大，需要写 SQL。
 ### [Payoneer](https://www.payoneer.com/zh-hans/)
 
 ## 统计 & 分析
-此处只列出部分方案，[Datadog](https://www.datadoghq.com/) 和 [Cronitor](https://cronitor.io/) 有免费额度，[Fluent Bit](https://github.com/fluent/fluent-bit/) 开源。
+此处只列出部分方案，[Datadog](https://www.datadoghq.com/)、[Cronitor](https://cronitor.io/)、[Baselime](https://baselime.io/) 有免费额度，[Fluent Bit](https://github.com/fluent/fluent-bit/) 和 [Umami](https://github.com/umami-software/umami) 开源。
 ### [PostHog](https://posthog.com/)
 提供开源版本，有免费额度。
-### [Baselime](https://baselime.io/)
-暂无收费套餐，有免费额度。
+### [Clarity](https://clarity.microsoft.com/)
+免费，但数据会用于机器学习。
 
 ## 错误收集
 此处只列出部分方案，[PagerDuty](https://www.pagerduty.com/) 和 [Rollbar](https://rollbar.com/) 有免费额度。
