@@ -25,7 +25,7 @@ draft: false
 可以生成 REST 接口，语法强大。
 
 ## 工作流 & 定时任务
-此处只列出部分方案，[Zapier](https://zapier.com/) 提供免费额度，HomeLab 可以用[青龙](https://github.com/whyour/qinglong)，复杂任务可以用 [DolphinScheduler](https://github.com/apache/dolphinscheduler)、[Airflow](https://github.com/apache/airflow)、[Windmill](https://github.com/windmill-labs/windmill)。
+此处只列出部分方案，[Zapier](https://zapier.com/) 提供免费额度，简单任务用[青龙](https://github.com/whyour/qinglong)、[Windmill](https://github.com/windmill-labs/windmill)，复杂任务用 [DolphinScheduler](https://github.com/apache/dolphinscheduler)、[Airflow](https://github.com/apache/airflow)。
 ### [Activepieces](https://github.com/activepieces/activepieces)
 节点多，使用简单。
 ### [n8n](https://github.com/n8n-io/n8n)
