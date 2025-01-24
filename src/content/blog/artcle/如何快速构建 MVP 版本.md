@@ -34,7 +34,7 @@ draft: false
 # 前端
 对于前端来说，快速完成核心交互是重中之重。
 
-## 表格 & 表单
+## 表格
 此处只列出部分方案，[baserow](https://github.com/bram2w/baserow)、[NocoBase](https://github.com/nocobase/nocobase)、[APITable](https://github.com/apitable/apitable) 使用简单，baserow 界面上有很多付费按钮，NocoBase 连接外部数据库收费，APITable 无法连接外部数据库。[Budibase](https://github.com/budibase/budibase) 和 [Appsmith](https://github.com/appsmithorg/appsmith) 使用复杂，可以连接外部数据库，Budibase 提供 API。
 ### [NocoDB](https://github.com/nocodb/nocodb)
 Airtable 的开源替代品，可以满足基本的表格分享。
