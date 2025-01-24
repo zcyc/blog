@@ -57,6 +57,22 @@ Airtable 的开源替代品，可以满足基本的表格分享。
 ### [Refine](https://github.com/refinedev/refine)
 可以连接多种数据源的 React CRUD 组件。
 
+## 低代码
+### [amis](https://github.com/baidu/amis)
+通过 JSON 配置生成 React CRUD 组件。
+### [fast-crud](https://github.com/fast-crud/fast-crud)
+通过 JS 配置生成 Vue CRUD 组件。
+### [Refine](https://github.com/refinedev/refine)
+可以连接多种数据源的 React CRUD 组件。
+
+## 白板
+此处只列出部分方案，[WBO](https://github.com/lovasoa/whitebophir) 主打协作。
+### [Excalidraw](https://github.com/excalidraw/excalidraw)
+提供开源版本。
+### [tldraw](https://github.com/tldraw/tldraw)
+提供开源版本。
+
+
 ## 可视化
 此处只列出部分方案，[Grafana](https://github.com/grafana/grafana) 偏技术场景，[Redash](https://github.com/getredash/redash) 需要写 SQL。
 ### [Metabase](https://github.com/metabase/metabase)
