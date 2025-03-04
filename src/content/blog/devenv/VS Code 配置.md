@@ -13,7 +13,7 @@ draft: false
 
 # 配置
 
-网上推荐的很多配置是默认值。本列表仅包含和默认值不同的配置。
+网上推荐的很多配置是默认值。本列表仅包含和[default-settings](https://code.visualstudio.com/docs/reference/default-settings)不同的配置。
 
 ```json
 {
@@ -21,35 +21,18 @@ draft: false
   "telemetry.telemetryLevel": "off",
   // 自动切换主题
   "window.autoDetectColorScheme": true,
-  // 开启候选断点调试
-  "debug.showInlineBreakpointCandidates": true,
   // 自动删除行尾空格
   "files.trimTrailingWhitespace": true,
-  // 延时自动保存
-  "files.autoSave": "afterDelay",
-  // 自动保存间隔
-  "files.autoSaveDelay": 60000,
   // 自动 fetch
   "git.autofetch": true,
   // 智能 commit
   "git.enableSmartCommit": true,
   // 编辑器字体
   "editor.fontFamily": "Intel One Mono",
-  // 固定的标签放在单独的行
-  "workbench.editor.pinnedTabsOnSeparateRow": true,
   // 标签换行
   "workbench.editor.wrapTabs": true,
   // 代码小地图
   "editor.minimap.enabled": false,
-  // 保存时格式化
-  "editor.formatOnSave": false,
-  // 保存时执行操作
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit",
-    "source.organizeImports": "never"
-  },
-  // 彩虹括号
-  "editor.bracketPairColorization.enabled": true,
   // 彩虹指引线
   "editor.guides.bracketPairs": "active",
   // 自动重命名标签
@@ -68,9 +51,6 @@ draft: false
   "go.useLanguageServer": true,
   // Go 工具自动升级工具
   "go.toolsManagement.autoUpdate": true,
-  "i18n-ally.enabledParsers": [
-    "yaml"
-  ],
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
@@ -79,20 +59,19 @@ draft: false
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "git.confirmSync": false,
-  "[python]": {
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "source.fixAll": "explicit",
-      "source.organizeImports": "explicit"
-    },
-    "editor.defaultFormatter": "charliermarsh.ruff"
-  },
   "[typescript]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
   "workbench.activityBar.location": "top",
-  "editor.gotoLocation.multipleDefinitions": "goto",
-  "editor.fontSize": 16
+  "editor.fontSize": 13,
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "[go]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "never"
+    }
+  }
 }
 ```
 
@@ -107,13 +86,18 @@ antfu.unocss
 astro-build.astro-vscode
 biomejs.biome
 bradlc.vscode-tailwindcss
+donjayamanne.githistory
 dsznajder.es7-react-js-snippets
 eamodio.gitlens
+geequlim.godot-tools
 github.copilot
 github.copilot-chat
+golang.go
 gruntfuggly.todo-tree
 mechatroner.rainbow-csv
+mhutchie.git-graph
 mikestead.dotenv
+ms-azuretools.vscode-docker
 ms-vscode-remote.remote-containers
 ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit
@@ -121,6 +105,7 @@ ms-vscode-remote.remote-wsl
 ms-vscode-remote.vscode-remote-extensionpack
 ms-vscode.remote-explorer
 ms-vscode.remote-server
+ms-vscode.vscode-speech
 oouo-diogo-perdigao.docthis
 pucelle.vscode-css-navigation
 quicktype.quicktype
