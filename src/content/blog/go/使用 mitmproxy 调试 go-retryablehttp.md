@@ -11,9 +11,6 @@ featured: false
 draft: false
 ---
 
-
-### 使用 mitmproxy 模拟接口 502 错误调试 Go RetryableHttp：完整实践指南
-
 在分布式系统中，接口稳定性至关重要。当服务端返回 **502 Bad Gateway** 时，客户端需要具备自动重试能力以保障业务连续性。本文将结合 **mitmproxy** 和 Go 的 **retryablehttp** 库，演示如何模拟接口 502 错误并调试重试逻辑，助你构建健壮的 HTTP 请求处理机制。
 
 ---
