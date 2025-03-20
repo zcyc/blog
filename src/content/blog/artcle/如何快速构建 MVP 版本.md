@@ -18,7 +18,7 @@ draft: false
 对于后端来说，快速给出 API 是重中之重，此阶段不要过度关注性能。
 
 ## REST
-此处只列出部分方案，其他可以生成 REST 接口的框架有：[Ruby on Rails](https://ai.rails-guide.com/zh-CN/routing.html)、[Laravel](https://laravel.com/docs/11.x/controllers#resource-controllers)、[Django REST framework](https://www.django-rest-framework.org/api-guide/viewsets/)、[webman](https://www.workerman.net/doc/webman/route.html#%E8%B5%84%E6%BA%90%E5%9E%8B%E8%B7%AF%E7%94%B1)、[Phoenix](https://hexdocs.pm/phoenix/routing.html#resources)；CMS 接口可以用 [Strapi](https://github.com/strapi/strapi) 和 [Directus](https://github.com/directus/directus) 生成，Directus 组件更多，但数据关联不好用。
+此处只列出部分方案，其他可以生成 REST 接口的框架有：[Ruby on Rails](https://guides.rubyonrails.org/routing.html#resource-routing-the-rails-default)、[Laravel](https://laravel.com/docs/11.x/controllers#resource-controllers)、[Django REST framework](https://www.django-rest-framework.org/api-guide/viewsets/)、[webman](https://www.workerman.net/doc/webman/route.html#%E8%B5%84%E6%BA%90%E5%9E%8B%E8%B7%AF%E7%94%B1)、[Phoenix](https://hexdocs.pm/phoenix/routing.html#resources)；CMS 接口可以用 [Strapi](https://github.com/strapi/strapi) 和 [Directus](https://github.com/directus/directus) 生成，Directus 组件更多，但数据关联不好用。
 ### [Spring Boot](https://blog.d8s.fun/posts/java-framework-rest)
 可以生成 REST 接口，生态完善。
 ### [ASP.NET Core](https://blog.d8s.fun/posts/asp-dotnet-rest)
