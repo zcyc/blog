@@ -5,8 +5,8 @@ description: ""
 tags:
   - go
 slug: "go-retryablehttp"
-pubDatetime: 2022-10-18T10:03:11.000+08:00
-modDatetime: 2022-11-08T03:46:34.000+08:00
+pubDatetime: 2025-03-20T20:06:11.000+08:00
+modDatetime: 2025-03-20T20:06:11.000+08:00
 featured: false
 draft: false
 ---
