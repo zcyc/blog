@@ -54,7 +54,6 @@ draft: false
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "github.copilot.editor.enableAutoCompletions": true,
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
@@ -62,8 +61,8 @@ draft: false
   "[typescript]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
-  "workbench.activityBar.location": "top",
   "editor.fontSize": 13,
+  "security.promptForRemoteFileProtocolHandling": false,
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
   },
@@ -71,7 +70,18 @@ draft: false
     "editor.codeActionsOnSave": {
       "source.organizeImports": "never"
     }
-  }
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "workbench.preferredLightColorTheme": "GitHub Dark Default",
+  "workbench.activityBar.location": "top",
+  "chat.agent.enabled": true,
+  "github.copilot.chat.agent.thinkingTool": true,
+  "github.copilot.chat.codesearch.enabled": true
 }
 ```
 
@@ -81,32 +91,21 @@ draft: false
 
 ```json
 aaron-bond.better-comments
-antfu.slidev
-antfu.unocss
-astro-build.astro-vscode
 biomejs.biome
 bradlc.vscode-tailwindcss
 davidanson.vscode-markdownlint
 donjayamanne.githistory
 dsznajder.es7-react-js-snippets
-geequlim.godot-tools
 github.copilot
 github.copilot-chat
 github.github-vscode-theme
 golang.go
 gruntfuggly.todo-tree
 kevinrose.vsc-python-indent
-mechatroner.rainbow-csv
-mikestead.dotenv
-ms-azuretools.vscode-docker
-ms-dotnettools.csharp
-ms-dotnettools.vscode-dotnet-runtime
-ms-kubernetes-tools.vscode-kubernetes-tools
 ms-python.debugpy
 ms-python.isort
 ms-python.python
 ms-python.vscode-pylance
-ms-vscode-remote.remote-containers
 ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit
 ms-vscode-remote.remote-wsl
@@ -114,7 +113,6 @@ ms-vscode-remote.vscode-remote-extensionpack
 ms-vscode.remote-explorer
 ms-vscode.remote-server
 ms-vscode.vscode-speech
-pucelle.vscode-css-navigation
 quicktype.quicktype
 redhat.java
 redhat.vscode-xml
@@ -123,21 +121,14 @@ rust-lang.rust-analyzer
 sdras.vue-vscode-snippets
 simonhe.common-intellisense
 steoates.autoimport
-streetsidesoftware.code-spell-checker
-tauri-apps.tauri-vscode
 unifiedjs.vscode-mdx
 usernamehw.errorlens
 vadimcn.vscode-lldb
-visualstudioexptteam.intellicode-api-usage-examples
-visualstudioexptteam.vscodeintellicode
-vscjava.vscode-gradle
 vscjava.vscode-java-debug
 vscjava.vscode-java-dependency
 vscjava.vscode-java-pack
 vscjava.vscode-java-test
-vscjava.vscode-maven
 vue.volar
-wmaurer.change-case
 yzhang.markdown-all-in-one
 zainchen.json
 zxh404.vscode-proto3
