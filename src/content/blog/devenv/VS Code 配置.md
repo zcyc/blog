@@ -19,8 +19,6 @@ draft: false
 {
   // 关闭官方插件和部分第三方插件遥测
   "telemetry.telemetryLevel": "off",
-  // 自动切换主题
-  "window.autoDetectColorScheme": true,
   // 按钮位置
   "workbench.activityBar.location": "top",
   // 自动删除行尾空格
