@@ -28,7 +28,7 @@ draft: false
   // 智能 commit
   "git.enableSmartCommit": true,
   // 编辑器字体
-  "editor.fontFamily": "Intel One Mono",
+  "editor.fontFamily": "JetBrains Mono",
   // 标签换行
   "workbench.editor.wrapTabs": true,
   // 代码小地图
@@ -47,10 +47,6 @@ draft: false
   "python.analysis.typeCheckingMode": "strict",
   // 关闭红帽遥测
   "redhat.telemetry.enabled": false,
-  // Go 未导入包的代码补全
-  "go.useLanguageServer": true,
-  // Go 工具自动升级工具
-  "go.toolsManagement.autoUpdate": true,
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
@@ -66,19 +62,10 @@ draft: false
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
   },
-  "[go]": {
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": "never"
-    }
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "biomejs.biome"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "biomejs.biome"
-  },
   "workbench.preferredLightColorTheme": "GitHub Dark Default",
+  // 操作烂位置
   "workbench.activityBar.location": "top",
+  // 开启 copilot 体验功能
   "chat.agent.enabled": true,
   "github.copilot.chat.agent.thinkingTool": true,
   "github.copilot.chat.codesearch.enabled": true
