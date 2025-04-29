@@ -6,7 +6,7 @@ tags:
   - ide
 slug: "vscode-config"
 pubDatetime: 2022-10-21T14:21:59.000+08:00
-modDatetime: 2024-05-06T17:10:00.000+08:00
+modDatetime: 2025-04-29T12:10:00.000+08:00
 featured: false
 draft: false
 ---
