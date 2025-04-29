@@ -21,6 +21,8 @@ draft: false
   "telemetry.telemetryLevel": "off",
   // 自动切换主题
   "window.autoDetectColorScheme": true,
+  // 按钮位置
+  "workbench.activityBar.location": "top",
   // 自动删除行尾空格
   "files.trimTrailingWhitespace": true,
   // 自动 fetch
@@ -29,6 +31,8 @@ draft: false
   "git.enableSmartCommit": true,
   // 编辑器字体
   "editor.fontFamily": "JetBrains Mono",
+  // 编辑器字体大小
+  "editor.fontSize": 13,
   // 标签换行
   "workbench.editor.wrapTabs": true,
   // 代码小地图
@@ -37,6 +41,8 @@ draft: false
   "editor.guides.bracketPairs": "active",
   // 自动重命名标签
   "editor.linkedEditing": true,
+  // 打开远程工作区确认弹窗
+  "security.promptForRemoteFileProtocolHandling": false,
   // JavaScript 文件移动后自动修改导入
   "javascript.updateImportsOnFileMove.enabled": "always",
   // TypeScript 文件移动后自动修改导入
@@ -57,18 +63,20 @@ draft: false
   "[typescript]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
-  "editor.fontSize": 13,
-  "security.promptForRemoteFileProtocolHandling": false,
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
   },
-  "workbench.preferredLightColorTheme": "GitHub Dark Default",
-  // 操作烂位置
-  "workbench.activityBar.location": "top",
-  // 开启 copilot 体验功能
-  "chat.agent.enabled": true,
-  "github.copilot.chat.agent.thinkingTool": true,
-  "github.copilot.chat.codesearch.enabled": true
+  "[go]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "never"
+    }
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
 }
 ```
 
