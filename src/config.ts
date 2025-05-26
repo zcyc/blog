@@ -14,7 +14,7 @@ export const SITE = {
   editPost: {
     enabled: true,
     text: "Edit",
-    url: "https://github.com/zcyc/blog/edit/main",
+    url: "https://github.com/zcyc/blog/edit/main/",
   },
   dynamicOgImage: true,
   lang: "zh-CN", // html lang code. Set this empty and default will be "en"
