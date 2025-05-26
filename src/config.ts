@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Charles",
   profile: "https://blog.d8s.fun/about",
   desc: "My posts and notes.",
-  title: "Charles' Blog",
+  title: "Charles's Reflections",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
@@ -14,7 +14,7 @@ export const SITE: Site = {
   showArchives: true,
   editPost: {
     url: "https://github.com/zcyc/blog/edit/main/src/content/blog",
-    text: "Suggest Changes",
+    text: "Edit",
     appendFilePath: true,
   },
 };
