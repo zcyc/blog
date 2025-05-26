@@ -3,9 +3,33 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-深圳，全栈工程师，喜欢游戏、电影、音乐。
+Hi, I'm Charles. I love movies, music, and gaming. I live in Shenzhen, a vibrant city that keeps me inspired.
 
-# 我参与的开源项目
+Whether it's exploring new films, discovering great music, or diving into the latest games, I'm always up for something fun. Let's connect!
+
+## Tech Stack
+
+### Backend Expertise​​
+Golang · Java · Rust
+
+7+ years building distributed systems with ​​Go​​ (Gin)
+Designed high-concurrency services in ​​Java​​ (SpringBoot)
+Exploring ​​Rust​​ for performance-critical components
+​
+### ​Frontend Enthusiast​​
+Vue · React · TypeScript
+
+Developed 10+ SPA apps with ​​Vue
+Contributed to open-source libraries
+Advocate for TypeScript in full-stack projects
+​
+### ​DevOps & Tools​​
+Docker · K8s · CI/CD
+
+Optimized microservices deployment with ​​K8s​​
+Built CLI tools in ​​Rust​​ for workflow automation
+
+## Projects I Contribute To
 - [Casbin](https://github.com/casbin/casbin) - An authorization library that supports access control models like ACL, RBAC, ABAC in Golang
 - [UnoCSS](https://github.com/unocss/unocss) - The instant on-demand atomic CSS engine
 - [GoFrame](https://github.com/gogf/gf) - GoFrame is a modular, powerful, high-performance and enterprise-class application development framework of Golang
@@ -20,20 +44,3 @@ title: "About"
 - [protoc-gen-gf](https://github.com/zcyc/protoc-gen-gf) - Extension of protoc, generating CRUD of goframe
 - [gf-adapter](https://github.com/zcyc/gf-adapter) - GoFrame adapter of casbin
 - [protorenumber](https://github.com/zcyc/protorenumber) - a command-line tool that renumbers the fields in Protobuf (.proto) files while preserving the original field order
-
-# 我喜欢的游戏
-- Forza Horizon
-- EA SPORTS
-- Terraria
-- Factorio
-- Battlefield
-- Call of Duty
-- Minecraft
-- Apex
-- Rainbow Six Siege
-- League of Legends
-- Valorant
-- Path of Exile
-- GTA
-- 王者荣耀
-- 永劫无间
