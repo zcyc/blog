@@ -97,6 +97,47 @@ if slices.Equal(a, b) {
 }
 ```
 
+### 1.4 遍历切片值
+
+旧版本：
+```go
+numbers := []int{1, 2, 3, 4, 5}
+for i := 0; i < len(numbers); i++ {
+    fmt.Println(numbers[i])
+}
+```
+
+新版本：
+```go
+import "slices"
+
+numbers := []int{1, 2, 3, 4, 5}
+for v := range slices.Values(numbers) {
+    fmt.Println(v)
+}
+```
+
+### 1.5 反向切片遍历
+
+旧版本：
+```go
+// 反向遍历切片
+numbers := []int{1, 2, 3, 4, 5}
+for i := len(numbers) - 1; i >= 0; i-- {
+    fmt.Println(numbers[i])
+}
+```
+
+新版本：
+```go
+import "slices"
+
+numbers := []int{1, 2, 3, 4, 5}
+for _, v := range slices.Backward(numbers) {
+    fmt.Println(v)
+}
+```
+
 ## 2. strings 包的增强
 
 ### 2.1 字符串裁剪
@@ -320,6 +361,83 @@ import "time"
 // 新增了更多便捷的时间函数
 now := time.Now().Local()  // 直接获取本地时间
 ```
+
+### 5.3 改进的 HTTP 路由
+
+旧版本：
+```go
+// 手动实现路由模式匹配
+http.HandleFunc("/user/", func(w http.ResponseWriter, r *http.Request) {
+    id := strings.TrimPrefix(r.URL.Path, "/user/")
+    if id == "" {
+        http.Error(w, "Missing user ID", http.StatusBadRequest)
+        return
+    }
+    fmt.Fprintf(w, "User ID: %s", id)
+})
+```
+
+新版本：
+```go
+import "net/http"
+
+// 使用增强的 http.ServeMux 支持路径模式
+mux := http.NewServeMux()
+mux.HandleFunc("GET /user/{id}", func(w http.ResponseWriter, r *http.Request) {
+    id := r.PathValue("id")
+    fmt.Fprintf(w, "User ID: %s", id)
+})
+```
+
+`net/http.ServeMux` 现在支持路径模式匹配和通配符，简化了 RESTful API 的路由处理。
+
+### 5.4 新的随机数生成
+
+旧版本：
+```go
+import "math/rand"
+
+// 生成随机整数
+rand.Seed(time.Now().UnixNano())
+n := rand.Intn(100)
+```
+
+新版本：
+```go
+import "math/rand/v2"
+
+// 更高效的随机数生成
+n := rand.IntN(100)  // 无需显式设置种子
+```
+
+`math/rand/v2` 提供了更高效的随机数生成算法，默认使用更安全的随机源。
+
+### 5.5 循环变量捕获修复
+
+旧版本（可能导致意外行为）：
+```go
+funcs := []func(){}
+for i := 0; i < 3; i++ {
+    funcs = append(funcs, func() { fmt.Println(i) })
+}
+for _, f := range funcs {
+    f() // 输出 3, 3, 3
+}
+```
+
+新版本（Go 1.22 修复）：
+```go
+funcs := []func(){}
+for i := 0; i < 3; i++ {
+    funcs = append(funcs, func() { fmt.Println(i) })
+}
+for _, f := range funcs {
+    f() // 输出 0, 1, 2
+}
+```
+
+Go 1.22 修复了循环变量捕获问题，每个迭代的变量现在独立绑定，避免了意外共享。
+
 
 ## 总结
 
