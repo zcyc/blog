@@ -40,8 +40,6 @@ if contains(numbers, 3) {
 
 新版本：
 ```go
-import "golang.org/x/exp/slices"
-
 numbers := []int{1, 2, 3, 4, 5}
 if slices.Contains(numbers, 3) {
     // ...
@@ -59,8 +57,6 @@ sort.Ints(numbers)
 
 新版本：
 ```go
-import "golang.org/x/exp/slices"
-
 numbers := []int{5, 2, 8, 1, 9}
 slices.Sort(numbers)
 ```
@@ -85,8 +81,6 @@ func equalSlices(a, b []int) bool {
 
 新版本：
 ```go
-import "golang.org/x/exp/slices"
-
 a := []int{1, 2, 3}
 b := []int{1, 2, 3}
 if slices.Equal(a, b) {
@@ -106,8 +100,6 @@ for i := 0; i < len(numbers); i++ {
 
 新版本：
 ```go
-import "slices"
-
 numbers := []int{1, 2, 3, 4, 5}
 for v := range slices.Values(numbers) {
     fmt.Println(v)
@@ -127,8 +119,6 @@ for i := len(numbers) - 1; i >= 0; i-- {
 
 新版本：
 ```go
-import "slices"
-
 numbers := []int{1, 2, 3, 4, 5}
 for _, v := range slices.Backward(numbers) {
     fmt.Println(v)
@@ -151,11 +141,8 @@ s = strings.Trim(s, " ")
 
 新版本：
 ```go
-import "strings"
-
-// 新增了更多便捷的裁剪函数
 s := "  hello  "
-s = strings.TrimSpace(s)  // 保持不变
+s = strings.TrimSpace(s)  // 和之前功能一样
 s = strings.TrimPrefix(s, " ")  // 只去除前缀
 s = strings.TrimSuffix(s, " ")  // 只去除后缀
 ```
@@ -174,8 +161,6 @@ if parts[0] == "" {
 
 新版本：
 ```go
-import "strings"
-
 // 新增了更多分割选项
 parts := strings.Split("a,b,c", ",")
 // 自动过滤空字符串
@@ -200,8 +185,6 @@ for k := range m {
 
 新版本：
 ```go
-import "golang.org/x/exp/maps"
-
 m := map[string]int{"a": 1, "b": 2}
 maps.Clear(m)
 ```
@@ -220,8 +203,6 @@ for k, v := range src {
 
 新版本：
 ```go
-import "golang.org/x/exp/maps"
-
 src := map[string]int{"a": 1, "b": 2}
 dst := maps.Clone(src)
 ```
@@ -331,8 +312,6 @@ if err2 != nil {
 
 新版本：
 ```go
-import "errors"
-
 // 使用 errors.Join 合并多个错误
 err := errors.Join(err1, err2)
 if err != nil {
@@ -353,8 +332,6 @@ now = now.In(loc)
 
 新版本：
 ```go
-import "time"
-
 // 新增了更多便捷的时间函数
 now := time.Now().Local()  // 直接获取本地时间
 ```
@@ -376,8 +353,6 @@ http.HandleFunc("/user/", func(w http.ResponseWriter, r *http.Request) {
 
 新版本：
 ```go
-import "net/http"
-
 // 使用增强的 http.ServeMux 支持路径模式
 mux := http.NewServeMux()
 mux.HandleFunc("GET /user/{id}", func(w http.ResponseWriter, r *http.Request) {
@@ -386,14 +361,10 @@ mux.HandleFunc("GET /user/{id}", func(w http.ResponseWriter, r *http.Request) {
 })
 ```
 
-`net/http.ServeMux` 现在支持路径模式匹配和通配符，简化了 RESTful API 的路由处理。
-
 ### 5.4 新的随机数生成
 
 旧版本：
 ```go
-import "math/rand"
-
 // 生成随机整数
 rand.Seed(time.Now().UnixNano())
 n := rand.Intn(100)
@@ -401,13 +372,9 @@ n := rand.Intn(100)
 
 新版本：
 ```go
-import "math/rand/v2"
-
 // 更高效的随机数生成
 n := rand.IntN(100)  // 无需显式设置种子
 ```
-
-`math/rand/v2` 提供了更高效的随机数生成算法，默认使用更安全的随机源。
 
 ### 5.5 循环变量捕获修复
 
@@ -432,9 +399,6 @@ for _, f := range funcs {
     f() // 输出 0, 1, 2
 }
 ```
-
-Go 1.22 修复了循环变量捕获问题，每个迭代的变量现在独立绑定，避免了意外共享。
-
 
 ## 总结
 
