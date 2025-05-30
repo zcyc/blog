@@ -28,7 +28,7 @@ Sonyflake 也类似 Snowflake，但是博主比较喜欢索尼，所以在表里
 | [XID](https://github.com/rs/xid)                    | 20位 | \[0-9a-v]                           | ✔         | ✔         | ✔         | <br />     | <br />     | <br />     | <br /> | ✔     | ✔      | ✔       | ✔       | <br />   | ✔       | ✔       |
 | [KSUID](https://github.com/segmentio/ksuid)         | 27位 | \[0-9A-Za-z]                        | ✔         | <br />     | ✔         | ✔         | <br />     | <br />     | <br /> | <br /> | ✔      | ✔       | ✔       | <br />   | ✔       | ✔       |
 | [Sqids](https://github.com/sqids/sqids-go)         | 6位 | \[0-9A-Za-z]                        | <br />    | <br />     | ✔         | ✔         | <br />     | ✔      | <br /> | <br /> | ✔      | <br /> | <br /> | <br />   | ✔       | <br /> |
-| [Sqids](https://github.com/sqids/sqids-go)         | 26位 | \[a-z_]                       | ✔    | <br />     | ✔         | <br />         | <br />     | <br />      | <br />  | ✔ | ✔      | ✔ | ✔ | <br />   | ✔       | <br /> |
+| [TypeID](https://github.com/jetify-com/typeid-go)         | 26位 | \[a-z_]                       | ✔    | <br />     | ✔         | <br />         | <br />     | <br />      | <br />  | ✔ | ✔      | ✔ | ✔ | <br />   | ✔       | <br /> |
 
 # 特性解释
 
