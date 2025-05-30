@@ -6,7 +6,7 @@ tags:
   - article
 slug: "unique-id-compare"
 pubDatetime: 2022-11-14T12:32:07.000+08:00
-modDatetime: 2024-04-15T12:22:05.000+08:00
+modDatetime: 2025-05-30T14:48:05.000+08:00
 featured: false
 draft: false
 ---
@@ -28,10 +28,10 @@ Sonyflake 也类似 Snowflake，但是博主比较喜欢索尼，所以在表里
 | [XID](https://github.com/rs/xid)                    | 20位 | \[0-9a-v]                           | ✔         | ✔         | ✔         | <br />     | <br />     | <br />     | <br /> | ✔     | ✔      | ✔       | ✔       | <br />   | ✔       | ✔       |
 | [KSUID](https://github.com/segmentio/ksuid)         | 27位 | \[0-9A-Za-z]                        | ✔         | <br />     | ✔         | ✔         | <br />     | <br />     | <br /> | <br /> | ✔      | ✔       | ✔       | <br />   | ✔       | ✔       |
 | [Sqids](https://github.com/sqids/sqids-go)         | 6位 | \[0-9A-Za-z]                        | <br />    | <br />     | ✔         | ✔         | <br />     | ✔      | <br /> | <br /> | ✔      | <br /> | <br /> | <br />   | ✔       | <br /> |
+| [Sqids](https://github.com/sqids/sqids-go)         | 26位 | \[a-z_]                       | ✔    | <br />     | ✔         | <br />         | <br />     | <br />      | <br />  | ✔ | ✔      | ✔ | ✔ | <br />   | ✔       | <br /> |
 
 # 特性解释
 
-- 唯一性（集群内不重复）
 - 易读性（不包含易混淆字符）
 - 美观性（大小写统一）
 - URL友好（无特殊符号）
@@ -63,6 +63,7 @@ import (
 	"github.com/segmentio/ksuid"
 	"github.com/sony/sonyflake"
         "github.com/sqids/sqids-go"
+        "go.jetify.com/typeid"
 
 )
 
@@ -149,5 +150,10 @@ func sqidsTest() {
         fmt.Println("sqids2:", id, "length:", len(id))
 	numbers := s.Decode(id)
         fmt.Println("sqids numbers:", numbers)
+}
+
+func typeidTest() {
+	 tid, _ := typeid.WithPrefix("user")
+         fmt.Println(tid)
 }
 ```
