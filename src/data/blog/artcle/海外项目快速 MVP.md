@@ -115,6 +115,8 @@ Airbnb 开源的 BI 工具，功能强大，需要写 SQL。
 用来做团队知识库，写策划案，规划产品，免费版够用。[AFFiNE](https://github.com/toeverything/AFFiNE) 是它的开源替代。
 ### [Figma](https://www.figma.com/)
 用来设计原型/UI/UX，免费版无法使用 Dev Mode。[Penpot](https://github.com/penpot/penpot) 是它的开源替代。
+### [Miro](https://miro.com/)
+用来头脑风暴
 
 ## 邮件
 此处只列出部分方案，[Klaviyo](https://www.klaviyo.com/) 和 [mailchimp](https://mailchimp.com/) 可以作为备选。
