@@ -1,10 +1,10 @@
 ---
-title: "如何快速构建 MVP 版本"
+title: "海外项目快速 MVP"
 author: "Charles"
 description: ""
 tags:
   - article
-slug: "build-mvp-quickly"
+slug: "build-abroad-mvp-quickly"
 pubDatetime: 2024-07-14T01:00:00.000+08:00
 modDatetime: 2025-01-22T23:28:00.000+08:00
 featured: false
@@ -90,10 +90,10 @@ Airbnb 开源的 BI 工具，功能强大，需要写 SQL。
 提供开源版本。
 
 ## 收款
-此处只列出部分方案，[Stripe](https://stripe.com/) 需要注册海外公司，[Lemon Squeezy](https://www.lemonsqueezy.com/) 可以个人注册，替代品还有 [Paddle](https://www.paddle.com/)。
-### [PingPong](https://www.pingpongx.com/)
-### [连连收款](https://global.lianlianpay.com/)
-### [Payoneer](https://www.payoneer.com/zh-hans/)
+此处只列出部分方案，替代品还有 [Payoneer](https://www.payoneer.com/zh-hans/)，[PingPong](https://www.pingpongx.com/)，[连连收款](https://global.lianlianpay.com/)，[Paddle](https://www.paddle.com/)，[Dodo](https://dodopayments.com/)，
+### [Stripe](https://stripe.com/) 
+### [Lemon Squeezy](https://www.lemonsqueezy.com/) 
+### [Polar](https://polar.sh/)
 
 ## 统计 & 分析
 此处只列出部分方案，[Datadog](https://www.datadoghq.com/)、[Cronitor](https://cronitor.io/)、[Baselime](https://baselime.io/) 有免费额度，[Fluent Bit](https://github.com/fluent/fluent-bit/) 和 [Umami](https://github.com/umami-software/umami) 开源。
