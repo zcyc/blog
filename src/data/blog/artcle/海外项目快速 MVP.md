@@ -54,7 +54,8 @@ draft: false
 ### [NocoDB](https://github.com/nocodb/nocodb)
 Airtable 的开源替代品，可以满足基本的表格分享。
 ### [Tally](https://tally.so/)
-### [Typeform](https://www.typeform.com/) 的替代品，提供免费额度。
+### [Typeform](https://www.typeform.com/)
+提供免费额度。
 ### [baserow](https://github.com/bram2w/baserow)
 简单，界面上有很多付费按钮。
 ### [NocoBase](https://github.com/nocobase/nocobase)
