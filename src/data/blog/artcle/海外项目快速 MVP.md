@@ -127,11 +127,12 @@ Airbnb 开源的 BI 工具，功能强大，需要写 SQL。
 ### [Stripe](https://stripe.com/) 
 巨头，手续费高。
 ### [Lemon Squeezy](https://www.lemonsqueezy.com/) 
-不需要国外企业。
+不需要国外企业，可迁移到 Stripe。
 ### [Polar](https://polar.sh/)
 ### [Payoneer](https://www.payoneer.com/zh-hans/)
 ### [Paddle](https://www.paddle.com/)
 ### [Dodo](https://dodopayments.com/)
+### [creem](https://www.creem.io/)
 ### [PingPong](https://www.pingpongx.com/)
 国产。
 ### [连连收款](https://global.lianlianpay.com/)
