@@ -51,11 +51,10 @@ draft: false
 复杂任务用。
 
 ## 表格
+### [Airtable](https://airtable.com/)
+专业表格分享。
 ### [NocoDB](https://github.com/nocodb/nocodb)
 Airtable 的开源替代品，可以满足基本的表格分享。
-### [Tally](https://tally.so/)
-### [Typeform](https://www.typeform.com/)
-提供免费额度。
 ### [baserow](https://github.com/bram2w/baserow)
 简单，界面上有很多付费按钮。
 ### [NocoBase](https://github.com/nocobase/nocobase)
@@ -66,6 +65,12 @@ Airtable 的开源替代品，可以满足基本的表格分享。
 复杂，可以连接外部数据库，提供 API。
 ### [Appsmith](https://github.com/appsmithorg/appsmith)
 复杂，可以连接外部数据库。
+
+## 问卷
+### [Tally](https://tally.so/)
+提供免费额度。
+### [Typeform](https://www.typeform.com/)
+提供免费额度。
 
 ## 管理后台
 ### [vue-vben-admin](https://github.com/vbenjs/vue-vben-admin)
