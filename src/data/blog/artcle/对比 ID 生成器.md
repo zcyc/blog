@@ -1,5 +1,5 @@
 ---
-title: "唯一 ID 对比"
+title: "对比 ID 生成器"
 author: "Charles"
 description: ""
 tags:
