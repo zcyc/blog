@@ -11,39 +11,55 @@ featured: false
 draft: false
 ---
 
-# 特性对比
+本文以 Go 为例对比当前热门的 id 生成器。由于特性与 Snowflake 相同，美团 Leaf、百度 UidGenerator、滴滴 TinyId 未列出。
 
-本文以 Go 为例子，在默认配置下统计。
-不包含美团 Leaf、百度 UidGenerator、滴滴 TinyId，这三个类似 Snowflake。
-Sonyflake 也类似 Snowflake，但可用周期更长，所以在表里。
+---
 
-| 仓库地址                                            | 长度 | 字母表                              | 包含时间戳 | 包含机器号 | 包含随机数 | 自定义种子 | 自定义码表 | 自定义长度 | 易读性 | 美观性 | URL友好 | 排序友好 | 分表友好 | 输入友好 | 操作友好 | 可以校验 |
-| --------------------------------------------------- | ---- | ----------------------------------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ------ | ------ | ------- | -------- | -------- | -------- | -------- | -------- |
-| [Snowflake](https://github.com/bwmarrin/snowflake)  | 19位 | \[0-9]                              | ✔         | ✔         | <br />     | <br />     | <br />     | <br />     | ✔     | ✔     | ✔      | ✔       | ✔       | ✔       | ✔       | ✔       |
-| [Sonyflake](https://github.com/sony/sonyflake)      | 18位 | \[0-9]                              | ✔         | ✔         | <br />     | <br />     | <br />     | <br />     | ✔     | ✔     | ✔      | ✔       | ✔       | ✔       | ✔       | ✔       |
-| [UUID](https://github.com/gofrs/uuid)               | 36位 | \[A-Za-z0-9-]                       | <br />     | <br />     | ✔         | <br />     | <br />     | <br />     | <br /> | ✔     | <br />  | <br />   | <br />   | <br />   | <br />   | <br />   |
-| [ShortUUID](https://github.com/lithammer/shortuuid) | 22位 | \[A-Za-z0-9]                        | <br />     | <br />     | ✔         | <br />     | ✔         | <br />     | ✔     | <br /> | ✔      | <br />   | <br />   | <br />   | ✔       | <br />   |
-| [NanoID](https://github.com/jaevor/go-nanoid)       | 21位 | \[A-Za-z0-9\_-]                     | <br />     | <br />     | ✔         | <br />     | ✔         | ✔         | <br /> | <br /> | <br />  | <br />   | <br />   | <br />   | <br />   | <br />   |
-| [ULID](https://github.com/oklog/ulid)               | 26位 | \[0123456789ABCDEFGHJKMNPQRSTVWXYZ] | ✔         | <br />     | ✔         | ✔         | <br />     | <br />     | <br /> | ✔     | ✔      | ✔       | ✔       | <br />   | ✔       | ✔       |
-| [XID](https://github.com/rs/xid)                    | 20位 | \[0-9a-v]                           | ✔         | ✔         | ✔         | <br />     | <br />     | <br />     | <br /> | ✔     | ✔      | ✔       | ✔       | <br />   | ✔       | ✔       |
-| [KSUID](https://github.com/segmentio/ksuid)         | 27位 | \[0-9A-Za-z]                        | ✔         | <br />     | ✔         | ✔         | <br />     | <br />     | <br /> | <br /> | ✔      | ✔       | ✔       | <br />   | ✔       | ✔       |
-| [Sqids](https://github.com/sqids/sqids-go)         | 6位 | \[0-9A-Za-z]                        | <br />    | <br />     | ✔         | ✔         | <br />     | ✔      | <br /> | <br /> | ✔      | <br /> | <br /> | <br />   | ✔       | <br /> |
-| [TypeID](https://github.com/jetify-com/typeid-go)         | 26位 | \[a-z_]                       | ✔    | <br />     | ✔         | <br />         | <br />     | <br />      | <br />  | ✔ | ✔      | ✔ | ✔ | <br />   | ✔       | <br /> |
+### **对比项目**
+1. **二进制位长**：ID原始二进制长度（位），影响全局唯一性的概率空间。
+2. **文本长度**：编码后字符串长度，影响存储与传输效率。
+3. **有序性（K-Sortable）**：是否按生成时间排序，对数据库索引友好性至关重要。
+4. **安全性**：是否使用加密安全的随机源（如Crypto API），避免预测风险。
+5. **时间嵌入**：是否包含时间戳，支持按时间范围查询。
+6. **分布式友好**：是否依赖中心节点或机器ID分配，影响水平扩展复杂度。
+7. **主要优点**：核心优势场景。  
+8. **主要缺点**：关键限制或风险。  
 
-# 特性解释
+---
 
-- 易读性（不包含易混淆字符）
-- 美观性（大小写统一）
-- URL友好（无特殊符号）
-- 排序友好（基于字母表顺序）
-- 分表友好（可提取时间戳）
-- 输入友好（纯数字）
-- 操作友好（电脑支持双击选中，手机支持长按选中）
-- 安全（不暴露 MAC 地址）
-- 保密（不暴露业务实际流水）
-- 时间回拨可用（不依赖系统时钟）
+### **对比表格**
 
-# 测试代码
+| 方案          | 二进制位长 | 文本长度 | 有序性 | 安全性 | 时间嵌入 | 分布式友好 | 主要优点                     | 主要缺点                     | 
+|---------------|------------|----------|--------|--------|----------|-------------|------------------------------|------------------------------|
+| **Snowflake** | 64         | 19数字   | 严格递增 | 高     | 是       | ❌（需机器ID） | 高性能、严格有序、空间效率高 | 依赖时钟同步，机器ID管理复杂 |
+| **Sonyflake** | 64         | 19数字   | 严格递增 | 高     | 是       | ❌（需机器ID） | 改进时钟回拨处理             | 生态支持较少                 |
+| **UUIDv4**    | 128        | 36字符   | 无序   | 高     | 否       | ✅           | 全局唯一、无协调             | 存储开销大，索引效率低       |
+| **UUIDv7**    | 128        | 36字符   | 趋势递增 | 高     | 是       | ✅           | 时间有序、IETF标准           | 文本较长                     |
+| **ShortUUID** | 128        | 22字符   | 无序   | 高     | 否       | ✅           | 压缩UUID，减少存储           | 仍无序，兼容性风险           |
+| **NanoID**    | 126        | 21字符   | 无序   | 高     | 否       | ✅           | 极短、生成快（比UUID快60%）  | 无序，不适合时序场景         |
+| **ULID**      | 128        | 26字符   | 趋势递增 | 高     | 是       | ✅           | 可排序、Base32无混淆字符     | 毫秒精度，高并发可能碰撞     |
+| **KSUID**     | 160        | 27字符   | 趋势递增 | 高     | 是       | ✅           | 时间精度高（秒级）、Base62紧凑| 位长较大                   |
+| **XID**       | 96         | 24字符   | 趋势递增 | 中     | 是       | ✅           | MongoDB原生支持，生成快      | 随机性弱于UUID               |
+| **Sqids**     | 可变       | <10字符  | 无序   | 低     | 否       | ✅           | 极短、人类可读               | 非全局唯一，需上下文         |
+
+> 注：
+> 1. **有序性**：  
+>    - **严格递增**：同毫秒内通过序列号保序（如Snowflake）。  
+>    - **趋势递增**：仅时间戳部分有序，同毫秒内随机（如UUIDv7）。  
+> 2. **安全性**：高 = 使用`Crypto API`；中 = 混合随机源；低 = `Math.random()`。  
+> 3. **分布式友好**：✅ = 无需中心协调；❌ = 需机器ID或时钟同步。  
+> 4. **文本长度**：基于默认编码（如UUIDv4为Hex，NanoID为Base64）。
+
+---
+
+### **总结**
+- **需要严格时序与高性能**：选 **Snowflake/Sonyflake**。  
+- **全局唯一且无需协调**：**UUIDv7** 或 **ULID/KSUID**。  
+- **紧凑性与速度优先**：**NanoID** 或 **ShortUUID**。  
+- **人类可读短ID**：**Sqids**。  
+- **关键趋势**：UUIDv7 和 ULID 因平衡时序性、分布式友好及标准化，成为现代系统的新推荐，而 NanoID 在轻量级场景持续流行。
+
+### 测试代码
 
 ```go
 package main
@@ -62,8 +78,7 @@ import (
 	"github.com/rs/xid"
 	"github.com/segmentio/ksuid"
 	"github.com/sony/sonyflake"
-        "github.com/sqids/sqids-go"
-        "go.jetify.com/typeid"
+    "github.com/sqids/sqids-go"
 
 )
 
@@ -76,7 +91,6 @@ func main() {
 	ulidTest()
 	xidTest()
 	ksuidTest()
-        sqidsTest()
 }
 
 func snowflakeTest() {
@@ -150,10 +164,5 @@ func sqidsTest() {
         fmt.Println("sqids2:", id, "length:", len(id))
 	numbers := s.Decode(id)
         fmt.Println("sqids numbers:", numbers)
-}
-
-func typeidTest() {
-	 tid, _ := typeid.WithPrefix("user")
-         fmt.Println(tid)
 }
 ```
