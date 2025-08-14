@@ -37,3 +37,6 @@ pnpm-debug.log*
 # ignore ide
 .vscode/
 .idea/
+
+# pagefind
+public/pagefind/
