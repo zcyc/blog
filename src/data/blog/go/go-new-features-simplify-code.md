@@ -13,13 +13,12 @@ draft: false
 
 Go 语言在 1.18 版本之后引入了许多实用的新函数和方法，这些新特性大大简化了我们的日常编码工作。本文将介绍一些最常用的新函数，并通过对比新旧代码来展示它们如何让我们的代码更简洁、更易读。
 
-## 1. slices 包的新函数
+## 1. slices 包增强
 
 ### 1.1 查找元素
 
-旧版本：
+旧版本（1.21 之前）：
 ```go
-// 查找切片中是否包含某个元素
 func contains(slice []int, target int) bool {
     for _, v := range slice {
         if v == target {
@@ -29,14 +28,12 @@ func contains(slice []int, target int) bool {
     return false
 }
 
-// 使用
 numbers := []int{1, 2, 3, 4, 5}
 if contains(numbers, 3) {
-    // ...
 }
 ```
 
-新版本：
+新版本（1.21 之后）：
 ```go
 numbers := []int{1, 2, 3, 4, 5}
 if slices.Contains(numbers, 3) {
@@ -46,14 +43,14 @@ if slices.Contains(numbers, 3) {
 
 ### 1.2 切片排序
 
-旧版本：
+旧版本（1.21 之前）：
 ```go
 // 对切片进行排序
 numbers := []int{5, 2, 8, 1, 9}
 sort.Ints(numbers)
 ```
 
-新版本：
+新版本（1.21 之后）：
 ```go
 numbers := []int{5, 2, 8, 1, 9}
 slices.Sort(numbers)
@@ -61,7 +58,7 @@ slices.Sort(numbers)
 
 ### 1.3 切片比较
 
-旧版本：
+旧版本（1.21 之前）：
 ```go
 // 比较两个切片是否相等
 func equalSlices(a, b []int) bool {
@@ -77,7 +74,7 @@ func equalSlices(a, b []int) bool {
 }
 ```
 
-新版本：
+新版本（1.21 之后）：
 ```go
 a := []int{1, 2, 3}
 b := []int{1, 2, 3}
@@ -88,7 +85,7 @@ if slices.Equal(a, b) {
 
 ### 1.4 遍历切片值
 
-旧版本：
+旧版本（1.21 之前）：
 ```go
 numbers := []int{1, 2, 3, 4, 5}
 for i := 0; i < len(numbers); i++ {
@@ -96,7 +93,7 @@ for i := 0; i < len(numbers); i++ {
 }
 ```
 
-新版本：
+新版本（1.21 之后）：
 ```go
 numbers := []int{1, 2, 3, 4, 5}
 for v := range slices.Values(numbers) {
@@ -106,7 +103,7 @@ for v := range slices.Values(numbers) {
 
 ### 1.5 反向切片遍历
 
-旧版本：
+旧版本（1.21 之前）：
 ```go
 // 反向遍历切片
 numbers := []int{1, 2, 3, 4, 5}
@@ -115,7 +112,7 @@ for i := len(numbers) - 1; i >= 0; i-- {
 }
 ```
 
-新版本：
+新版本（1.21 之后）：
 ```go
 numbers := []int{1, 2, 3, 4, 5}
 for _, v := range slices.Backward(numbers) {
@@ -123,11 +120,11 @@ for _, v := range slices.Backward(numbers) {
 }
 ```
 
-## 2. strings 包的增强
+## 2. strings 包增强
 
 ### 2.1 字符串裁剪
 
-旧版本：
+旧版本（1.21 之前）：
 ```go
 // 去除字符串两端的空白字符
 s := "  hello  "
@@ -137,7 +134,7 @@ s = strings.TrimSpace(s)
 s = strings.Trim(s, " ")
 ```
 
-新版本：
+新版本（1.21 之后）：
 ```go
 s := "  hello  "
 s = strings.TrimSpace(s)  // 和之前功能一样
@@ -147,7 +144,7 @@ s = strings.TrimSuffix(s, " ")  // 只去除后缀
 
 ### 2.2 字符串分割
 
-旧版本：
+旧版本（1.21 之前）：
 ```go
 // 分割字符串
 parts := strings.Split("a,b,c", ",")
@@ -157,7 +154,7 @@ if parts[0] == "" {
 }
 ```
 
-新版本：
+新版本（1.21 之后）：
 ```go
 // 新增了更多分割选项
 parts := strings.Split("a,b,c", ",")
@@ -166,11 +163,11 @@ parts = strings.Split("a,,b,c", ",")  // ["a", "", "b", "c"]
 parts = strings.SplitAfter("a,b,c", ",")  // ["a,", "b,", "c"]
 ```
 
-## 3. maps 包的新函数
+## 3. maps 包增强
 
 ### 3.1 清空 map
 
-旧版本：
+旧版本（1.21 之前）：
 ```go
 // 清空 map
 m := map[string]int{"a": 1, "b": 2}
@@ -179,7 +176,7 @@ for k := range m {
 }
 ```
 
-新版本：
+新版本（1.21 之后）：
 ```go
 m := map[string]int{"a": 1, "b": 2}
 maps.Clear(m)
@@ -187,7 +184,7 @@ maps.Clear(m)
 
 ### 3.2 复制 map
 
-旧版本：
+旧版本（1.21 之前）：
 ```go
 // 复制 map
 src := map[string]int{"a": 1, "b": 2}
@@ -197,100 +194,46 @@ for k, v := range src {
 }
 ```
 
-新版本：
+新版本（1.21 之后）：
 ```go
 src := map[string]int{"a": 1, "b": 2}
 dst := maps.Clone(src)
 ```
 
-## 4. 泛型带来的简化
-
-### 4.1 通用容器操作
+## 4. time 包增强
+### 4.1 时区转换
 
 旧版本：
 ```go
-// 为每种类型都需要写一个函数
-func maxInt(a, b int) int {
-    if a > b {
-        return a
-    }
-    return b
-}
-
-func maxFloat64(a, b float64) float64 {
-    if a > b {
-        return a
-    }
-    return b
-}
+now := time.Now()
+loc, _ := time.LoadLocation("Asia/Shanghai")
+now = now.In(loc)
 ```
 
 新版本：
 ```go
-// 使用泛型，一个函数处理多种类型
-func max[T constraints.Ordered](a, b T) T {
-    if a > b {
-        return a
-    }
-    return b
-}
-
-// 使用
-maxInt := max(1, 2)
-maxFloat := max(1.5, 2.5)
+now := time.Now().Local()
 ```
 
-### 4.2 通用数据结构
+### 4.2 格式化为数据库时间
 
-旧版本：
+旧版本(1.20 之前)：
 ```go
-// 需要为每种类型实现一个栈
-type IntStack struct {
-    items []int
-}
-
-func (s *IntStack) Push(x int) {
-    s.items = append(s.items, x)
-}
-
-func (s *IntStack) Pop() int {
-    if len(s.items) == 0 {
-        panic("stack is empty")
-    }
-    x := s.items[len(s.items)-1]
-    s.items = s.items[:len(s.items)-1]
-    return x
-}
+now := time.Now()
+v := now.Format("2006-01-02 15:04:05")
+println(v)
 ```
 
-新版本：
-```go
-// 使用泛型实现通用栈
-type Stack[T any] struct {
-    items []T
-}
-
-func (s *Stack[T]) Push(x T) {
-    s.items = append(s.items, x)
-}
-
-func (s *Stack[T]) Pop() T {
-    if len(s.items) == 0 {
-        panic("stack is empty")
-    }
-    x := s.items[len(s.items)-1]
-    s.items = s.items[:len(s.items)-1]
-    return x
-}
-
-// 使用
-intStack := &Stack[int]{}
-stringStack := &Stack[string]{}
+新版本(1.20 之后)：
+```
+now := time.Now()
+v := now.Format(time.DateTime)
+println(v)
 ```
 
-## 5. 其他实用新特性
+## 5. 其他新特性
 
-### 5.1 错误处理改进
+### 5.1 错误处理
 
 旧版本：
 ```go
@@ -313,49 +256,7 @@ if err != nil {
 }
 ```
 
-### 5.2 时间处理
-
-旧版本：
-```go
-// 获取当前时间
-now := time.Now()
-// 需要手动处理时区
-loc, _ := time.LoadLocation("Asia/Shanghai")
-now = now.In(loc)
-```
-
-新版本：
-```go
-// 新增了更多便捷的时间函数
-now := time.Now().Local()  // 直接获取本地时间
-```
-
-### 5.3 改进的 HTTP 路由
-
-旧版本：
-```go
-// 手动实现路由模式匹配
-http.HandleFunc("/user/", func(w http.ResponseWriter, r *http.Request) {
-    id := strings.TrimPrefix(r.URL.Path, "/user/")
-    if id == "" {
-        http.Error(w, "Missing user ID", http.StatusBadRequest)
-        return
-    }
-    fmt.Fprintf(w, "User ID: %s", id)
-})
-```
-
-新版本：
-```go
-// 使用增强的 http.ServeMux 支持路径模式
-mux := http.NewServeMux()
-mux.HandleFunc("GET /user/{id}", func(w http.ResponseWriter, r *http.Request) {
-    id := r.PathValue("id")
-    fmt.Fprintf(w, "User ID: %s", id)
-})
-```
-
-### 5.4 新的随机数生成
+### 5.2 随机数生成
 
 旧版本：
 ```go
@@ -370,9 +271,9 @@ n := rand.Intn(100)
 n := rand.IntN(100)  // 无需显式设置种子
 ```
 
-### 5.5 循环变量捕获
+### 5.3 捕获循环变量
 
-旧版本（Go 1.22 之前）：
+旧版本（1.22 之前）：
 ```go
 funcs := []func(){}
 for i := 0; i < 3; i++ {
@@ -384,7 +285,7 @@ for _, f := range funcs {
 }
 ```
 
-新版本（Go 1.22 之后）：
+新版本（1.22 之后）：
 ```go
 funcs := []func(){}
 for i := 0; i < 3; i++ {
@@ -395,9 +296,9 @@ for _, f := range funcs {
 }
 ```
 
-### 5.6 WaitGroup.Go
+### 5.4 并发控制
 
-旧版本：
+旧版本（1.25 之前）：
 ```go
 var wg sync.WaitGroup
 wg.Add(1)
@@ -408,7 +309,7 @@ go func() {
 wg.Wait()
 ```
 
-新版本：
+新版本（1.25 之后）：
 ```go
 var wg sync.WaitGroup
 wg.Go(func() {
