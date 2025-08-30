@@ -6,7 +6,7 @@ tags:
   - go
 slug: "go-new-features-simplify-code"
 pubDatetime: 2025-05-26T19:46:00.000+08:00
-modDatetime: 2025-05-26T19:46:00.000+08:00
+modDatetime: 2025-08-30T15:46:00.000+08:00
 featured: false
 draft: false
 ---
@@ -372,24 +372,47 @@ n := rand.IntN(100)  // 无需显式设置种子
 
 ### 5.5 循环变量捕获
 
-旧版本（可能导致意外行为）：
+旧版本（Go 1.22 之前）：
 ```go
 funcs := []func(){}
 for i := 0; i < 3; i++ {
+    i := i // 声明局部变量
     funcs = append(funcs, func() { fmt.Println(i) })
 }
 for _, f := range funcs {
-    f() // 输出 3, 3, 3
+    f() 
 }
 ```
 
-新版本（Go 1.22 修复）：
+新版本（Go 1.22 之后）：
 ```go
 funcs := []func(){}
 for i := 0; i < 3; i++ {
     funcs = append(funcs, func() { fmt.Println(i) })
 }
 for _, f := range funcs {
-    f() // 输出 0, 1, 2
+    f()
 }
+```
+
+### 5.6 WaitGroup.Go
+
+旧版本：
+```go
+var wg sync.WaitGroup
+wg.Add(1)
+go func() {
+    defer wg.Done()
+    fmt.Println("go is awesome")
+}()
+wg.Wait()
+```
+
+新版本：
+```go
+var wg sync.WaitGroup
+wg.Go(func() {
+    fmt.Println("go is awesome")
+})
+wg.Wait()
 ```
