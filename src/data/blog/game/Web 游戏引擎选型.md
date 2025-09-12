@@ -25,18 +25,18 @@ draft: false
 
 ## 结论
 - 没有服务端 SDK：Stencyl
-- 编程语言小众：GameMaker、Stencyl
+- 编程语言不常用：GameMaker、Stencyl
 - 不支持 Web：Unreal
 - 没有编辑器：PixiJS、Three.js
 - 编辑器收费：Phaser
 - 2D 支持差：Wonderland、BabylonJS
-- 加载慢：Godot
-- 收费：GDevelop、Construct
+- Web 加载慢：Godot
+- 收费：GDevelop、Construct、PlayCanvas
 - 排除：Defold，Unity
 
-排除 Defold，因为会让我和小伙伴想起工作时被 Lua 支配的恐惧。排除 Unity，因为国内只能用团结引擎。
+排除 Defold，因为想起了被 Lua 支配的日子。排除 Unity，因为国内只能用特供版。
 
-最终满足需求的引擎有：PlayCanvas、LayaAir、Cocos Creator，但是我们选择用 Web 框架开发，暂定 Vue。这个选择多少有点冒昧，但能满足我们需求。虽然不是游戏引擎，但是加载很快，并且我们已经掌握。唯一问题就是没有编辑器，需要手搓布局。
+最终满足需求的引擎有：Cocos Creator、LayaAir。
 
 
 
