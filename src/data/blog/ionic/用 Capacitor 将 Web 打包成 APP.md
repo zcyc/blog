@@ -11,6 +11,7 @@ featured: false
 draft: false
 ---
 
+
 ## 1. 创建项目并安装依赖
 ```shell
 npm init @capacitor/app@latest
@@ -25,12 +26,14 @@ npm install @capacitor/android
 npx cap add android
 ```
 
-## 3. 修改 capacitor.config.json
-增加 server.url 配置，并将 plugins.SplashScreen.launchAutoHide 改为 true。更多字段[查看文档](https://capacitorjs.com/docs/config)。
+## 3. 配置 APP 启动加载地址
+在 capacitor.config.json 中增加 server.url 配置，并将 plugins.SplashScreen.launchAutoHide 改为 true。更多配置[查看文档](https://capacitorjs.com/docs/config)。
+
+修改后的配置：
 ```json
 {
-  "appId": "com.example.app",
-  "appName": "Deepseek",
+  "appId": "com.deepseek.chat",
+  "appName": "DeepSeek",
   "webDir": "dist",
   "server": {
     "url": "https://chat.deepseek.com"
@@ -57,11 +60,13 @@ npx cap sync android
 无法加载时用模拟器的浏览器测试能否打开网站。Web View 加载时显示白屏，超时后显示报错页面。
 
 ## 6.1 自定义 Web View 错误页面
-在配置文件中增加 server.errorPath 节点。
+在 capacitor.config.json 中增加 server.errorPath 节点。
+
+修改后的配置：
 ```json
 {
   "appId": "com.deepseek.chat",
-  "appName": "DeepSeek Chat",
+  "appName": "DeepSeek",
   "webDir": "dist",
   "server": {
     "url": "https://chat.deepseek.com",
@@ -153,11 +158,13 @@ npx cap sync android
 ```
 
 ## 7. 修改闪屏时间
-增加 plugins.SplashScreen.launchShowDuration 配置
+在 capacitor.config.json 中增加 plugins.SplashScreen.launchShowDuration 配置。
+
+修改后的配置：
 ```json
 {
   "appId": "com.deepseek.chat",
-  "appName": "DeepSeek Chat",
+  "appName": "DeepSeek",
   "webDir": "dist",
   "server": {
     "url": "https://chat.deepseek.com",
@@ -172,12 +179,14 @@ npx cap sync android
 }
 ```
 
-## 8. 增加安全性配置
-限制 Web View 可加载地址，禁用 debug，禁止加载 http
+## 8. 限制 Web View 可加载地址，禁用 debug，禁止加载 http
+在 capacitor.config.json 中增加 server.androidScheme、server.allowNavigation、android.allowMixedContent、android.webContentsDebuggingEnabled。
+
+修改后设为配置：
 ```json
 {
   "appId": "com.deepseek.chat",
-  "appName": "DeepSeek Chat",
+  "appName": "DeepSeek",
   "webDir": "dist",
   "server": {
     "url": "https://chat.deepseek.com",
@@ -202,6 +211,8 @@ npx cap sync android
 ```
 
 ## 9. 修改 Web View 超时时间
+修改 MainActivity.java。
+
 ```java
 package com.deepseek.chat;
 
