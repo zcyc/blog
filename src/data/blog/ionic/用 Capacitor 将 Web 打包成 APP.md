@@ -86,72 +86,12 @@ npx cap sync android
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>连接错误</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            padding: 20px;
-        }
-        .error-container {
-            background: white;
-            border-radius: 16px;
-            padding: 40px;
-            max-width: 400px;
-            width: 100%;
-            text-align: center;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
-        }
-        .error-icon {
-            font-size: 64px;
-            margin-bottom: 20px;
-        }
-        h1 {
-            color: #333;
-            font-size: 24px;
-            margin-bottom: 16px;
-        }
-        p {
-            color: #666;
-            font-size: 16px;
-            line-height: 1.6;
-            margin-bottom: 24px;
-        }
-        .retry-button {
-            background: #667eea;
-            color: white;
-            border: none;
-            padding: 12px 32px;
-            border-radius: 8px;
-            font-size: 16px;
-            cursor: pointer;
-            transition: background 0.3s;
-        }
-        .retry-button:hover {
-            background: #5568d3;
-        }
-        .retry-button:active {
-            transform: scale(0.98);
-        }
-    </style>
 </head>
 <body>
     <div class="error-container">
-        <div class="error-icon">⚠️</div>
         <h1>无法连接到服务器</h1>
         <p>请检查您的网络连接，然后重试。</p>
-        <button class="retry-button" onclick="window.location.reload()">重试</button>
     </div>
 </body>
 </html>
