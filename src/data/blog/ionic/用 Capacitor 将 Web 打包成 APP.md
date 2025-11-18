@@ -6,50 +6,57 @@ tags:
   - ionic
 slug: "capacitor-web-to-app"
 pubDatetime: 2025-11-17T22:56:00.000+08:00
-modDatetime: 2025-11-17T22:56:00.000+08:00
+modDatetime: 2025-11-18T14:50:00.000+08:00
 featured: false
 draft: false
 ---
 
-## 1.创建项目并安装依赖
+## 1. 创建项目并安装依赖
 ```shell
 npm init @capacitor/app@latest
 cd my-app
-npm install @capacitor/android
 npm install
+```
+
+## 2. 安装依赖
+本文以 Android 为例，iOS 操作[查看文档](https://capacitorjs.com/docs/ios)。
+```shell
+npm install @capacitor/android
 npx cap add android
 ```
 
-## 2.修改配置文件
-在 capacitor.config.json 中增加 server.url 配置，实现 app 启动加载指定 Web。更多字段看[配置文档](https://capacitorjs.com/docs/config)。
+## 3. 修改 capacitor.config.json
+增加 server.url 配置，并将 plugins.SplashScreen.launchAutoHide 改为 true。更多字段[查看文档](https://capacitorjs.com/docs/config)。
 ```json
 {
-  "appId": "com.deepseek.chat",
-  "appName": "DeepSeek Chat",
+  "appId": "com.example.app",
+  "appName": "Deepseek",
   "webDir": "dist",
   "server": {
     "url": "https://chat.deepseek.com"
   },
   "plugins": {
     "SplashScreen": {
-      "launchAutoHide": true,
-      "launchShowDuration": 500,
-      "backgroundColor": "#ffffff"
+      "launchAutoHide": true
     }
   }
 }
 ```
 
-## 3.编译 App
+## 4. 编译 APP
 ```shell
 npm run build
 npx cap sync android
 ```
 
-## 4.用 Android Studio 运行项目
-打开项目目录下的 android 目录，然后点击运行即可查看效果。注意打开模拟器网络，没有网络加载时显示白屏，超时后显示 chromium 报错页面。
+## 5. 运行 APP
+本文以 Android 为例，iOS 操作[查看文档](https://capacitorjs.com/docs/ios)。
 
-## 5.自定义 chromium 错误页面
+用 Android Studio 打开项目下的 android 目录，点击运行即可。
+
+无法加载时用模拟器的 Chrome 测试能否打开该网站。没有网络加载时显示白屏，超时后显示 Chromium 报错页面。
+
+## 6.1 自定义 Web View 错误页面
 在配置文件中增加 server.errorPath 节点。
 ```json
 {
@@ -62,15 +69,14 @@ npx cap sync android
   },
   "plugins": {
     "SplashScreen": {
-      "launchAutoHide": true,
-      "launchShowDuration": 500,
-      "backgroundColor": "#ffffff"
+      "launchAutoHide": true
     }
   }
 }
 ```
 
-## 6.在 dist 目录下创建 error.html
+## 6.2 创建 error.html
+在 dist 目录下创建 error.html
 ```html
 <!DOCTYPE html>
 <html lang="zh-CN">
@@ -146,7 +152,56 @@ npx cap sync android
 </html>
 ```
 
-## 7.修改超时时间
+## 7. 修改闪屏时间
+增加 plugins.SplashScreen.launchShowDuration 配置
+```json
+{
+  "appId": "com.deepseek.chat",
+  "appName": "DeepSeek Chat",
+  "webDir": "dist",
+  "server": {
+    "url": "https://chat.deepseek.com",
+    "errorPath": "error.html"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": true,
+      "launchShowDuration": 500
+    }
+  }
+}
+```
+
+## 8. 增加安全性配置
+限制 Web View 可加载地址，禁用 debug，禁止加载 http
+```json
+{
+  "appId": "com.deepseek.chat",
+  "appName": "DeepSeek Chat",
+  "webDir": "dist",
+  "server": {
+    "url": "https://chat.deepseek.com",
+    "androidScheme": "https",
+    "allowNavigation": [
+      "https://chat.deepseek.com",
+      "https://*.deepseek.com"
+    ],
+    "errorPath": "error.html"
+  },
+  "android": {
+    "allowMixedContent": false,
+    "webContentsDebuggingEnabled": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": true,
+      "launchShowDuration": 500
+    }
+  }
+}
+```
+
+## 9. 修改 Web View 超时时间
 ```java
 package com.deepseek.chat;
 
@@ -283,31 +338,3 @@ public class MainActivity extends BridgeActivity {
 }
 ```
 
-## 8.限制 webview 地址，禁用 debug，禁止协议混合
-```json
-{
-  "appId": "com.deepseek.chat",
-  "appName": "DeepSeek Chat",
-  "webDir": "dist",
-  "server": {
-    "url": "https://chat.deepseek.com",
-    "androidScheme": "https",
-    "allowNavigation": [
-      "https://chat.deepseek.com",
-      "https://*.deepseek.com"
-    ],
-    "errorPath": "error.html"
-  },
-  "android": {
-    "allowMixedContent": false,
-    "webContentsDebuggingEnabled": false
-  },
-  "plugins": {
-    "SplashScreen": {
-      "launchAutoHide": true,
-      "launchShowDuration": 500,
-      "backgroundColor": "#ffffff"
-    }
-  }
-}
-```
