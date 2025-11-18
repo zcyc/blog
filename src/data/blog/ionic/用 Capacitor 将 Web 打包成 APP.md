@@ -54,7 +54,7 @@ npx cap sync android
 
 用 Android Studio 打开项目下的 android 目录，点击运行即可。
 
-无法加载时用模拟器的 Chrome 测试能否打开该网站。没有网络加载时显示白屏，超时后显示 Chromium 报错页面。
+无法加载时用模拟器的浏览器测试能否打开网站。Web View 加载时显示白屏，超时后显示报错页面。
 
 ## 6.1 自定义 Web View 错误页面
 在配置文件中增加 server.errorPath 节点。
