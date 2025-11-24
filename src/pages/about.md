@@ -3,7 +3,7 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-Hi, I'm Charles. I love movies, music, and gaming. I live in Shenzhen, a vibrant city that keeps me inspired.
+Hi, I'm Charles. I like movies, music, and gaming. I live in Shenzhen, a vibrant city that keeps me inspired.
 
 Whether it's exploring new films, discovering great music, or diving into the latest games, I'm always up for something fun. Let's connect!
 
@@ -37,6 +37,7 @@ Built CLI tools in ​​Rust​​ for workflow automation
 - [XRender](https://github.com/alibaba/x-render) - 阿里很易用的中后台「表单 / 表格 / 图表」解决方案
 - [SRPC](https://github.com/sogou/srpc) - RPC framework based on C++ Workflow. Supports SRPC, Baidu bRPC, Tencent tRPC, thrift protocols
 - [AppToolkit](https://github.com/apptools-lab/AppToolkit) - The Front-end Env Toolkit
+- [1Panel appstore](https://github.com/1Panel-dev/appstore) - Official 1Panel App Store
 - [solid-site](https://github.com/solidjs/solid-site) - Code that powers the SolidJS.com platform
 - [go-cyclic](https://github.com/elza2/go-cyclic) - Circular dependency detection tool for Go
 - [grpcman](https://github.com/grpcman/grpcman) - A grpc stress testing tool based on Electron & React & TypeScript
