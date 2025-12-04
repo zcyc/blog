@@ -16,7 +16,7 @@ draft: false
 ---
 
 ## 工具与环境准备
-1. **mitmproxy**
+1. **mitmproxy**  
    Windows 到[官网](https://www.mitmproxy.org/)手动下载安装
    ```bash
    brew install mitmproxy
