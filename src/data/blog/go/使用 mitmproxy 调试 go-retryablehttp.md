@@ -11,14 +11,14 @@ featured: false
 draft: false
 ---
 
-在分布式系统中，接口稳定性至关重要。当服务端返回 **502 Bad Gateway** 时，客户端需要具备自动重试能力以保障业务连续性。本文将结合 **mitmproxy** 和 Go 的 **retryablehttp** 库，演示如何模拟接口 502 错误并调试重试逻辑，助你构建健壮的 HTTP 请求处理机制。
+服务调用外部接口时要处理异常状态，**502 Bad Gateway** 需要进行自动重试。本文将结合 **mitmproxy** 和 Go 的 **retryablehttp** 库，演示如何模拟接口 502 错误并调试重试逻辑，助你构建健壮的 HTTP 请求处理机制。
 
 ---
 
 ## 工具与环境准备
 1. **mitmproxy**  
    ```bash
-   brew install mitmproxy  # 安装命令
+   brew install mitmproxy
    ```
 
 2. **Go RetryableHttp**  
@@ -26,7 +26,7 @@ draft: false
    go get github.com/hashicorp/go-retryablehttp
    ```
 
-3. **证书配置**  
+3. **证书**  
    mitmproxy 需[安装 CA 证书](https://docs.mitmproxy.org/stable/concepts-certificates/#installing-the-mitmproxy-ca-certificate-manually)以拦截 HTTPS 流量。
    ```bash
    sudo security add-trusted-cert -d -p ssl -p basic -k /Library/Keychains/System.keychain ~/.mitmproxy/mitmproxy-ca-cert.pem
