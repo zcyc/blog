@@ -16,17 +16,18 @@ draft: false
 ---
 
 ## 工具与环境准备
-1. **mitmproxy**  
+1. **mitmproxy**
+   Windows 到[官网](https://www.mitmproxy.org/)手动下载安装
    ```bash
    brew install mitmproxy
    ```
 
-2. **Go RetryableHttp**  
+3. **Go RetryableHttp**  
    ```bash
    go get github.com/hashicorp/go-retryablehttp
    ```
 
-3. **证书**  
+4. **证书**  
    mitmproxy 需[安装 CA 证书](https://docs.mitmproxy.org/stable/concepts-certificates/#installing-the-mitmproxy-ca-certificate-manually)以拦截 HTTPS 流量。
    ```bash
    sudo security add-trusted-cert -d -p ssl -p basic -k /Library/Keychains/System.keychain ~/.mitmproxy/mitmproxy-ca-cert.pem
