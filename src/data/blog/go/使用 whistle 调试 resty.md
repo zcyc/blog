@@ -40,7 +40,7 @@ draft: false
 
 ---
 
-## whistle 脚本
+## whistle plugin
 使用 lack init 初始化 rulesServer 项目，并将 rulesServer.js 替换为以下内容：
 ```javascript
 const requestCountMap = {};
@@ -79,6 +79,12 @@ w2 start
 启动插件：
 ```bash
 lack watch
+```
+
+---
+## whistle rule
+```
+* whistle.xxx://
 ```
 
 ---
