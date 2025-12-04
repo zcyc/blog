@@ -47,6 +47,7 @@ npx cap add android
 ```
 
 ## 4. 编译 APP
+不需要 npm run start，执行了也看不到效果。因为是给 url 套壳，不是给 web 源码套壳，必须启动 app 才能看到效果。
 ```shell
 npm run build
 npx cap sync android
