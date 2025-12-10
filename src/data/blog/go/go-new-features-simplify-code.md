@@ -327,3 +327,37 @@ wg.Go(func() {
 })
 wg.Wait()
 ```
+
+### 5.5 错误类型断言
+
+旧版本（1.26 之前）：
+```go
+func readConfig(path string) error {
+    _, err := os.Open(path)
+    if err != nil {
+        var pathErr *fs.PathError
+        if errors.As(err, &pathErr) {
+            fmt.Printf("文件路径错误: %s\n", pathErr.Path)
+            return fmt.Errorf("配置文件不存在: %w", err)
+        }
+        return err
+    }
+    return nil
+}
+```
+
+新版本（1.26 之后）：
+```go
+func readConfig(path string) error {
+    _, err := os.Open(path)
+    if err != nil {
+        if pathErr, ok := errors.AsType[*fs.PathError](err "*fs.PathError"); ok {
+            fmt.Printf("文件路径错误: %s\n", pathErr.Path)
+            return fmt.Errorf("配置文件不存在: %w", err)
+        }
+        return err
+    }
+    return nil
+}
+```
+
