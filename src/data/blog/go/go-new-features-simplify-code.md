@@ -217,14 +217,14 @@ now := time.Now().Local()
 
 ### 4.2 格式化为数据库时间
 
-旧版本(1.20 之前)：
+旧版本（1.20 之前）：
 ```go
 now := time.Now()
 v := now.Format("2006-01-02 15:04:05")
 println(v)
 ```
 
-新版本(1.20 之后)：
+新版本（1.20 之后）：
 ```
 now := time.Now()
 v := now.Format(time.DateTime)
@@ -233,26 +233,36 @@ println(v)
 
 ## 5. 其他新特性
 
-### 5.1 错误处理
+### 5.1 错误合并
 
-旧版本：
+旧版本（1.20 之前）：
 ```go
-// 处理多个错误
-var err1, err2 error
-if err1 != nil {
-    return fmt.Errorf("error 1: %v", err1)
-}
-if err2 != nil {
-    return fmt.Errorf("error 2: %v", err2)
+func oldWay2() error {
+    var errs []string
+    if err := step1(); err != nil {
+        errs = append(errs, err.Error())
+    }
+    if err := step2(); err != nil {
+        errs = append(errs, err.Error())
+    }
+    if len(errs) > 0 {
+        return fmt.Errorf(strings.Join(errs, "; "))
+    }
+    return nil
 }
 ```
 
-新版本：
+新版本（1.20 之后）：
 ```go
-// 使用 errors.Join 合并多个错误
-err := errors.Join(err1, err2)
-if err != nil {
-    return err
+func newWay() error {
+    var errs []error
+    if err := step1(); err != nil {
+        errs = append(errs, fmt.Errorf("step1: %w", err))
+    }
+    if err := step2(); err != nil {
+        errs = append(errs, fmt.Errorf("step2: %w", err))
+    }
+    return errors.Join(errs...)
 }
 ```
 
