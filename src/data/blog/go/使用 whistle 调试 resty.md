@@ -1,5 +1,5 @@
 ---
-title: "使用 whistle 调试 resty"
+title: "用 whistle 调试 resty"
 author: "Charles"
 description: ""
 tags:
@@ -13,7 +13,7 @@ draft: false
 
 服务调用外部接口时要处理异常状态，**502 Bad Gateway** 需要进行自动重试。本文将结合 **whistle** 和 Go 的 **resty** 库，演示如何模拟接口 502 错误并调试重试逻辑，助你构建健壮的 HTTP 请求处理机制。
 
-之前写过另一篇文章，[《使用 mitmproxy 调试 go-retryablehttp》](https://blog.d8s.fun/posts/go/go-retryablehttp/)。
+之前写过另一篇文章，[《用 mitmproxy 调试 go-retryablehttp》](https://blog.d8s.fun/posts/go/go-retryablehttp/)。
 
 ---
 
