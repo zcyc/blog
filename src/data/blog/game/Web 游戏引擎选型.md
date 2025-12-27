@@ -30,21 +30,16 @@ draft: false
 - 2D 支持差：Wonderland、BabylonJS
 - 收费：GDevelop、Construct、PlayCanvas、Phaser（编辑器收费）
 
-## 满足需求的框架
-- Unity
+## 特别排除的框架
+- Unity：国内只能用团结引擎，功能落后于国际版
+
+## 满足要求的框架
 - Godot
 - Defold
 - Cocos Creator
 - LayaAir
 
-## 特别排除的框架
-- Unity：国内只能用团结引擎，使用国际版存在风险
-- Defold：之前写过一段时间 Lua，不想再写了
-- Godot：GDScript 不是通用编程语言，C# 不支持 Web，C++ 已经忘完了
 
-## 最终可选的框架
-- Cocos Creator
-- LayaAir
 
 
 ## 参考
