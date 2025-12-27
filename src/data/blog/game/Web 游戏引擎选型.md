@@ -31,9 +31,9 @@ draft: false
 - 收费：GDevelop、Construct、PlayCanvas、Phaser
 
 ## 特别排除的框架
-- 排除 Unity：国内只能用团结引擎，功能落后于原版，特供功能暂时用不到
-- 排除 Defold：之前写过一段时间 Lua，不想再写了
-- 排除 Godot：C# 不支持 Web，GDScript 不是通用编程语言
+- Unity：国内只能用团结引擎，功能落后于原版，特供功能暂时用不到
+- Defold：之前写过一段时间 Lua，不想再写了
+- Godot：C# 不支持 Web，GDScript 不是通用编程语言
 
 ## 满足需求的框架
 - Cocos Creator
