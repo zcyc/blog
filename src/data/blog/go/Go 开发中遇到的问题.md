@@ -1,5 +1,5 @@
 ---
-title: "之前使用 Go 遇到的问题"
+title: "Go 开发中遇到的问题"
 author: "Charles"
 description: ""
 tags:
