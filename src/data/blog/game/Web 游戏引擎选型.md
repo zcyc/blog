@@ -28,14 +28,21 @@ draft: false
 - 不支持通用编程语言：GameMaker、Stencyl
 - 没有服务端 SDK：Stencyl
 - 2D 支持差：Wonderland、BabylonJS
-- 收费：GDevelop、Construct、PlayCanvas、Phaser
-
-## 特别排除的框架
-- Unity：国内只能用团结引擎，功能落后于原版，特供功能暂时用不到
-- Defold：之前写过一段时间 Lua，不想再写了
-- Godot：C# 不支持 Web，GDScript 不是通用编程语言
+- 收费：GDevelop、Construct、PlayCanvas、Phaser（编辑器收费）
 
 ## 满足需求的框架
+- Unity
+- Godot
+- Defold
+- Cocos Creator
+- LayaAir
+
+## 特别排除的框架
+- Unity：国内只能用团结引擎，使用国际版存在风险
+- Defold：之前写过一段时间 Lua，不想再写了
+- Godot：GDScript 不是通用编程语言，C# 不支持 Web，C++ 已经忘完了
+
+## 最终可选的框架
 - Cocos Creator
 - LayaAir
 
