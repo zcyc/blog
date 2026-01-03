@@ -36,16 +36,16 @@ Agent 框架正大量涌现，设计理念各不相同，需要根据实际业�
 
 #### 说明
 - **追求易用性与生产性能**：**CrewAI**（社区最受欢迎，GitHub ~42k stars，月下载近百万） 或 **OpenAI Agents SDK**（轻量生产就绪，官方支持）
-- **需要复杂状态管理与分支控制**：**LangGraph**（LangChain生态核心，~23k stars，精确循环/持久化强）
-- **企业级部署（Azure 环境）**：**Microsoft Agent Framework** 或 **Semantic Kernel**（AutoGen融合版，企业稳健）
+- **需要复杂状态管理与分支控制**：**LangGraph**（LangChain 生态核心，~23k stars，精确循环/持久化强）
+- **企业级部署（Azure 环境）**：**Microsoft Agent Framework** 或 **Semantic Kernel**（AutoGen 融合版，企业稳健）
 - **企业级部署（Google Cloud 环境）**：**Agent Development Kit (ADK)**
-- **企业级部署（AWS 环境）**：**Strands Agents**（AWS官方，模型驱动，部署简洁）
+- **企业级部署（AWS 环境）**：**Strands Agents**（AWS 官方，模型驱动，部署简洁）
 - **软件开发自动化**：**MetaGPT**（端到端代码生成，结构化高）
 - **快速实验与学习多代理概念**：**OpenAI Swarm**（极简） 或 **AutoGen**（~50k stars，对话灵活）
-- **数据/知识密集型任务**：**LlamaIndex Agents**（RAG领先）
+- **数据/知识密集型任务**：**LlamaIndex Agents**（RAG 领先）
 - **分布式高效执行**：**AgentScope**（异步/沙箱强）
 - **学术研究与代理行为探索**：**CAMEL**（自治协作导向）
 - **全栈多代理平台与高并发**：**Agno**（性能极致，隐私云部署，新兴增长快）
 - **安全/高风险生产代理**：**Portia AI**（规划分离、人类干预、认证工具，监管优化）
-- **开发者优先自主代理**：**SuperAGI**（GUI仪表盘、并发管理，~17k stars）
-- **TypeScript/前端生产代理**：**VoltAgent**（内置可观测性、守卫栏，TS生态新星）
+- **开发者优先自主代理**：**SuperAGI**（GUI 仪表盘、并发管理，~17k stars）
+- **TypeScript/前端生产代理**：**VoltAgent**（内置可观测性、守卫栏，TS 生态新星）
