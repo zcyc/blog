@@ -27,8 +27,6 @@ draft: false
 | wxWidgets            | C++ / Python 等             | 是             | 是         | 是         | 原生（本地控件，高性能）          | 成熟（开源社区，长寿项目）      | 活跃  | 优点：真正本地外观、免费商业使用；缺点：UI 较传统。经典跨平台选择，适合本地感强 APP。 |
 
 ### 说明
-- **主流趋势**：Electron / Tauri 仍主导 Web 开发者快速开发；Qt / wxWidgets / Avalonia 企业级稳定；Flutter / Compose Multiplatform 多平台一致性强；Rust 生态（egui / Iced / gpui）性能崛起；Go 系（Fyne / Wails）后端友好。
-- **性能基准**：Dear ImGui / gpui / Qt 在高帧率工具场景领先；Tauri / Wails 体积最小。
 - **选择建议**：
   - Web / JS 开发者：Electron。
   - Rust 开发者：gpui。
