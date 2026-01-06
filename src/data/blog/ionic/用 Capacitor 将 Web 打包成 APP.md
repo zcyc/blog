@@ -11,6 +11,7 @@ featured: false
 draft: false
 ---
 
+朋友的公司要将 H5 打包成 APP，我推荐用 DCloud 的 wap2app，他说不备案不能用。刚好之前看到 Ionic 开源了 Capacitor，就推荐给他，顺便体验了一下发个博客。
 
 ## 1. 创建项目并安装依赖
 ```shell
