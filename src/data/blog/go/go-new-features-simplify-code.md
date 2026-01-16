@@ -260,10 +260,86 @@ func handleNetworkError(err error) {
 }
 ```
 
+## 6. sync 相关
+### 6.1 并发任务控制
 
-## 6. 其他
+1.25 之前：
+```go
+var wg sync.WaitGroup
+wg.Add(1)
+go func() {
+    defer wg.Done()
+    // ...
+}()
+wg.Wait()
+```
 
-### 6.1 自定义泛型三元运算函数
+1.25 之后：
+```go
+var wg sync.WaitGroup
+wg.Go(func() {
+    // ...
+})
+wg.Wait()
+```
+
+### 6.2 并发任务错误处理
+errgroup 还未合并到标准库，需要引入 golang.org/x/sync/errgroup
+使用 errgroup 之前：
+```go
+func old() error {
+	ctx, cancel := context.WithCancel(context.Background())
+	defer cancel()
+	errc := make(chan error, 1)
+	var wg sync.WaitGroup
+	for i := 0; i < 3; i++ {
+		wg.Go(func() {
+			select {
+			case <-ctx.Done():
+				return
+			default:
+			}
+			if i == 1 {
+				select {
+				case errc <- fmt.Errorf("task %d failed", i):
+				default:
+				}
+				cancel()
+			}
+		})
+	}
+	wg.Wait()
+	close(errc)
+	return <-errc
+}
+```
+
+使用 errgroup 之后：
+```go
+func new() error {
+	g, ctx := errgroup.WithContext(context.Background())
+	for i := 0; i < 3; i++ {
+		i := i
+		g.Go(func() error {
+			select {
+			case <-ctx.Done():
+				return ctx.Err()
+			default:
+			}
+			if i == 1 {
+				return fmt.Errorf("task %d failed", i)
+			}
+			return nil
+		})
+	}
+	return g.Wait()
+}
+```
+
+
+## 7. 其他
+
+### 7.1 自定义泛型三元运算函数
 1.18 之后：
 ```go
 func Ter[T any](cond bool, a, b T "T any") T {
@@ -278,7 +354,7 @@ func main() {
   fmt.Println(Ter(false, 1, 2))
 ```
 
-### 6.2 随机数生成
+### 7.2 随机数生成
 
 1.22 之前：
 ```go
@@ -291,7 +367,7 @@ n := rand.Intn(100)
 n := rand.IntN(100)
 ```
 
-### 6.3 捕获循环变量
+### 7.3 捕获循环变量
 
 1.22 之前：
 ```go
@@ -316,29 +392,7 @@ for _, f := range funcs {
 }
 ```
 
-### 6.4 并发控制
-
-1.25 之前：
-```go
-var wg sync.WaitGroup
-wg.Add(1)
-go func() {
-    defer wg.Done()
-    // ...
-}()
-wg.Wait()
-```
-
-1.25 之后：
-```go
-var wg sync.WaitGroup
-wg.Go(func() {
-    // ...
-})
-wg.Wait()
-```
-
-### 6.5 获取指针
+### 7.4 获取指针
 
 1.26 之前：
 ```go
