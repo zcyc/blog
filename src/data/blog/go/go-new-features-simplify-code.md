@@ -284,7 +284,7 @@ wg.Wait()
 ```
 
 ### 6.2 并发任务错误处理
-errgroup 还未合并到标准库，需要引入 golang.org/x/sync/errgroup
+需要引入 golang.org/x/sync/errgroup 才能使用。errgroup、semaphore、singleflight 都没合并到标准库。
 
 使用 errgroup 之前：
 ```go
