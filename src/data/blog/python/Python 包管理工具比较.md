@@ -1,6 +1,6 @@
 ---
-title: "现代 Python 包管理工具比较"
-author: "Grok"
+title: "Python 包管理工具比较"
+author: "Charles"
 description: ""
 tags:
   - python
@@ -24,7 +24,7 @@ draft: false
 | **社区支持**        | 强                  | 中等                | 中等               | 快速增长            |
 | **使用复杂性**      | 简单                | 中等                | 中等                | 简单                |
 
-### 说明
+### 推荐
 - **性能与现代性优先**：选择 **uv**。
 - **打包发布与成熟生态**：**Poetry** 或 **Hatch**。
 - **标准合规与灵活**：**PDM**。
