@@ -1,10 +1,10 @@
 ---
-title: "2025 年 Desktop 框架对比"
+title: "Desktop 框架对比"
 author: "Charles"
 description: ""
 tags:
   - article
-slug: "desktop-framework-2025"
+slug: "desktop-framework"
 pubDatetime: 2025-12-13T16:13:58.000+08:00
 modDatetime: 2025-12-27T14:44:58.000+08:00
 featured: false
@@ -25,12 +25,13 @@ draft: false
 | .NET MAUI            | C# / .NET / XAML            | 是             | 是         | 否         | 近原生（内存低，启动 ~1s）        | 丰富（Microsoft 企业生态）      | 活跃  | 优点：单项目结构、Azure 集成；缺点：不支持 Linux。适合企业跨移动 / 桌面。 |
 | Avalonia             | C# / .NET / XAML            | 是             | 是         | 是         | 近原生（FPS 119，启动 ~0.9s）     | 中等（.NET 开源社区）           | 活跃  | 优点：WPF-like 跨平台、像素完美；缺点：生态不如 .NET MAUI。适合 .NET 团队多平台 UI。 |
 
-### 说明
-- **选择建议**：
-  - Web / JS 开发者：Electron。
-  - Rust 开发者：gpui。
-  - Go 开发者：Fyne。
-  - Java 开发者：JavaFX。
-  - C++ 开发者：Qt。
-  - .NET 开发者：.NET MAUI。
-- **非主流框架**：NW.js（Electron 前身），SWT（用于 Eclipse），Dear ImGui（用于调试器和编辑器），wxWidgets（用于原生外观），egui、Iced、gpui（Rust 生态），Wails、Fyne（Go 生态）。
+### 推荐
+- Web / JS 开发者：Electron。
+- Rust 开发者：gpui。
+- Go 开发者：Fyne。
+- Java 开发者：JavaFX。
+- C++ 开发者：Qt。
+- .NET 开发者：.NET MAUI。
+
+### 其他框架
+NW.js（Electron 前身），SWT（用于 Eclipse），Dear ImGui（用于调试器和编辑器），wxWidgets（用于原生外观），egui、Iced、gpui（Rust 生态），Wails、Fyne（Go 生态）。

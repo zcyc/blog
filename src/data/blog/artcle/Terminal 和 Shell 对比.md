@@ -1,17 +1,17 @@
 ---
-title: "2025 年 Terminal 对比"
+title: "Terminal 和 Shell 对比"
 author: "Charles"
 description: ""
 tags:
   - article
-slug: "terminal-2025"
+slug: "terminal-and-shell"
 pubDatetime: 2026-01-03T15:43:58.000+08:00
 modDatetime: 2026-01-03T15:43:58.000+08:00
 featured: false
 draft: false
 ---
 
-### 终端模拟器
+### Terminal
 
 | 项目                  | **平台支持**                          | **渲染方式**                              | **性能**     | **资源占用**   | **内置多路复用**              | **图像协议支持**              | **字体连字（Ligatures）** | **TrueColor** | **可点击超链接** | **OSC 52 剪贴板** | **AI 功能**                  |
 |-----------------------|---------------------------------------|-------------------------------------------|--------------|----------------|--------------------------------|--------------------------------|---------------------------|---------------|------------------|-------------------|-------------------------------|
@@ -26,7 +26,7 @@ draft: false
 | Wave Terminal        | macOS、Linux、Windows                | GPU + 图形小部件                         | 中等        | 中等          | 支持（块布局）                 | 支持（inline、多协议）        | 支持                     | 支持         | 支持            | 支持             | 支持（上下文 AI、本地模型）   |
 | Warp                 | macOS、Linux、Windows                | GPU（Rust）                              | 极高        | 低            | 支持（块式输出）               | 部分                          | 支持                     | 支持         | 支持            | 支持             | 强大（Agent 模式、命令建议、协作） |
 
-**说明**：
+### 推荐
 - **Windows 首选**：Windows Terminal（官方集成、Sixel 支持）。
 - **macOS 首选**：Ghostty（原生极速）或 iTerm2（成熟功能）。
 - **纯性能 / 极简**：Alacritty（多路复用依赖 tmux）。
@@ -45,7 +45,7 @@ draft: false
 | PowerShell           | Windows（原生）、Unix / Linux、macOS（跨平台） | .NET 对象管道                  | 优秀（Tab 补全、历史）        | 强大（参数补全） | 内置        | 对象                    | 对象导向              | 中等       | 高              | 中等（Windows 导向） | 对象管道、模块系统            |
 | Nushell              | Unix / Linux、macOS、Windows         | 不兼容 POSIX（结构化数据）      | 结构化输出、表格显示          | 支持（结构化） | 内置（表格/结构化） | 结构化数据（表格、列表）| 数据导向（类似 SQL）  | 快速（Rust 编写） | 高              | 中等（新语法） | 结构化数据处理                |
 
-**说明**：
+### 推荐
 - **Windows 首选**：PowerShell（对象管道强大）。
 - **macOS 首选**：Zsh（高度兼容 Bash）。
 - **脚本兼容 / 默认**：Bash（最广泛支持）。

@@ -1,10 +1,10 @@
 ---
-title: "2025 年 APP 框架对比"
+title: "APP 框架对比"
 author: "Charles"
 description: ""
 tags:
   - article
-slug: "app-framework-2025"
+slug: "app-framework"
 pubDatetime: 2025-12-13T15:43:58.000+08:00
 modDatetime: 2025-12-13T15:43:58.000+08:00
 featured: false
@@ -27,7 +27,7 @@ draft: false
 | Compose Multiplatform | Kotlin (Jetpack Compose DSL) | 是 | 是 | 否 | 是 | 近原生（Skia 渲染，类似 Flutter） | 成长中（JetBrains 支持，快速扩张） | 活跃 | 优点：共享 UI 代码、一套 Compose 代码多平台（Android/iOS/Desktop/Web）、高性能声明式 UI；iOS 已稳定；缺点：Web 仍 Beta。适合追求 UI 一致性和 Kotlin 生态的团队。 |
 | .NET MAUI | C# / .NET / XAML | 是 | 是 | 否 | 否 | 近原生（FPS 119，内存低） | 丰富（Microsoft 企业生态） | 活跃 | 优点：单项目结构、企业集成；缺点：.NET 背景依赖。企业级首选。 |
 
-### 说明
+### 推荐
 - 主流选择：**Flutter** 或 **React Native**。
 - Kotlin 团队：**Compose Multiplatform**。
 - Kotlin 团队 + HarmonyOS：**Kuikly**

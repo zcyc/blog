@@ -1,10 +1,10 @@
 ---
-title: "对比 ID 生成器"
+title: "ID 生成器对比"
 author: "Charles"
 description: ""
 tags:
   - article
-slug: "unique-id-compare"
+slug: "unique-id"
 pubDatetime: 2022-11-14T12:32:07.000+08:00
 modDatetime: 2025-05-30T14:48:05.000+08:00
 featured: false
