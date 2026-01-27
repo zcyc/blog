@@ -1,5 +1,5 @@
 ---
-title: "ID 生成器对比"
+title: "分布式 ID 对比"
 author: "Charles"
 description: ""
 tags:
