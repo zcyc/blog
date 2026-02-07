@@ -11,7 +11,7 @@ featured: false
 draft: false
 ---
 
-开发中经常用到图片占位和 mock api，本文就用来对比当前比较常用的服务。
+开发中经常用到占位图和 JSON Mock，本文对比当前比较常用的服务。
 
 ---
 
