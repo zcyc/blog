@@ -89,7 +89,7 @@ Open Graph 协议是 **Facebook 在 2010 年推出**的一个开放标准，目�
 
 ### 测试工具
 - **opengraph.xyz**:https://www.opengraph.xyz/
-- **iframely.com/debug**:https://debug.iframely.com/
+- **iframely.com**:https://debug.iframely.com/
 - **Telegram 官方机器人**：https://t.me/WebpageBot
 - **Facebook Sharing Debugger**：https://developers.facebook.com/tools/debug/
 - **LinkedIn Post Inspector**：https://www.linkedin.com/post-inspector/
