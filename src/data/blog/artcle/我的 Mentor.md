@@ -1,5 +1,5 @@
 ---
-title: "Mentor 教会我的东西"
+title: "我的 Mentor"
 author: "Charles"
 description: ""
 tags:
